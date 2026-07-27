@@ -1,7 +1,7 @@
 {
   "header": {
     "what_we_do": "What we do",
-    "what_we_think": "What we think",
+    "what_we_think": "Our Insights",
     "who_we_are": "Who we are",
     "careers": "Careers",
     "search_placeholder": "What are you looking for?",
@@ -26,6 +26,12 @@
       "line3": "technology,",
       "highlight": "today"
     },
+    "description": "We are a multidisciplinary engineering firm pioneering the next wave of technological evolution. Our deep expertise spanning hardware architecture and complex software systems enables us to solve the industry's most challenging problems.",
+    "bullets": [
+      "End-to-end product development",
+      "Deep-tech engineering capabilities",
+      "Global talent and innovation centers"
+    ],
     "cards": {
       "vision": {
         "title": "Vision",
@@ -54,7 +60,7 @@
         "desc": "Building the foundation of modern technology through advanced chip design, high-performance processors, and scalable silicon solutions."
       },
       "telecom": {
-        "title": "Communication & Networking",
+        "title": "Communication Engineering",
         "desc": "Enabling high-speed connectivity with next-generation telecom infrastructure, 5G networks, and scalable cloud communication systems."
       },
       "automotive": {
@@ -62,18 +68,19 @@
         "desc": "Driving the future of mobility with advanced driver assistance systems, electric vehicle platforms, and intelligent safety solutions."
       },
       "medical": {
-        "title": "Medical",
+        "title": "Healthcare",
         "desc": "Transforming healthcare through precision robotics, smart diagnostics, and real-time medical imaging technologies."
       }
     }
   },
   "services": {
     "explore_now": "Explore Now",
-    "core_part1": "CORE ",
-    "core_part2": "SERVICES",
+    "core_part1": "",
+    "core_part2": "Services",
     "categories": {
       "embedded_sw": {
         "title": "Embedded SW",
+        "desc": "Robust embedded systems and firmware development for mission-critical applications.",
         "services": {
           "s1": {
             "name": "Device Drivers",
@@ -102,19 +109,20 @@
         }
       },
       "application": {
-        "title": "Application",
+        "title": "Software Services",
+        "desc": "Innovative software solutions powering modern digital transformation.",
         "services": {
           "s1": {
-            "name": "Portal Development",
+            "name": "Application Development",
             "desc": "Secure web portals tailored to streamline business operations."
           },
           "s2": {
-            "name": "App Development",
-            "desc": "High-performance mobile applications for iOS, Android, and cross-platform."
+            "name": "Cloud Solution",
+            "desc": "Scalable, secure, and resilient cloud infrastructure."
           },
           "s3": {
-            "name": "Cloud Solutions",
-            "desc": "Scalable, secure, and resilient cloud infrastructure tailored to your business needs."
+            "name": "AI & Data",
+            "desc": "Advanced data analytics and AI-driven solutions."
           },
           "s4": {
             "name": "UI/UX Design",
@@ -132,6 +140,7 @@
       },
       "hardware_design": {
         "title": "Hardware Design",
+        "desc": "End-to-end hardware engineering from concept to high-speed PCB fabrication.",
         "services": {
           "s1": {
             "name": "PCB Design",
@@ -161,6 +170,7 @@
       },
       "ai_ml": {
         "title": "AI & ML",
+        "desc": "Advanced artificial intelligence and computer vision solutions.",
         "services": {
           "s1": {
             "name": "ALPR Systems",
@@ -191,7 +201,7 @@
     }
   },
   "whyus": {
-    "heading_1": "PARTNERS",
+    "heading_1": "Partners",
     "heading_2": "",
     "desc": "Collaborating with industry leaders to accelerate innovation and deliver world-class engineering solutions.",
     "categories": {
@@ -207,31 +217,36 @@
   },
   "header_menu": {
     "Application": "Application",
-    "Web Application Development": "Web Application Development",
+    "AI & Data": "AI & Data",
+    "Application Development": "Application Development",
     "Mobile App Development": "Mobile App Development",
     "Cloud Integration": "Cloud Integration",
     "API Development": "API Development",
     "Hardware": "Hardware",
     "PCB Design": "PCB Design",
-    "FPGA Development": "FPGA Development",
-    "Chip Design": "Chip Design",
-    "Testing & Validation": "Testing & Validation",
-    "Embedded Software": "Embedded Software",
-    "RTOS Development": "RTOS Development",
-    "Device Driver Development": "Device Driver Development",
+    "FPGA Design": "FPGA Design",
+    "ASIC Design": "ASIC Design",
+    "Circuit Design": "Circuit Design",
+    "Hardware Prototyping": "Hardware Prototyping",
+    "Hardware Validation": "Hardware Validation",
+    "Embedded Design": "Embedded SW",
+    "Device Drivers": "Device Drivers",
     "Firmware Development": "Firmware Development",
-    "IoT Integration": "IoT Integration",
-    "System Optimization": "System Optimization",
-    "Hardware-Software Integration": "Hardware-Software Integration",
+    "RTOS Development": "RTOS Development",
+    "Embedded Linux": "Embedded Linux",
+    "BSP Development": "BSP Development",
+    "Protocol Integration": "Protocol Integration",
     "Industries": "Industries",
     "Automotive": "Automotive",
-    "Medical": "Medical",
+    "Medical": "Healthcare",
     "Semiconductor": "Semiconductor",
     "Telecom": "Telecom",
     "Resources": "Resources",
     "Blogs": "Blogs",
     "Case Studies": "Case Studies",
     "Whitepapers": "Whitepapers",
+    "Employee Insights": "Employee Insights",
+    "Engineering Insights": "Engineering Insights",
     "About Us": "About Us",
     "Company Overview": "Company Overview",
     "Leadership": "Leadership",
@@ -239,6 +254,8 @@
     "Partnerships": "Partnerships",
     "Find a job": "Find a job",
     "Search for jobs": "Search for jobs",
+    "Careers": "Careers",
+    "Jobs": "Jobs",
     "Career areas": "Career areas",
     "Life at UANDWE": "Life at UANDWE",
     "Working here": "Working here",
@@ -251,8 +268,8 @@
     "Pro tips": "Pro tips"
   },
   "contact": {
-    "heading_1": "CONTACT",
-    "heading_2": "US",
+    "heading_1": "Contact",
+    "heading_2": "Us",
     "global_nodes": "GLOBAL NODES",
     "form_title": "Connect With Us",
     "name": "NAME",
@@ -298,11 +315,10 @@
     },
     "services_title": "Services",
     "services_links": {
-      "Semiconductor Eng.": "Semiconductor Eng.",
-      "Embedded Systems": "Embedded Systems",
+      "Semiconductor": "Semiconductor",
+      "Communication Engineering": "Communication Engineering",
       "Automotive": "Automotive",
-      "AI & Software": "AI & Software",
-      "Consulting": "Consulting"
+      "Healthcare": "Healthcare"
     },
     "contact_title": "Contact",
     "headquarters_label": "Headquarters",
@@ -315,5 +331,11 @@
       "Terms of Use": "Terms of Use",
       "Cookies": "Cookies"
     }
+  },
+  "careers_section": {
+    "header": "Careers",
+    "title": "Shape the Future With Us",
+    "desc": "We are always looking for talented individuals to join our mission. Work on cutting-edge software, embedded systems, and hardware design that transform industries worldwide.",
+    "button": "Explore Open Roles"
   }
 }

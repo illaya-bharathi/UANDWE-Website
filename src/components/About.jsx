@@ -8,6 +8,8 @@ import semiconductorr from "../assets/images/semiconductorr.png"
 import medical from "../assets/images/medicalimage.png"
 import aiimage from "../assets/images/aiimage.png"
 import StickyScrollWrapper from "./ui/StickyScrollWrapper";
+import SectionHeading from "./SectionHeading";
+import Paragraph from "./Paragraph";
 
 
 
@@ -73,115 +75,123 @@ export default function About() {
   }, []);
 
   const content = (
-      <section
-        ref={sectionRef}
-        id="about"
-        className="relative w-full min-h-screen lg:h-screen lg:min-h-[100dvh] overflow-hidden bg-[#0b0b12] text-white
+    <section
+      ref={sectionRef}
+      id="about"
+      className="relative w-full min-h-screen lg:h-screen lg:min-h-[100dvh] overflow-hidden bg-[#0b0b12] text-white
                  px-[4%] py-24 lg:py-0
                  flex flex-col justify-center"
-      >
-        {/* ANIMATED BACKGROUND SLIDER */}
-        <div className="absolute inset-0 pointer-events-none z-0 overflow-hidden">
-          <AnimatePresence mode="popLayout">
-            <motion.img
-              key={currentImageIndex}
-              src={backgroundImages[currentImageIndex].url}
-              alt="background"
-              initial={{
-                opacity: 0,
-                scale: 1.05,
-                rotate: 0
-              }}
-              animate={{
-                opacity: 0.4,
-                scale: 1,
-                rotate: currentImageIndex === 0 ? 15 : 0
-              }}
-              exit={{ opacity: 0 }}
-              transition={{
-                opacity: { duration: 1.5, ease: "easeInOut" },
-                scale: { duration: 1.5, ease: "easeInOut" },
-                rotate: currentImageIndex === 0 ? { duration: 3, ease: "linear" } : { duration: 0 }
-              }}
-              className="absolute inset-0 w-full h-full object-cover origin-center"
-            />
-          </AnimatePresence>
+    >
+      {/* ANIMATED BACKGROUND SLIDER */}
+      <div className="absolute inset-0 pointer-events-none z-0 overflow-hidden">
+        <AnimatePresence mode="popLayout">
+          <motion.img
+            key={currentImageIndex}
+            src={backgroundImages[currentImageIndex].url}
+            alt="background"
+            initial={{
+              opacity: 0,
+              scale: 1.05,
+              rotate: 0
+            }}
+            animate={{
+              opacity: 0.4,
+              scale: 1,
+              rotate: currentImageIndex === 0 ? 15 : 0
+            }}
+            exit={{ opacity: 0 }}
+            transition={{
+              opacity: { duration: 1.5, ease: "easeInOut" },
+              scale: { duration: 1.5, ease: "easeInOut" },
+              rotate: currentImageIndex === 0 ? { duration: 3, ease: "linear" } : { duration: 0 }
+            }}
+            className="absolute inset-0 w-full h-full object-cover origin-center"
+          />
+        </AnimatePresence>
 
-          {/* Radial fade overlay - Improved gradient stops */}
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_30%,#0b0b12_85%)] sm:bg-[radial-gradient(circle_at_center,transparent_35%,#0b0b12_90%)]" />
-          <div className="absolute inset-0 bg-[#0b0b12]/40" /> {/* Added darkness layer for text contrast */}
-        </div>
+        {/* Radial fade overlay - Improved gradient stops */}
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_30%,#0b0b12_85%)] sm:bg-[radial-gradient(circle_at_center,transparent_35%,#0b0b12_90%)]" />
+        <div className="absolute inset-0 bg-[#0b0b12]/40" /> {/* Added darkness layer for text contrast */}
+      </div>
 
-        {/* CONTENT */}
-        <div className="relative z-10 w-full">
-          {/* Heading - Responsive typography */}
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl 2xl:text-[80px] min-[1920px]:text-[96px] min-[2560px]:text-[120px] font-extrabold leading-[1.1] sm:leading-[1.08] lg:leading-[1.05] tracking-tight mb-8 sm:mb-12 md:mb-16 lg:mb-20">
-            {t("about.heading.line1")} <br className="hidden sm:block" />
-            {t("about.heading.line2")} <br className="sm:hidden md:block" />
-            {t("about.heading.line3")} <span className="relative z-10 text-orange-500">{t("about.heading.highlight")}</span>
-          </h1>
+      {/* CONTENT */}
+      <div className="relative z-10 w-full">
+        {/* Heading */}
+        <SectionHeading
+          titlePart1={
+            <>
+              {t("about.heading.line1")} <br className="hidden sm:block" />
+              {t("about.heading.line2")} <br className="hidden sm:block" />
+              {t("about.heading.line3")}
+            </>
+          }
+          titlePart2={t("about.heading.highlight")}
+          className="mb-12 sm:mb-16 md:mb-20"
+        />
 
-          {/* Cards Grid - Responsive gap and columns */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 md:gap-6">
-            {cards.map((card, i) => {
-              const cardKey = i === 0 ? "vision" : i === 1 ? "mission" : "origin";
-              return (
-                <motion.div
-                  key={i}
-                  initial={{ opacity: 0, y: 30 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true, margin: "-50px" }}
-                  transition={{ delay: i * 0.1, duration: 0.5, ease: "easeOut" }}
-                  whileHover={{ y: { xs: -4, sm: -6, md: -8 } }}
-                  className={`
+        {/* Cards Grid - Responsive gap and columns */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 md:gap-6">
+          {cards.map((card, i) => {
+            const cardKey = i === 0 ? "vision" : i === 1 ? "mission" : "origin";
+            return (
+              <motion.div
+                key={i}
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-50px" }}
+                transition={{ delay: i * 0.1, duration: 0.5, ease: "easeOut" }}
+                whileHover={{ y: { xs: -4, sm: -6, md: -8 } }}
+                className={`
                 relative rounded-xl sm:rounded-2xl 
                 p-4 sm:p-5 md:p-6 lg:p-7 
                 min-h-[220px] sm:min-h-[260px] md:min-h-[280px] lg:min-h-[300px] 
                 flex flex-col
                 transition-all duration-500 group cursor-pointer
                 ${card.highlight
-                      ? "border border-orange-500/30 bg-[linear-gradient(145deg,rgba(255,107,26,0.07),rgba(255,255,255,0.02))]"
-                      : "border border-white/8 bg-[linear-gradient(145deg,rgba(255,255,255,0.055),rgba(255,255,255,0.015))]"
-                    }
+                    ? "border border-orange-500/30 bg-[linear-gradient(145deg,rgba(255,107,26,0.07),rgba(255,255,255,0.02))]"
+                    : "border border-white/8 bg-[linear-gradient(145deg,rgba(255,255,255,0.055),rgba(255,255,255,0.015))]"
+                  }
                 shadow-[inset_0_1px_1px_rgba(255,255,255,0.07),0_12px_32px_rgba(0,0,0,0.5)]
                 hover:border-orange-500/40
                 hover:shadow-[0_0_30px_rgba(255,107,26,0.08)] sm:hover:shadow-[0_0_40px_rgba(255,107,26,0.1)] lg:hover:shadow-[0_0_50px_rgba(255,107,26,0.12)]
               `}
-                >
-                  {/* Icon circle - Responsive sizing */}
-                  <div
-                    className={`
+              >
+                {/* Icon circle - Responsive sizing */}
+                <div
+                  className={`
                   w-8 h-8 sm:w-9 sm:h-9 md:w-10 md:h-10 
                   rounded-full flex items-center justify-center 
                   mb-4 sm:mb-5 md:mb-6
                   transition-all duration-300
                   group-hover:scale-105
                   ${card.highlight
-                        ? "bg-orange-500/20 text-orange-400 border border-orange-500/30"
-                        : "bg-white/8 text-gray-300 border border-white/10"
-                      }
+                      ? "bg-orange-500/20 text-orange-400 border border-orange-500/30"
+                      : "bg-white/8 text-gray-300 border border-white/10"
+                    }
                 `}
-                  >
-                    {card.icon}
-                  </div>
+                >
+                  {card.icon}
+                </div>
 
-                  {/* Title - Responsive text */}
-                  <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-2xl 2xl:text-3xl min-[1920px]:text-[36px] min-[2560px]:text-[48px] font-bold mb-2 sm:mb-3 tracking-tight">
-                    {t(`about.cards.${cardKey}.title`)}
-                  </h3>
+                {/* Title - Responsive text */}
+                <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-2xl 2xl:text-3xl min-[1920px]:text-[36px] min-[2560px]:text-[48px] font-bold mb-2 sm:mb-3 tracking-tight">
+                  {t(`about.cards.${cardKey}.title`)}
+                </h3>
 
-                  {/* Description - Responsive text size */}
-                  <p className="text-sm sm:text-base md:text-base lg:text-lg xl:text-xl 2xl:text-xl min-[1920px]:text-2xl min-[2560px]:text-[32px] text-gray-400 leading-relaxed flex-1">
-                    {t(`about.cards.${cardKey}.desc`)}
-                  </p>
+                {/* Description - Using reusable Paragraph component */}
+                <Paragraph
+                  text={t(`about.cards.${cardKey}.desc`)}
+                  className="text-sm sm:text-base md:text-base lg:text-lg xl:text-xl 2xl:text-xl min-[1920px]:text-2xl min-[2560px]:text-[32px] text-gray-400 leading-relaxed flex-1 max-w-none"
+                  delay={i * 0.15 + 0.2}
+                />
 
-                  <div className="absolute bottom-0 left-0 w-full h-[2px] rounded-b-xl sm:rounded-b-2xl bg-gradient-to-r from-transparent via-orange-500 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-                </motion.div>
-              );
-            })}
-          </div>
+                <div className="absolute bottom-0 left-0 w-full h-[2px] rounded-b-xl sm:rounded-b-2xl bg-gradient-to-r from-transparent via-orange-500 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+              </motion.div>
+            );
+          })}
         </div>
-      </section>
+      </div>
+    </section>
   );
 
   return isMobile ? content : <StickyScrollWrapper>{content}</StickyScrollWrapper>;

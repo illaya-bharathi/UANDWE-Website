@@ -1,13 +1,13 @@
 import { useState, useEffect, useCallback, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useTranslation } from "react-i18next";
+import { useNavigate } from "react-router-dom";
 import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
-import automation from "../assets/images/automation.png"
-import telecom from "../assets/images/telecom.png"
-import medical from "../assets/images/medical.png"
-import semiconductor from "../assets/images/semiconductor.png"
-
-
+import SectionHeading from "./SectionHeading";
+import automation from "../assets/images/automation.png";
+import telecom from "../assets/images/telecom.png";
+import medical from "../assets/images/medical.png";
+import semiconductor from "../assets/images/semiconductor.png";
 
 const slideVariants = {
   enter: (dir) => ({ x: dir > 0 ? "100%" : "-100%", opacity: 0 }),
@@ -17,34 +17,39 @@ const slideVariants = {
 
 export default function Industries() {
   const { t } = useTranslation();
-
+  const navigate = useNavigate();
 
   const INDUSTRIES = [
     {
       num: "01",
       key: "semiconductor",
-      img: semiconductor
+      img: semiconductor,
+      path: "/industries/semiconductor"
     },
     {
       num: "02",
       key: "telecom",
       img: telecom,
+      path: "/industries/communication-engineering"
     },
     {
       num: "03",
       key: "automotive",
-      img: automation
+      img: automation,
+      path: "/industries/automotive"
     },
     {
       num: "04",
       key: "medical",
       img: medical,
+      path: "/industries/healthcare"
     },
   ];
+
   const [current, setCurrent] = useState(0);
   const [direction, setDirection] = useState(1);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
-  const [isInView, setIsInView] = useState(false); // Track if component is in view
+  const [isInView, setIsInView] = useState(false);
   const intervalRef = useRef(null);
   const touchStartX = useRef(0);
   const touchEndX = useRef(0);
@@ -58,7 +63,7 @@ export default function Industries() {
   const next = useCallback(() => {
     if (current < INDUSTRIES.length - 1) {
       setDirection(1);
-      setCurrent(c => c + 1);
+      setCurrent((c) => c + 1);
     } else {
       setDirection(1);
       setCurrent(0);
@@ -68,22 +73,19 @@ export default function Industries() {
   const prev = useCallback(() => {
     if (current > 0) {
       setDirection(-1);
-      setCurrent(c => c - 1);
+      setCurrent((c) => c - 1);
     } else {
       setDirection(-1);
       setCurrent(INDUSTRIES.length - 1);
     }
   }, [current]);
 
-
-
-  // Intersection Observer to detect when component is in view
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
         setIsInView(entry.isIntersecting);
       },
-      { threshold: 0.3 } // Component is considered "in view" when 30% is visible
+      { threshold: 0.3 }
     );
 
     if (sectionRef.current) {
@@ -97,7 +99,6 @@ export default function Industries() {
     };
   }, []);
 
-  // Auto-slide functionality - only when component is in view AND auto-playing is enabled
   useEffect(() => {
     if (isAutoPlaying && isInView) {
       intervalRef.current = setInterval(() => {
@@ -111,7 +112,6 @@ export default function Industries() {
     };
   }, [isAutoPlaying, isInView, next]);
 
-  // Reset auto-play when component comes back into view
   useEffect(() => {
     if (isInView) {
       setIsAutoPlaying(true);
@@ -130,7 +130,6 @@ export default function Industries() {
       clearInterval(intervalRef.current);
       intervalRef.current = null;
     }
-    // Resume after 10 seconds of no interaction, but only if still in view
     setTimeout(() => {
       if (isInView) {
         setIsAutoPlaying(true);
@@ -176,10 +175,17 @@ export default function Industries() {
     <section
       ref={sectionRef}
       id="industries"
-      className="group relative z-10 w-full bg-[#0a0a0f] text-white overflow-hidden"
+      className="group relative z-10 w-full bg-[#0a0a0f] text-white overflow-hidden cursor-pointer"
       style={{ height: "100vh", minHeight: "600px" }}
+      onClick={(e) => {
+        if (!e.target.closest('button')) {
+          navigate(industry.path);
+        }
+      }}
       onTouchStart={handleTouchStart}
       onTouchEnd={handleTouchEnd}
+      onMouseEnter={() => setIsAutoPlaying(false)}
+      onMouseLeave={() => { if (isInView) setIsAutoPlaying(true); }}
     >
       <div className="absolute inset-0">
         <AnimatePresence custom={direction} initial={false}>
@@ -206,11 +212,12 @@ export default function Industries() {
       <div className="absolute inset-0 z-20 w-full h-full px-4 sm:px-6 md:px-[5%] pointer-events-none">
         <div className="relative w-full h-full">
           {/* TOP HEADING */}
-          <div className="absolute top-0 left-0 pt-20 md:pt-24 pointer-events-auto">
-            <h2 className="text-[clamp(2.5rem,5.5vw,4.5rem)] font-extrabold tracking-tight leading-[1.0]">
-              {t("industries.heading_part1")} <br /><span className="text-orange-500"> {t("industries.heading_part2")}</span>
-            </h2>
-          </div>
+          <SectionHeading
+            titlePart1={t("industries.heading_part1")}
+            titlePart2={t("industries.heading_part2")}
+            breakLine={true}
+            className="absolute top-0 left-0 pt-20 md:pt-24 pointer-events-auto"
+          />
 
           {/* ARROWS */}
           <button
@@ -238,11 +245,11 @@ export default function Industries() {
                 exit={{ opacity: 0, y: -15 }}
                 transition={{ duration: 0.45, ease: "easeOut" }}
               >
-                <h3 className="text-[clamp(2rem,4.5vw,3.5rem)] font-extrabold tracking-tight leading-tight mb-4">
+                <h3 className="text-[clamp(2rem,4.5vw,3.5rem)] font-extrabold tracking-tight leading-tight mb-4 group-hover:text-orange-400 transition-colors duration-300">
                   {t(`industries.items.${industry.key}.title`)}
                 </h3>
 
-                <p className="text-sm text-gray-300 leading-relaxed mb-7 max-w-sm">
+                <p className="text-gray-300 text-base sm:text-lg leading-relaxed max-w-xl">
                   {t(`industries.items.${industry.key}.desc`)}
                 </p>
               </motion.div>

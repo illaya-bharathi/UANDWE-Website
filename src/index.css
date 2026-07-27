@@ -1,15 +1,26 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
-html, body {
+html,
+body {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
-  font-family: "DM Sans", sans-serif;
+  font-family: "Inter", sans-serif;
+}
+
+button{
+  cursor: pointer;
 }
 
 @keyframes flow {
-  from { stroke-dashoffset: 0; }
-  to { stroke-dashoffset: -100; }
+  from {
+    stroke-dashoffset: 0;
+  }
+
+  to {
+    stroke-dashoffset: -100;
+  }
 }

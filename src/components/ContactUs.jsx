@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
+import SectionHeading from "./SectionHeading";
 import america from "../assets/images/america.png";
 import india from "../assets/images/india.png";
 import china from "../assets/images/china.png";
@@ -43,18 +44,12 @@ export default function ContactUs() {
   return (
     <section className="relative w-full bg-[#0b0b12] px-4 sm:px-6 md:px-[5%] py-12 md:py-16 overflow-hidden">
       {/* HEADER */}
-      <div className="w-full mx-auto mb-6 md:mb-10">
-        <h1 className="font-black leading-[1.1] sm:leading-[1.08] md:leading-[1.05] text-[clamp(32px,8vw,80px)]">
-          {t("contact.heading_1")}{" "}
-          <span className="text-orange-500 inline-block sm:pl-3 md:pl-5">
-            {t("contact.heading_2")}
-          </span>
-        </h1>
+      <SectionHeading
+        titlePart1={t("contact.heading_1")}
+        titlePart2={t("contact.heading_2")}
+        className="w-full mx-auto !mb-6 md:!mb-10"
+      />
 
-        {/* <p className="mt-4 sm:mt-5 md:mt-6 text-white/50 text-xs sm:text-sm max-w-md leading-relaxed">
-          {t("contact.desc")}
-        </p> */}
-      </div>
 
       <div className="w-full mx-auto grid lg:grid-cols-[5fr_7fr] gap-4 sm:gap-5 md:gap-6">
         {/* LEFT MAP PANEL */}

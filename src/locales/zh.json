@@ -1,7 +1,7 @@
 {
   "header": {
     "what_we_do": "我们做什么",
-    "what_we_think": "我们的想法",
+    "what_we_think": "我们的洞察",
     "who_we_are": "我们是谁",
     "careers": "招贤纳士",
     "search_placeholder": "您在寻找什么？",
@@ -54,7 +54,7 @@
         "desc": "通过先进的芯片设计、高性能处理器和可扩展的硅解决方案，为现代技术奠定基础。"
       },
       "telecom": {
-        "title": "通信与网络",
+        "title": "通信工程",
         "desc": "利用下一代电信基础设施、5G网络和可扩展云通信系统，实现高速连接。"
       },
       "automotive": {
@@ -62,18 +62,19 @@
         "desc": "凭借高级驾驶辅助系统、电动汽车平台和智能安全解决方案，驱动出行的未来。"
       },
       "medical": {
-        "title": "医疗",
+        "title": "医疗保健",
         "desc": "通过精密机器人、智能诊断和实时医学成像技术，推动医疗保健的变革。"
       }
     }
   },
   "services": {
     "explore_now": "立即探索",
-    "core_part1": "核心",
+    "core_part1": "",
     "core_part2": "服务",
     "categories": {
       "embedded_sw": {
         "title": "嵌入式软件",
+        "desc": "为关键任务应用提供强大的嵌入式系统和固件开发。",
         "services": {
           "s1": {
             "name": "设备驱动程序",
@@ -102,19 +103,20 @@
         }
       },
       "application": {
-        "title": "应用程序",
+        "title": "软件服务",
+        "desc": "创新的软件解决方案，助力现代数字转型。",
         "services": {
           "s1": {
-            "name": "门户网站开发",
+            "name": "应用程序开发",
             "desc": "定制化网页门户，旨在简化您的业务运营。"
           },
           "s2": {
-            "name": "应用开发",
-            "desc": "为苹果、安卓及跨平台提供高性能移动应用。"
+            "name": "云解决方案",
+            "desc": "使用云平台构建高度可扩展且富有弹性的云基础设施。"
           },
           "s3": {
-            "name": "云解决方案",
-            "desc": "使用微软云平台构建高度可扩展且富有弹性的云基础设施。"
+            "name": "人工智能与数据",
+            "desc": "高级数据分析和人工智能驱动的解决方案。"
           },
           "s4": {
             "name": "全栈开发",
@@ -132,6 +134,7 @@
       },
       "hardware_design": {
         "title": "硬件设计",
+        "desc": "从概念到高速印刷电路板制造的端到端硬件工程。",
         "services": {
           "s1": {
             "name": "印刷电路板设计",
@@ -161,6 +164,7 @@
       },
       "ai_ml": {
         "title": "人工智能与机器学习",
+        "desc": "先进的人工智能和计算机视觉解决方案。",
         "services": {
           "s1": {
             "name": "车牌识别系统 (ALPR)",
@@ -207,31 +211,35 @@
   },
   "header_menu": {
     "Application": "应用程序",
-    "Web Application Development": "网页应用程序开发",
+    "AI & Data": "人工智能与数据",
+    "Application Development": "应用程序开发",
     "Mobile App Development": "移动应用开发",
     "Cloud Integration": "云集成",
     "API Development": "应用程序接口开发",
     "Hardware": "硬件",
     "PCB Design": "印刷电路板设计",
-    "FPGA Development": "现场可编程逻辑门阵列开发",
-    "Chip Design": "芯片设计",
-    "Testing & Validation": "测试与验证",
-    "Embedded Software": "嵌入式软件",
-    "RTOS Development": "实时操作系统开发",
-    "Device Driver Development": "设备驱动程序开发",
+    "FPGA Design": "FPGA设计",
+    "ASIC Design": "专用集成电路设计",
+    "Circuit Design": "电路设计",
+    "Hardware Prototyping": "硬件原型制作",
+    "Hardware Validation": "硬件验证",
+    "Embedded Design": "嵌入式设计",
+    "Device Drivers": "设备驱动程序",
     "Firmware Development": "固件开发",
-    "IoT Integration": "物联网集成",
-    "System Optimization": "系统优化",
-    "Hardware-Software Integration": "软硬件集成",
+    "RTOS Development": "实时操作系统开发",
+    "Embedded Linux": "嵌入式Linux",
+    "BSP Development": "BSP开发",
+    "Protocol Integration": "协议集成",
     "Industries": "行业",
     "Automotive": "汽车",
-    "Medical": "医疗",
+    "Medical": "医疗保健",
     "Semiconductor": "半导体",
     "Telecom": "电信",
     "Resources": "资源",
     "Blogs": "博客",
     "Case Studies": "案例研究",
     "Whitepapers": "白皮书",
+    "Employee Insights": "员工洞察",
     "About Us": "关于我们",
     "Company Overview": "公司概况",
     "Leadership": "领导团队",
@@ -299,11 +307,10 @@
     },
     "services_title": "服务",
     "services_links": {
-      "Semiconductor Eng.": "半导体工程",
-      "Embedded Systems": "嵌入式系统",
+      "Semiconductor": "半导体",
+      "Communication Engineering": "通信工程",
       "Automotive": "汽车",
-      "AI & Software": "人工智能与软件",
-      "Consulting": "咨询"
+      "Healthcare": "医疗保健"
     },
     "contact_title": "联系方式",
     "headquarters_label": "总部",
@@ -316,5 +323,11 @@
       "Terms of Use": "使用条款",
       "Cookies": "缓存策略"
     }
+  },
+  "careers_section": {
+    "header": "职业发展",
+    "title": "与我们共创未来",
+    "desc": "我们始终寻找优秀的人才加入我们的使命。致力于开发尖端软件、嵌入式系统和硬件设计，从而改变全球各行各业。",
+    "button": "浏览空缺职位"
   }
 }

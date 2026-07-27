@@ -4,6 +4,7 @@ import About from "../components/About";
 import WhyChooseUs from "../components/Whyuandwe";
 import Contactus from "../components/ContactUs";
 import Industries from "../components/Sectorweserve";
+import CareersSection from "../components/CareersSection";
 
 const Home = () => {
   return (
@@ -12,9 +13,8 @@ const Home = () => {
       <About />
       <Industries />
       <Services />
+      <CareersSection />
       <WhyChooseUs />
-
-
       <div id="contactus">
         <Contactus />
       </div>

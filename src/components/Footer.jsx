@@ -1,11 +1,24 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const { t } = useTranslation();
+
+  const companyPaths = {
+    "About Us": "/aboutus/companyoverview",
+    "Careers": "/careers/search-jobs"
+  };
+
+  const servicesPaths = {
+    "Software": "/#services",
+    "Hardware": "/#services",
+    "Embedded": "/#services"
+  };
+
   return (
     <footer className="bg-[#0b0b12] border-t border-white/10 px-[5%] py-10 font-[DM Sans] overflow-x-hidden">
-      
+
       {/* GRID */}
       <div className="grid gap-10 mb-12 
         grid-cols-1 
@@ -23,7 +36,7 @@ const Footer = () => {
           </p>
 
           <div className="flex gap-3 mt-5">
-            {["in", "𝕏", "⌥", "▶"].map((icon) => (
+            {["in", "𝕏"].map((icon) => (
               <div
                 key={icon}
                 className="w-9 h-9 border border-white/10 rounded-md flex items-center justify-center text-[#8a8a9a] hover:text-[#ff6b1a] hover:border-[#ff6b1a] transition"
@@ -40,11 +53,11 @@ const Footer = () => {
             {t("footer.company_title")}
           </h4>
           <ul className="space-y-2">
-            {["About Us", "Innovation", "Careers", "Newsroom", "Investors"].map((l) => (
+            {["About Us", "Careers"].map((l) => (
               <li key={l}>
-                <a className="text-sm text-[#8a8a9a] hover:text-[#ff6b1a] cursor-pointer">
+                <Link to={companyPaths[l] || "/"} className="text-sm text-[#8a8a9a] hover:text-[#ff6b1a] cursor-pointer">
                   {t(`footer.company_links.${l}`)}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
@@ -56,10 +69,10 @@ const Footer = () => {
             {t("footer.services_title")}
           </h4>
           <ul className="space-y-2">
-            {["Semiconductor Eng.", "Embedded Systems", "Automotive", "AI & Software", "Consulting"].map((l) => (
+            {["Software", "Hardware", "Embedded"].map((l) => (
               <li key={l}>
-                <a className="text-sm text-[#8a8a9a] hover:text-[#ff6b1a] cursor-pointer">
-                  {t(`footer.services_links.${l}`)}
+                <a href={servicesPaths[l] || "/"} className="text-sm text-[#8a8a9a] hover:text-[#ff6b1a] cursor-pointer">
+                  {t(`footer.services_links.${l}`, l)}
                 </a>
               </li>
             ))}
@@ -95,9 +108,9 @@ const Footer = () => {
 
         <div className="flex gap-6">
           {["Privacy Policy", "Terms of Use", "Cookies"].map((l) => (
-            <a key={l} className="hover:text-[#ff6b1a] cursor-pointer">
+            <Link key={l} to="/" className="hover:text-[#ff6b1a] cursor-pointer">
               {t(`footer.bottom_links.${l}`)}
-            </a>
+            </Link>
           ))}
         </div>
       </div>

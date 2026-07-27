@@ -1,41 +1,51 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useLayoutEffect, useRef } from "react";
 import { useLocation } from "react-router-dom";
 
 const ScrollToTop = () => {
-  const { pathname } = useLocation();
+  const { pathname, hash } = useLocation();
   const isFirstRender = useRef(true);
 
-  // 1. Aggressively save scroll position as the user scrolls
+  // 1. Save scroll position on scroll
   useEffect(() => {
     const handleScroll = () => {
       sessionStorage.setItem(`scroll-${pathname}`, window.scrollY.toString());
     };
-
-    // Use a slight debounce/throttle if needed, but for simple saving, passive listener is fine
     window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, [pathname]);
 
-  // 2. Restore or reset scroll position on mount/navigation
-  useEffect(() => {
+  // 2. Restore scroll position instantly on load, or jump to top on new page
+  useLayoutEffect(() => {
+    // If navigating to a hash, scroll to that element
+    if (hash) {
+      isFirstRender.current = false;
+      const id = hash.replace("#", "");
+      const scrollToHash = () => {
+        const element = document.getElementById(id);
+        if (element) {
+          element.scrollIntoView({ behavior: "smooth" });
+        }
+      };
+      
+      scrollToHash();
+      // Fallback: wait a tick for the page to render the target component (like Services)
+      setTimeout(scrollToHash, 100);
+      return;
+    }
+
     if (isFirstRender.current) {
       isFirstRender.current = false;
-
-      // On first load/refresh, check if we have a saved position and forcefully restore it
-      // This protects against the browser losing track during rapid refreshing
+      // On refresh, instantly scroll to the saved position before the screen paints
       const savedScroll = sessionStorage.getItem(`scroll-${pathname}`);
       if (savedScroll) {
-        // Small timeout ensures the DOM has painted enough height before jumping
-        setTimeout(() => {
-          window.scrollTo(0, parseInt(savedScroll, 10));
-        }, 50);
+        window.scrollTo(0, parseInt(savedScroll, 10));
       }
       return;
     }
 
-    // On actual route changes (clicking a link), jump to top
+    // On actual route changes (without hash), jump to top
     window.scrollTo(0, 0);
-  }, [pathname]);
+  }, [pathname, hash]);
 
   return null;
 };

@@ -4,27 +4,128 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Search, Menu, X, ChevronDown, ChevronRight, Globe } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import logo from "../assets/logo.png";
+import semiconductorData from "../data/semiconductorData";
 
 export default function Header() {
   const { t, i18n } = useTranslation();
   const navigate = useNavigate();
   const [scrolled, setScrolled] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState(null);
+  const [activeIndustry, setActiveIndustry] = useState("Semiconductor");
+
+  const industriesData = {
+    "Semiconductor": semiconductorData,
+    "Communication Engineering": {
+      description: "Building scalable communication systems through modern application, hardware, and embedded solutions.",
+      categories: [
+        {
+          name: "Software Services",
+          links: [
+            { name: "Application Development", path: "/services/application-development" },
+            { name: "AI & Data", path: "/services/ai-data" }
+          ]
+        },
+        {
+          name: "Embedded SW",
+          links: [
+            { name: "Device Drivers", path: "/services/embedded/drivers" },
+            { name: "Firmware Development", path: "/services/embedded/firmware" },
+            { name: "RTOS Development", path: "/services/embedded/rtos" },
+            { name: "Embedded Linux", path: "/services/embedded/linux" },
+            { name: "BSP Development", path: "/services/embedded/bsp" },
+            { name: "Protocol Integration", path: "/services/embedded/protocol" }
+          ]
+        },
+        {
+          name: "Hardware Design",
+          links: [
+            { name: "PCB Design", path: "/services/hardware/pcb" },
+            { name: "FPGA Design", path: "/services/hardware/fpga" },
+            { name: "ASIC Design", path: "/services/hardware/asic" },
+            { name: "Circuit Design", path: "/services/hardware/circuit" },
+            { name: "Hardware Prototyping", path: "/services/hardware/prototyping" },
+            { name: "Hardware Validation", path: "/services/hardware/validation" }
+          ]
+        }
+      ]
+    },
+    "Automotive": {
+      description: "Delivering next-generation automotive software, hardware, and embedded platforms.",
+      categories: [
+        {
+          name: "Software Services",
+          links: [
+            { name: "Application Development", path: "/services/application-development" },
+            { name: "AI & Data", path: "/services/ai-data" }
+          ]
+        },
+        {
+          name: "Embedded SW",
+          links: [
+            { name: "Device Drivers", path: "/services/embedded/drivers" },
+            { name: "Firmware Development", path: "/services/embedded/firmware" },
+            { name: "RTOS Development", path: "/services/embedded/rtos" },
+            { name: "Embedded Linux", path: "/services/embedded/linux" },
+            { name: "BSP Development", path: "/services/embedded/bsp" },
+            { name: "Protocol Integration", path: "/services/embedded/protocol" }
+          ]
+        },
+        {
+          name: "Hardware Design",
+          links: [
+            { name: "PCB Design", path: "/services/hardware/pcb" },
+            { name: "FPGA Design", path: "/services/hardware/fpga" },
+            { name: "ASIC Design", path: "/services/hardware/asic" },
+            { name: "Circuit Design", path: "/services/hardware/circuit" },
+            { name: "Hardware Prototyping", path: "/services/hardware/prototyping" },
+            { name: "Hardware Validation", path: "/services/hardware/validation" }
+          ]
+        }
+      ]
+    },
+    "Healthcare": {
+      description: "Engineering intelligent medical solutions with application, hardware, and embedded technologies.",
+      categories: [
+        {
+          name: "Software Services",
+          links: [
+            { name: "Application Development", path: "/services/application-development" },
+            { name: "AI & Data", path: "/services/ai-data" }
+          ]
+        },
+        {
+          name: "Embedded SW",
+          links: [
+            { name: "Device Drivers", path: "/services/embedded/drivers" },
+            { name: "Firmware Development", path: "/services/embedded/firmware" },
+            { name: "RTOS Development", path: "/services/embedded/rtos" },
+            { name: "Embedded Linux", path: "/services/embedded/linux" },
+            { name: "BSP Development", path: "/services/embedded/bsp" },
+            { name: "Protocol Integration", path: "/services/embedded/protocol" }
+          ]
+        },
+        {
+          name: "Hardware Design",
+          links: [
+            { name: "PCB Design", path: "/services/hardware/pcb" },
+            { name: "FPGA Design", path: "/services/hardware/fpga" },
+            { name: "ASIC Design", path: "/services/hardware/asic" },
+            { name: "Circuit Design", path: "/services/hardware/circuit" },
+            { name: "Hardware Prototyping", path: "/services/hardware/prototyping" },
+            { name: "Hardware Validation", path: "/services/hardware/validation" }
+          ]
+        }
+      ]
+    }
+  };
   const [searchOpen, setSearchOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [languageOpen, setLanguageOpen] = useState(false);
   const [selectedRegion, setSelectedRegion] = useState("India");
-  const [comingSoonModal, setComingSoonModal] = useState({ isOpen: false, title: "" });
   const searchRef = useRef(null);
 
-  const activePaths = ["/"];
-
   const handleLinkClick = (e, path, name, actionFn) => {
-    if (!activePaths.includes(path)) {
-      if (e) e.preventDefault();
-      setComingSoonModal({ isOpen: true, title: name });
-    }
     if (actionFn) actionFn();
   };
   const mobileMenuRef = useRef(null);
@@ -80,33 +181,33 @@ export default function Header() {
       title: t("header.what_we_do"),
       sections: [
         {
-          heading: t("header_menu.Application"),
+          heading: t("services.categories.application.title") || "Software Services",
           links: [
-            { name: t("header_menu.Web Application Development"), path: "/services/application" },
-            { name: t("header_menu.Mobile App Development"), path: "/services/application" },
-            { name: t("header_menu.Cloud Integration"), path: "/services/application" },
-            { name: t("header_menu.API Development"), path: "/services/application" },
-        
+            { name: t("services.categories.application.services.s1.name") || "Application Development", path: "/services/application-development" },
+            { name: t("services.categories.application.services.s2.name") || "Cloud Service", path: "/services/cloud" },
+            { name: t("services.categories.application.services.s3.name") || "AI & Data", path: "/services/ai-data" }
           ]
         },
         {
           heading: t("header_menu.Hardware"),
           links: [
-            { name: t("header_menu.PCB Design"), path: "/services/pcb-design" },
-            { name: t("header_menu.FPGA Development"), path: "/services/fpga-development" },
-            { name: t("header_menu.Chip Design"), path: "/services/chip-design" },
-            { name: t("header_menu.Testing & Validation"), path: "/services/testing-validation" }
+            { name: t("header_menu.PCB Design"), path: "/services/hardware/pcb" },
+            { name: t("header_menu.FPGA Design"), path: "/services/hardware/fpga" },
+            { name: t("header_menu.ASIC Design"), path: "/services/hardware/asic" },
+            { name: t("header_menu.Circuit Design"), path: "/services/hardware/circuit" },
+            { name: t("header_menu.Hardware Prototyping"), path: "/services/hardware/prototyping" },
+            { name: t("header_menu.Hardware Validation"), path: "/services/hardware/validation" }
           ]
         },
         {
-          heading: t("header_menu.Embedded Software"),
+          heading: t("header_menu.Embedded Design"),
           links: [
-            { name: t("header_menu.RTOS Development"), path: "/services/rtos-development" },
-            { name: t("header_menu.Device Driver Development"), path: "/services/device-driver-development" },
-            { name: t("header_menu.Firmware Development"), path: "/services/firmware-development" },
-            { name: t("header_menu.IoT Integration"), path: "/services/iot-integration" },
-            { name: t("header_menu.System Optimization"), path: "/services/system-optimization" },
-            { name: t("header_menu.Hardware-Software Integration"), path: "/services/hardware-software-integration" }
+            { name: t("header_menu.Device Drivers"), path: "/services/embedded/drivers" },
+            { name: t("header_menu.Firmware Development"), path: "/services/embedded/firmware" },
+            { name: t("header_menu.RTOS Development"), path: "/services/embedded/rtos" },
+            { name: t("header_menu.Embedded Linux"), path: "/services/embedded/linux" },
+            { name: t("header_menu.BSP Development"), path: "/services/embedded/bsp" },
+            { name: t("header_menu.Protocol Integration"), path: "/services/embedded/protocol" }
           ]
         },
         {
@@ -128,7 +229,8 @@ export default function Header() {
           links: [
             { name: t("header_menu.Blogs"), path: "/resources/blogs" },
             { name: t("header_menu.Case Studies"), path: "/resources/casestudies" },
-            { name: t("header_menu.Whitepapers"), path: "/resources/whitepapers" }
+            { name: t("header_menu.Whitepapers"), path: "/resources/whitepapers" },
+            { name: t("header_menu.Engineering Insights"), path: "/resources/employee-insights" }
           ]
         }
       ]
@@ -141,8 +243,15 @@ export default function Header() {
           links: [
             { name: t("header_menu.Company Overview"), path: "/aboutus/companyoverview" },
             { name: t("header_menu.Leadership"), path: "/aboutus/leadership" },
-            { name: t("header_menu.Testimonials"), path: "/aboutus/testimonials" },
-            { name: t("header_menu.Partnerships"), path: "/aboutus/partnerships" }
+            { name: t("header_menu.Testimonials"), path: "/aboutus/testimonials" }
+          ]
+        },
+        {
+          heading: t("header_menu.Partnerships"),
+          links: [
+            { name: "RENESAS", path: "/partners/renesas" },
+            { name: "NVIDIA", path: "/partners/nvidia" },
+            { name: "SEMI.ORG", path: "/partners/semi-org" }
           ]
         }
       ]
@@ -151,27 +260,16 @@ export default function Header() {
       title: t("header.careers"),
       sections: [
         {
-          heading: t("header_menu.Find a job"),
+          heading: t("header_menu.Careers"),
           links: [
-            { name: t("header_menu.Search for jobs"), path: "/careers/search-jobs" },
-            { name: t("header_menu.Career areas"), path: "/careers/career-areas" }
+            { name: t("header_menu.Jobs"), path: "/careers/jobs" }
           ]
         },
         {
           heading: t("header_menu.Life at UANDWE"),
           links: [
-            { name: t("header_menu.Working here"), path: "/careers/working-here" },
             { name: t("header_menu.Benefits"), path: "/careers/benefits" },
-            { name: t("header_menu.Work environment"), path: "/careers/work-environment" },
-            { name: t("header_menu.Careers blog"), path: "/careers/blog" }
-          ]
-        },
-        {
-          heading: t("header_menu.How we hire"),
-          links: [
-            { name: t("header_menu.Using AI"), path: "/careers/using-ai" },
-            { name: t("header_menu.Hiring journey"), path: "/careers/hiring-journey" },
-            { name: t("header_menu.Pro tips"), path: "/careers/pro-tips" }
+            { name: t("header_menu.Work environment"), path: "/careers/work-environment" }
           ]
         }
       ]
@@ -186,7 +284,7 @@ export default function Header() {
   ];
 
   // Flatten menu for search
-  const allItems = Object.values(menuData).flatMap(section => 
+  const allItems = Object.values(menuData).flatMap(section =>
     section.sections.flatMap(sub => sub.links)
   );
 
@@ -231,75 +329,75 @@ export default function Header() {
                   {item.name}
                   <ChevronDown size={14} className={`transition-transform duration-300 ${activeDropdown === item.key ? 'rotate-180' : ''}`} />
                 </div>
-                
+
                 {/* Active Indicator Line */}
                 <div className={`absolute bottom-0 left-0 w-full h-[4px] bg-[#ff6b1a] transition-transform origin-left duration-300 ${activeDropdown === item.key ? 'scale-x-100' : 'scale-x-0'}`} />
               </li>
             ))}
           </ul>
         </div>
-          
+
         {/* RIGHT: SEARCH & LANG */}
         <div className="hidden lg:flex flex-1 items-center justify-end gap-4 xl:gap-6 h-full">
-            {/* SEARCH ICON */}
-            <Search
-              className="text-white/80 hover:text-white cursor-pointer transition-colors"
-              onClick={() => setSearchOpen(true)}
-              size={28}
-            />
+          {/* SEARCH ICON */}
+          <Search
+            className="text-white/80 hover:text-white cursor-pointer transition-colors"
+            onClick={() => setSearchOpen(true)}
+            size={28}
+          />
 
-            {/* LANGUAGE SELECTOR */}
-            <div ref={langRef} className="relative flex items-center gap-2 cursor-pointer group" onClick={() => setLanguageOpen(!languageOpen)}>
-              <Globe size={28} className="text-white/80 group-hover:text-white transition-colors" />
-              <span className="text-white/80 group-hover:text-white text-base lg:text-lg xl:text-[20px] font-semibold transition-colors">
-                {selectedRegion}
-              </span>
-              <ChevronDown size={18} className={`text-white/80 group-hover:text-white transition-transform ${languageOpen ? 'rotate-180' : ''}`} />
-              
-              <AnimatePresence>
-                {languageOpen && (
-                  <motion.div
-                    initial={{ opacity: 0, y: 10 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: 10 }}
-                    className="absolute right-0 top-full mt-6 w-[160px] bg-[#1a1a1a] rounded-lg shadow-2xl border border-white/10 py-2"
-                  >
-                    {selectedRegion !== 'China' && (
-                      <div 
-                        onClick={(e) => { e.stopPropagation(); i18n.changeLanguage('zh'); setSelectedRegion('China'); setLanguageOpen(false); }} 
-                        className="px-4 py-2 text-white/70 hover:text-white hover:bg-white/5 transition-colors font-medium"
-                      >
-                        {t("header.languages.china", "China")}
-                      </div>
-                    )}
-                    {selectedRegion !== 'India' && (
-                      <div 
-                        onClick={(e) => { e.stopPropagation(); i18n.changeLanguage('en'); setSelectedRegion('India'); setLanguageOpen(false); }} 
-                        className="px-4 py-2 text-white/70 hover:text-white hover:bg-white/5 transition-colors font-medium"
-                      >
-                        {t("header.languages.india", "India")}
-                      </div>
-                    )}
-                    {selectedRegion !== 'Canada' && (
-                      <div 
-                        onClick={(e) => { e.stopPropagation(); i18n.changeLanguage('en'); setSelectedRegion('Canada'); setLanguageOpen(false); }} 
-                        className="px-4 py-2 text-white/70 hover:text-white hover:bg-white/5 transition-colors font-medium"
-                      >
-                        {t("header.languages.canada", "Canada")}
-                      </div>
-                    )}
-                    {selectedRegion !== 'USA' && (
-                      <div 
-                        onClick={(e) => { e.stopPropagation(); i18n.changeLanguage('en'); setSelectedRegion('USA'); setLanguageOpen(false); }} 
-                        className="px-4 py-2 text-white/70 hover:text-white hover:bg-white/5 transition-colors font-medium"
-                      >
-                        {t("header.languages.usa", "USA")}
-                      </div>
-                    )}
-                  </motion.div>
-                )}
-              </AnimatePresence>
-            </div>
+          {/* LANGUAGE SELECTOR */}
+          <div ref={langRef} className="relative flex items-center gap-2 cursor-pointer group" onClick={() => setLanguageOpen(!languageOpen)}>
+            <Globe size={28} className="text-white/80 group-hover:text-white transition-colors" />
+            <span className="text-white/80 group-hover:text-white text-base lg:text-lg xl:text-[20px] font-semibold transition-colors">
+              {selectedRegion}
+            </span>
+            <ChevronDown size={18} className={`text-white/80 group-hover:text-white transition-transform ${languageOpen ? 'rotate-180' : ''}`} />
+
+            <AnimatePresence>
+              {languageOpen && (
+                <motion.div
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: 10 }}
+                  className="absolute right-0 top-full mt-6 w-[160px] bg-[#1a1a1a] rounded-lg shadow-2xl border border-white/10 py-2"
+                >
+                  {selectedRegion !== 'China' && (
+                    <div
+                      onClick={(e) => { e.stopPropagation(); i18n.changeLanguage('zh'); setSelectedRegion('China'); setLanguageOpen(false); }}
+                      className="px-4 py-2 text-white/70 hover:text-white hover:bg-white/5 transition-colors font-medium"
+                    >
+                      {t("header.languages.china", "China")}
+                    </div>
+                  )}
+                  {selectedRegion !== 'India' && (
+                    <div
+                      onClick={(e) => { e.stopPropagation(); i18n.changeLanguage('en'); setSelectedRegion('India'); setLanguageOpen(false); }}
+                      className="px-4 py-2 text-white/70 hover:text-white hover:bg-white/5 transition-colors font-medium"
+                    >
+                      {t("header.languages.india", "India")}
+                    </div>
+                  )}
+                  {selectedRegion !== 'Canada' && (
+                    <div
+                      onClick={(e) => { e.stopPropagation(); i18n.changeLanguage('en'); setSelectedRegion('Canada'); setLanguageOpen(false); }}
+                      className="px-4 py-2 text-white/70 hover:text-white hover:bg-white/5 transition-colors font-medium"
+                    >
+                      {t("header.languages.canada", "Canada")}
+                    </div>
+                  )}
+                  {selectedRegion !== 'USA' && (
+                    <div
+                      onClick={(e) => { e.stopPropagation(); i18n.changeLanguage('en'); setSelectedRegion('USA'); setLanguageOpen(false); }}
+                      className="px-4 py-2 text-white/70 hover:text-white hover:bg-white/5 transition-colors font-medium"
+                    >
+                      {t("header.languages.usa", "USA")}
+                    </div>
+                  )}
+                </motion.div>
+              )}
+            </AnimatePresence>
+          </div>
         </div>
 
         {/* MOBILE CONTROLS */}
@@ -335,33 +433,106 @@ export default function Header() {
                   {/* Top Row: Big Title */}
                   <div>
                     <h2 className="text-2xl lg:text-3xl xl:text-[36px] font-bold text-white flex items-center gap-3">
-                      {menuData[activeDropdown].title} 
+                      {menuData[activeDropdown].title}
                       <span className="w-8 h-8 bg-[#ff6b1a] flex items-center justify-center text-white flex-shrink-0">
-                         <ChevronRight size={20} strokeWidth={3} />
+                        <ChevronRight size={20} strokeWidth={3} />
                       </span>
                     </h2>
                   </div>
-                  
+
                   {/* Bottom Row: Dynamic Sections */}
-                  <div className="w-full grid grid-cols-2 lg:grid-cols-4 gap-8">
-                    {menuData[activeDropdown].sections.map((section, idx) => (
-                      <div key={idx} className="flex flex-col">
-                        <h3 className="text-[#a0a0a0] text-xs lg:text-sm font-normal mb-6 pb-2 border-b border-[#333333]">{section.heading}</h3>
-                        <div className="flex flex-col gap-4">
-                          {section.links.map((link, i) => (
-                            <Link
-                              key={i}
-                              to={link.path}
-                              className="text-white hover:underline decoration-1 underline-offset-4 transition-all duration-300 text-sm lg:text-base xl:text-[16px] font-semibold flex items-center w-fit"
-                              onClick={(e) => handleLinkClick(e, link.path, link.name, () => setActiveDropdown(null))}
-                            >
-                              {link.name}
-                            </Link>
-                          ))}
-                        </div>
+                  {activeDropdown === 'whatWeDo' ? (
+                    <div className="flex w-full gap-8 lg:gap-16 items-stretch">
+                      {/* Left Column: Master Navigation */}
+                      <div className="w-1/3 flex flex-col gap-2 border-r border-white/5 pr-8">
+                        {Object.keys(industriesData).map((ind) => (
+                          <div
+                            key={ind}
+                            onMouseEnter={() => setActiveIndustry(ind)}
+                            className={`relative px-6 py-5 cursor-pointer rounded-xl transition-all duration-300 flex items-center ${activeIndustry === ind
+                                ? 'bg-white/5 text-white shadow-lg'
+                                : 'text-white/50 hover:text-white/90 hover:bg-white/[0.02]'
+                              }`}
+                          >
+                            {/* Orange vertical indicator */}
+                            <div
+                              className={`absolute left-0 top-1/2 -translate-y-1/2 w-1.5 bg-[#ff6b1a] rounded-r-md transition-all duration-300 ${activeIndustry === ind ? 'h-[60%] opacity-100' : 'h-0 opacity-0'
+                                }`}
+                            />
+                            <span className="text-lg lg:text-xl font-bold ml-2 tracking-wide">{ind}</span>
+                          </div>
+                        ))}
                       </div>
-                    ))}
-                  </div>
+
+                      {/* Right Panel: Detail View */}
+                      <div className="w-2/3 -mt-24">
+                        <AnimatePresence mode="wait">
+                          <motion.div
+                            key={activeIndustry}
+                            initial={{ opacity: 0, x: 30 }}
+                            animate={{ opacity: 1, x: 0 }}
+                            exit={{ opacity: 0, x: -10 }}
+                            transition={{ duration: 0.25 }}
+                            className="w-full h-full bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-[20px] backdrop-blur-[18px] p-8 lg:p-10 flex flex-col shadow-2xl"
+                          >
+                            <h3 className="text-3xl lg:text-4xl font-black text-white mb-10 tracking-tight">{activeIndustry}</h3>
+
+                            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12 mb-10 flex-grow">
+                              {industriesData[activeIndustry].categories.map((category, idx) => (
+                                <motion.div
+                                  key={category.name}
+                                  initial={{ opacity: 0, y: 20 }}
+                                  animate={{ opacity: 1, y: 0 }}
+                                  transition={{ delay: idx * 0.08, duration: 0.4 }}
+                                  className="flex flex-col"
+                                >
+                                  <h4 className="text-[#ff6b1a] text-lg lg:text-xl font-bold mb-4 pb-2 border-b border-[#333333]">{category.name}</h4>
+                                  <div className="flex flex-col gap-3">
+                                    {category.links.map((link, i) => (
+                                      <Link
+                                        key={i}
+                                        to={link.path}
+                                        className="text-white/80 hover:text-white hover:underline decoration-1 underline-offset-4 transition-all duration-300 text-sm lg:text-base font-medium flex items-center w-fit"
+                                        onClick={(e) => handleLinkClick(e, link.path, link.name, () => setActiveDropdown(null))}
+                                      >
+                                        {link.name}
+                                      </Link>
+                                    ))}
+                                  </div>
+                                </motion.div>
+                              ))}
+                            </div>
+
+                            <div className="pt-6 border-t border-white/10 mt-auto">
+                              <p className="text-white/70 text-lg lg:text-xl font-medium leading-relaxed">
+                                {industriesData[activeIndustry].description}
+                              </p>
+                            </div>
+                          </motion.div>
+                        </AnimatePresence>
+                      </div>
+                    </div>
+                  ) : (
+                    <div className="w-full grid grid-cols-2 lg:grid-cols-4 gap-8">
+                      {menuData[activeDropdown].sections.map((section, idx) => (
+                        <div key={idx} className="flex flex-col">
+                          <h3 className="text-[#ff6b1a] text-base lg:text-lg xl:text-xl font-bold mb-6 pb-2 border-b border-[#333333]">{section.heading}</h3>
+                          <div className="flex flex-col gap-4">
+                            {section.links.map((link, i) => (
+                              <Link
+                                key={i}
+                                to={link.path}
+                                className="text-white hover:underline decoration-1 underline-offset-4 transition-all duration-300 text-sm lg:text-base xl:text-[16px] font-semibold flex items-center w-fit"
+                                onClick={(e) => handleLinkClick(e, link.path, link.name, () => setActiveDropdown(null))}
+                              >
+                                {link.name}
+                              </Link>
+                            ))}
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  )}
                 </div>
               </div>
             </motion.div>
@@ -403,7 +574,7 @@ export default function Header() {
                         <ChevronDown size={20} className={mobileDropdownOpen === item.key ? 'text-[#ff6b1a]' : 'text-white/40'} />
                       </motion.div>
                     </button>
-                    
+
                     <AnimatePresence>
                       {mobileDropdownOpen === item.key && (
                         <motion.div
@@ -451,14 +622,14 @@ export default function Header() {
             transition={{ duration: 0.3 }}
             className="fixed inset-0 z-[100] bg-[#000000]/95 backdrop-blur-md flex flex-col pt-[15vh] px-[5%] md:px-[15%]"
           >
-            <button 
+            <button
               onClick={() => setSearchOpen(false)}
               className="absolute top-8 right-[5%] md:right-[5%] text-white/60 hover:text-white transition-colors"
             >
               <X size={40} strokeWidth={1} />
             </button>
 
-            <motion.div 
+            <motion.div
               initial={{ y: 20, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ delay: 0.1, duration: 0.4 }}
@@ -473,18 +644,14 @@ export default function Header() {
                 onKeyDown={(e) => {
                   if (e.key === "Enter" && filteredItems.length > 0) {
                     const item = filteredItems[0];
-                    if (!activePaths.includes(item.path)) {
-                      setComingSoonModal({ isOpen: true, title: item.name });
-                    } else {
-                      navigate(item.path);
-                    }
+                    navigate(item.path);
                     setSearchOpen(false);
                     setSearchQuery("");
                   }
                 }}
                 className="w-full bg-transparent border-b-2 border-white/20 text-3xl md:text-5xl lg:text-6xl text-white font-light pb-4 outline-none focus:border-[#ff6b1a] transition-colors placeholder:text-white/20"
               />
-              
+
               {searchQuery && (
                 <div className="mt-8 max-h-[50vh] overflow-y-auto custom-scrollbar">
                   <h3 className="text-[#ff6b1a] text-sm font-semibold uppercase tracking-widest mb-6">{t("header.search_results")}</h3>
@@ -516,49 +683,6 @@ export default function Header() {
         )}
       </AnimatePresence>
 
-      {/* COMING SOON MODAL */}
-      <AnimatePresence>
-        {comingSoonModal.isOpen && (
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            className="fixed inset-0 z-[200] flex items-center justify-center p-4 bg-black/80 backdrop-blur-md"
-            onClick={() => setComingSoonModal({ isOpen: false, title: "" })}
-          >
-            <motion.div
-              initial={{ scale: 0.9, opacity: 0, y: 20 }}
-              animate={{ scale: 1, opacity: 1, y: 0 }}
-              exit={{ scale: 0.9, opacity: 0, y: 20 }}
-              onClick={(e) => e.stopPropagation()}
-              className="bg-[#121212] border border-white/10 rounded-2xl p-8 max-w-sm w-full shadow-2xl relative text-center"
-            >
-              <button 
-                onClick={() => setComingSoonModal({ isOpen: false, title: "" })}
-                className="absolute top-4 right-4 text-white/50 hover:text-white transition-colors"
-              >
-                <X size={20} />
-              </button>
-              
-              <div className="w-16 h-16 bg-[#ff6b1a]/10 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Globe size={32} className="text-[#ff6b1a]" />
-              </div>
-              
-              <h3 className="text-2xl font-bold text-white mb-2">{t("coming_soon", "Coming Soon")}</h3>
-              <p className="text-white/60 mb-6">
-                The <span className="text-[#ff6b1a] font-semibold">{comingSoonModal.title}</span> page is currently under development. Check back soon!
-              </p>
-              
-              <button
-                onClick={() => setComingSoonModal({ isOpen: false, title: "" })}
-                className="w-full py-3 bg-white/5 hover:bg-white/10 text-white rounded-xl transition-colors font-medium border border-white/10"
-              >
-                {t("okay", "Okay, got it")}
-              </button>
-            </motion.div>
-          </motion.div>
-        )}
-      </AnimatePresence>
     </>
   );
 }

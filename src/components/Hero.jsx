@@ -1,40 +1,9 @@
 import { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
-import { ImageTrail } from "../components/ui/image-trail";
 import { useTranslation } from "react-i18next";
 import videoBg from "../assets/images/uaw.mp4";
+import Paragraph, { AnimatedText } from "./Paragraph";
 
-const AnimatedText = ({ text }) => {
-  const characters = typeof text === 'string' ? text.split("") : [];
-  return (
-    <motion.span
-      variants={{
-        hidden: { opacity: 0 },
-        visible: {
-          opacity: 1,
-          transition: { staggerChildren: 0.03 } // Faster stagger for letters
-        }
-      }}
-      initial="hidden"
-      whileInView="visible"
-      viewport={{ once: true }}
-      className="inline-block"
-    >
-      {characters.map((char, i) => (
-        <motion.span
-          key={i}
-          variants={{
-            hidden: { opacity: 0, y: 15 },
-            visible: { opacity: 1, y: 0, transition: { duration: 0.4, ease: "easeOut" } }
-          }}
-          className={`inline-block ${char === " " ? "w-[0.35em]" : ""}`}
-        >
-          {char === " " ? "\u00A0" : char}
-        </motion.span>
-      ))}
-    </motion.span>
-  );
-};
 export default function Hero({ title, description, badge }) {
   const { t } = useTranslation();
   const [hasAnimated, setHasAnimated] = useState(false);
@@ -54,6 +23,7 @@ export default function Hero({ title, description, badge }) {
           loop
           muted
           playsInline
+          preload="auto"
           className="w-full h-full object-cover"
         >
           <source src={videoBg} type="video/mp4" />
@@ -68,14 +38,14 @@ export default function Hero({ title, description, badge }) {
       </div>
 
       {/* CONTENT */}
-      <div className="relative z-10 w-full px-[4%] pointer-events-none">
+      <div className="relative z-10 w-full px-[4%]">
 
         {badge && (
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={hasAnimated ? { opacity: 1, y: 0 } : {}}
             transition={{ delay: 0.2 }}
-            className="inline-flex items-center gap-2 mb-4 sm:mb-6 px-3 py-1 rounded-full border border-orange-500/40 bg-orange-500/10 text-orange-500 text-[10px] sm:text-xs tracking-widest uppercase font-semibold pointer-events-auto"
+            className="inline-flex items-center gap-2 mb-4 sm:mb-6 px-3 py-1 rounded-full border border-orange-500/40 bg-orange-500/10 text-orange-500 text-[10px] sm:text-xs tracking-widest uppercase font-semibold"
           >
             <span className="w-2 h-2 bg-orange-500 rounded-full animate-pulse"></span>
             {badge}
@@ -96,14 +66,10 @@ export default function Hero({ title, description, badge }) {
           </span>
         </motion.h1>
 
-        <motion.p
-          initial={{ opacity: 0, y: 30 }}
-          animate={hasAnimated ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 1, delay: 0.6 }}
-          className="text-white/80 text-base md:text-base lg:text-lg xl:text-xl 2xl:text-2xl min-[1920px]:text-[28px] min-[2560px]:text-[36px] max-w-full sm:max-w-[600px] xl:max-w-[800px] 2xl:max-w-[1000px] leading-relaxed"
-        >
-          <AnimatedText key={t("hero.description")} text={t("hero.description")} />
-        </motion.p>
+        <Paragraph
+          text={t("hero.description")}
+          hasAnimated={hasAnimated}
+        />
       </div>
     </section>
   );

@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import { useTranslation } from "react-i18next";
+import SectionHeading from "./SectionHeading";
 import nvidiaLogo from "../assets/images/nvidialogo.png";
 import microchipLogo from "../assets/images/microchiplogo.png";
 import semiorgLogo from "../assets/images/semiorglogo.png";
@@ -72,16 +73,10 @@ export default function Partners() {
       className="bg-[#0b0b12] text-white px-4 sm:px-6 md:px-[5%] py-16 sm:py-24 overflow-hidden min-h-screen flex flex-col justify-center"
     >
       {/* HEADER */}
-      <div className="w-full mx-auto mb-8">
-        <motion.h2
-          initial={{ opacity: 0, y: 20 }}
-          animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
-          transition={{ duration: 0.6 }}
-          className="font-black leading-[1.05] text-[clamp(40px,8vw,90px)] tracking-tight text-orange-500"
-        >
-          {t("whyus.heading_1")}
-        </motion.h2>
-      </div>
+      <SectionHeading
+        titlePart2={t("whyus.heading_1")}
+        className="w-full mx-auto !mb-8"
+      />
 
       <motion.div
         variants={containerVariants}
@@ -137,10 +132,17 @@ export default function Partners() {
               <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iMiIgY3k9IjIiIHI9IjEiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC4wNykiLz48L3N2Zz4=')] [mask-image:radial-gradient(ellipse_at_center,white,transparent_80%)] opacity-50 group-hover:opacity-100 transition-opacity duration-500" />
 
 
-              {/* Logo Typography */}
-              <h4 className="relative text-2xl md:text-2xl lg:text-2xl xl:text-4xl font-black tracking-wider z-10 transition-all duration-500 bg-clip-text text-transparent bg-gradient-to-b from-white to-white/50 group-hover:from-orange-400 group-hover:to-orange-600 group-hover:scale-105 group-hover:drop-shadow-[0_0_8px_rgba(255,115,0,0.2)]">
-                {t("whyus.partners.renesas")}
-              </h4>
+              {/* Logo Image + Typography */}
+              <div className="relative z-10 flex items-center justify-center gap-3 md:gap-4 transition-all duration-500 group-hover:scale-105">
+                <img
+                  src={renesasLogo}
+                  alt="Renesas logo"
+                  className="w-10 h-10 md:w-12 md:h-12 lg:w-14 lg:h-14 object-contain group-hover:drop-shadow-[0_0_8px_rgba(255,115,0,0.4)]"
+                />
+                <h4 className="text-2xl md:text-2xl lg:text-2xl xl:text-4xl font-black tracking-wider transition-all duration-500 bg-clip-text text-transparent bg-gradient-to-b from-white to-white/50 group-hover:from-orange-400 group-hover:to-orange-600 group-hover:drop-shadow-[0_0_8px_rgba(255,115,0,0.2)]">
+                  {t("whyus.partners.renesas")}
+                </h4>
+              </div>
             </motion.div>
 
             {/* MICROCHIP */}
@@ -159,10 +161,10 @@ export default function Partners() {
 
               {/* Logo Image + Typography */}
               <div className="relative z-10 flex items-center justify-center gap-3 md:gap-4 transition-all duration-500 group-hover:scale-105">
-                <img 
-                  src={microchipLogo} 
-                  alt="Microchip logo" 
-                  className="w-10 h-10 md:w-12 md:h-12 lg:w-14 lg:h-14 object-contain group-hover:drop-shadow-[0_0_8px_rgba(255,115,0,0.4)]" 
+                <img
+                  src={microchipLogo}
+                  alt="Microchip logo"
+                  className="w-10 h-10 md:w-12 md:h-12 lg:w-14 lg:h-14 object-contain group-hover:drop-shadow-[0_0_8px_rgba(255,115,0,0.4)]"
                 />
                 <h4 className="text-2xl md:text-2xl lg:text-2xl xl:text-4xl font-black tracking-tight transition-all duration-500 bg-clip-text text-transparent bg-gradient-to-b from-white to-white/50 group-hover:from-orange-400 group-hover:to-orange-600 group-hover:drop-shadow-[0_0_8px_rgba(255,115,0,0.2)]">
                   {t("whyus.partners.microchip")}
@@ -196,10 +198,10 @@ export default function Partners() {
 
               {/* Logo Image + Typography */}
               <div className="relative z-10 flex items-center justify-center gap-3 md:gap-4 transition-all duration-500 group-hover:scale-105">
-                <img 
-                  src={semiorgLogo} 
-                  alt="SEMI.org logo" 
-                  className="w-10 h-10 md:w-12 md:h-12 lg:w-14 lg:h-14 object-contain group-hover:drop-shadow-[0_0_8px_rgba(255,115,0,0.4)]" 
+                <img
+                  src={semiorgLogo}
+                  alt="SEMI.org logo"
+                  className="w-10 h-10 md:w-12 md:h-12 lg:w-14 lg:h-14 object-contain group-hover:drop-shadow-[0_0_8px_rgba(255,115,0,0.4)]"
                 />
                 <h4 className="text-2xl md:text-2xl lg:text-2xl xl:text-4xl font-black tracking-widest transition-all duration-500 bg-clip-text text-transparent bg-gradient-to-b from-white to-white/50 group-hover:from-orange-400 group-hover:to-orange-600 group-hover:drop-shadow-[0_0_8px_rgba(255,115,0,0.2)]">
                   {t("whyus.partners.semi")}
