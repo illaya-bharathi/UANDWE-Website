@@ -48,7 +48,7 @@ export default function Paragraph({
   ...props
 }) {
   const defaultClasses =
-    "text-white/80 text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl min-[1920px]:text-4xl min-[2560px]:text-5xl max-w-full sm:max-w-[600px] xl:max-w-[800px] 2xl:max-w-[1000px] leading-relaxed";
+    "text-white/80 text-sm sm:text-base md:text-[17px] lg:text-[18px] xl:text-[19px] 2xl:text-[20px] min-[1920px]:text-2xl min-[2560px]:text-3xl max-w-full sm:max-w-[600px] xl:max-w-[800px] 2xl:max-w-[1000px] leading-relaxed";
 
   const combinedClasses = `${defaultClasses} ${className}`.trim();
 

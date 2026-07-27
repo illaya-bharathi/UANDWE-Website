@@ -33,7 +33,7 @@ export default function CareersSection() {
               </motion.h3>
               <Paragraph
                 text={t("careers_section.desc")}
-                className="text-gray-400 text-lg sm:text-xl leading-relaxed mb-8 max-w-2xl mx-auto lg:mx-0"
+                className="text-gray-400 mb-8 max-w-2xl mx-auto lg:mx-0"
                 delay={0.2}
               />
 

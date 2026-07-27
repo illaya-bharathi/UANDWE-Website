@@ -58,10 +58,10 @@ export default function Hero({ title, description, badge }) {
           transition={{ duration: 1, delay: 0.3 }}
           className="font-extrabold leading-tight tracking-tight mb-4 sm:mb-6 text-white max-w-full"
         >
-          <span className="block whitespace-nowrap text-[clamp(20px,7vw,36px)] sm:text-5xl md:text-5xl lg:text-6xl xl:text-6xl 2xl:text-7xl min-[1920px]:text-[96px] min-[2560px]:text-[120px]">
+          <span className="block whitespace-nowrap text-[clamp(20px,6vw,32px)] sm:text-4xl md:text-4xl lg:text-5xl xl:text-5xl 2xl:text-6xl min-[1920px]:text-[80px] min-[2560px]:text-[100px]">
             <AnimatedText key={t("hero.title_1")} text={t("hero.title_1")} />
           </span>
-          <span className="block text-[clamp(16px,5.5vw,24px)] sm:text-3xl md:text-3xl lg:text-4xl xl:text-4xl 2xl:text-5xl min-[1920px]:text-[64px] min-[2560px]:text-[80px] text-orange-500 mt-1 md:mt-2">
+          <span className="block text-[clamp(16px,4.5vw,20px)] sm:text-2xl md:text-2xl lg:text-3xl xl:text-3xl 2xl:text-4xl min-[1920px]:text-[56px] min-[2560px]:text-[72px] text-orange-500 mt-1 md:mt-2">
             <AnimatedText key={t("hero.title_2")} text={t("hero.title_2")} />
           </span>
         </motion.h1>

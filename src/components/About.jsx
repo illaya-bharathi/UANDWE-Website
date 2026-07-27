@@ -178,10 +178,9 @@ export default function About() {
                   {t(`about.cards.${cardKey}.title`)}
                 </h3>
 
-                {/* Description - Using reusable Paragraph component */}
                 <Paragraph
                   text={t(`about.cards.${cardKey}.desc`)}
-                  className="text-sm sm:text-base md:text-base lg:text-lg xl:text-xl 2xl:text-xl min-[1920px]:text-2xl min-[2560px]:text-[32px] text-gray-400 leading-relaxed flex-1 max-w-none"
+                  className="text-gray-400 flex-1 max-w-none"
                   delay={i * 0.15 + 0.2}
                 />
 
