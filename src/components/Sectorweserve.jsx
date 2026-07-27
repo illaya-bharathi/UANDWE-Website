@@ -249,7 +249,7 @@ export default function Industries() {
                   {t(`industries.items.${industry.key}.title`)}
                 </h3>
 
-                <p className="text-gray-300 text-base sm:text-lg leading-relaxed max-w-xl">
+                <p className="text-gray-300 text-sm sm:text-base md:text-[17px] leading-relaxed max-w-xl">
                   {t(`industries.items.${industry.key}.desc`)}
                 </p>
               </motion.div>

@@ -60,8 +60,17 @@ const WhyChooseUs = ({ categories }) => {
   const handleCategoryClick = (idx) => {
     if (!containerRef.current) return;
     
-    // Calculate the precise scroll position to jump to this category
-    const containerTop = containerRef.current.offsetTop;
+    // Calculate the precise absolute scroll position
+    const containerTop = containerRef.current.getBoundingClientRect().top + window.scrollY;
+    
+    // The total scrollable distance inside this section is (totalCategories - 1) * 100vh.
+    // So the exact offset for index `idx` is (idx / totalCategories) * (totalCategories * 100vh)?
+    // Wait, since we map `v = (scrollY - containerTop) / ((totalCategories - 1) * innerHeight)`,
+    // and we want `v = idx / totalCategories` (the start of the segment),
+    // target = containerTop + (idx / totalCategories) * ((totalCategories - 1) * window.innerHeight)
+    
+    // Actually, simply scrolling down by `idx * window.innerHeight` works perfectly because 
+    // each segment visually takes 100vh of space.
     const targetScroll = containerTop + (idx * window.innerHeight);
 
     window.scrollTo({
