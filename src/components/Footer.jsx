@@ -7,7 +7,7 @@ const Footer = () => {
 
   const companyPaths = {
     "About Us": "/aboutus/companyoverview",
-    "Careers": "/careers/search-jobs"
+    "Careers": "/careers/jobs"
   };
 
   const servicesPaths = {

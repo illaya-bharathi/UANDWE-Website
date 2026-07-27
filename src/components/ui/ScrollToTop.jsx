@@ -38,13 +38,13 @@ const ScrollToTop = () => {
       // On refresh, instantly scroll to the saved position before the screen paints
       const savedScroll = sessionStorage.getItem(`scroll-${pathname}`);
       if (savedScroll) {
-        window.scrollTo(0, parseInt(savedScroll, 10));
+        window.scrollTo({ top: parseInt(savedScroll, 10), behavior: 'instant' });
       }
       return;
     }
 
-    // On actual route changes (without hash), jump to top
-    window.scrollTo(0, 0);
+    // On actual route changes (without hash), jump to top instantly (overriding CSS scroll-behavior: smooth)
+    window.scrollTo({ top: 0, behavior: 'instant' });
   }, [pathname, hash]);
 
   return null;
