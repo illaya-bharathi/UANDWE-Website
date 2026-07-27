@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-const CategoryNavigation = React.memo(({ categories, activeIndex }) => {
+const CategoryNavigation = React.memo(({ categories, activeIndex, onCategoryClick }) => {
   return (
     <div 
       className="flex items-center gap-6 sm:gap-8 md:gap-12 mb-10 md:mb-14 border-b border-white/[0.06] overflow-x-auto [&::-webkit-scrollbar]:hidden"
@@ -13,7 +13,8 @@ const CategoryNavigation = React.memo(({ categories, activeIndex }) => {
         return (
           <div
             key={category.name}
-            className="relative pb-4 flex-shrink-0"
+            onClick={() => onCategoryClick && onCategoryClick(idx)}
+            className={`relative pb-4 flex-shrink-0 cursor-pointer ${isActive ? '' : 'hover:opacity-80'}`}
           >
             <span
               className={`block transition-all duration-500 ease-out whitespace-nowrap cursor-default select-none ${

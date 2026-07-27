@@ -40,10 +40,9 @@ const WhyChooseUs = ({ categories }) => {
 
   /* ── Map scroll progress → active category index ──────────── */
   useMotionValueEvent(scrollYProgress, 'change', (v) => {
-    let newIndex;
-    if (v < 0.30) newIndex = 0;
-    else if (v < 0.63) newIndex = 1;
-    else newIndex = 2;
+    // Dynamically calculate the active index based on total categories
+    let newIndex = Math.floor(v * totalCategories);
+    if (v === 1) newIndex = totalCategories - 1; // Handle edge case at exactly 1.0
 
     // Clamp to valid range
     newIndex = Math.min(newIndex, totalCategories - 1);
@@ -57,6 +56,19 @@ const WhyChooseUs = ({ categories }) => {
   });
 
   const activeCategory = categories[activeIndex];
+
+  const handleCategoryClick = (idx) => {
+    if (!containerRef.current) return;
+    
+    // Calculate the precise scroll position to jump to this category
+    const containerTop = containerRef.current.offsetTop;
+    const targetScroll = containerTop + (idx * window.innerHeight);
+
+    window.scrollTo({
+      top: targetScroll,
+      behavior: 'smooth'
+    });
+  };
 
   return (
     <section
@@ -101,6 +113,7 @@ const WhyChooseUs = ({ categories }) => {
               <CategoryNavigation
                 categories={categories}
                 activeIndex={activeIndex}
+                onCategoryClick={handleCategoryClick}
               />
             </div>
           </LayoutGroup>
