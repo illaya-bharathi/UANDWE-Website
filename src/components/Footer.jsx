@@ -12,9 +12,10 @@ const Footer = () => {
   };
 
   const servicesPaths = {
-    "Software": "/#services",
-    "Hardware": "/#services",
-    "Embedded": "/#services"
+    "Semiconductor": "/#industries",
+    "Communication": "/#industries",
+    "Healthcare": "/#industries",
+    "Medical": "/#industries"
   };
 
   return (
@@ -65,16 +66,16 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* SERVICES */}
+        {/* INDUSTRIES */}
         <div>
           <h4 className="text-xs font-bold uppercase tracking-widest text-white mb-5">
-            {t("footer.services_title")}
+            INDUSTRIES
           </h4>
           <ul className="space-y-2">
-            {["Software", "Hardware", "Embedded"].map((l) => (
+            {["Semiconductor", "Communication", "Healthcare", "Medical"].map((l) => (
               <li key={l}>
-                <a href={servicesPaths[l] || "/"} className="text-sm text-[#8a8a9a] hover:text-[#ff6b1a] cursor-pointer">
-                  {t(`footer.services_links.${l}`, l)}
+                <a href={servicesPaths[l] || "/#industries"} className="text-sm text-[#8a8a9a] hover:text-[#ff6b1a] cursor-pointer">
+                  {l}
                 </a>
               </li>
             ))}
