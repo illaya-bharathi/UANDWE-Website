@@ -3,19 +3,18 @@ import { motion, AnimatePresence, useInView } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { Eye, Target, BookOpen, ArrowRight } from "lucide-react";
 import chipImg from "../assets/images/chip.png";
-import Software from "../assets/images/software.png";
 import semiconductorr from "../assets/images/semiconductorr.png"
 import medical from "../assets/images/medicalimage.png"
 import aiimage from "../assets/images/aiimage.png"
 import StickyScrollWrapper from "./ui/StickyScrollWrapper";
 import SectionHeading from "./SectionHeading";
 import Paragraph from "./Paragraph";
+import SmallParagraph from "./SmallParagraph";
 
 
 
 const backgroundImages = [
   { id: 'hardware', url: chipImg },
-  { id: 'software', url: Software },
   { id: 'semiconductor', url: semiconductorr },
   { id: 'medical', url: medical },
 
@@ -142,9 +141,9 @@ export default function About() {
                 transition={{ delay: i * 0.1, duration: 0.5, ease: "easeOut" }}
                 whileHover={{ y: { xs: -4, sm: -6, md: -8 } }}
                 className={`
-                relative rounded-xl sm:rounded-2xl 
+                relative rounded-xl sm:rounded-2xl overflow-hidden
                 p-4 sm:p-5 md:p-6 lg:p-7 
-                min-h-[220px] sm:min-h-[260px] md:min-h-[280px] lg:min-h-[300px] 
+                min-h-[220px] sm:min-h-[240px] md:min-h-[260px] 
                 flex flex-col
                 transition-all duration-500 group cursor-pointer
                 ${card.highlight
@@ -174,15 +173,28 @@ export default function About() {
                 </div>
 
                 {/* Title - Responsive text */}
-                <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-2xl 2xl:text-3xl min-[1920px]:text-[36px] min-[2560px]:text-[48px] font-bold mb-2 sm:mb-3 tracking-tight">
+                <h3 className="text-sm sm:text-base md:text-lg mb-2 tracking-tight font-normal">
                   {t(`about.cards.${cardKey}.title`)}
                 </h3>
 
                 <Paragraph
                   text={t(`about.cards.${cardKey}.desc`)}
-                  className="text-gray-400 flex-1 max-w-none"
+                  className="text-gray-400 max-w-none relative z-10"
                   delay={i * 0.15 + 0.2}
                 />
+
+                {/* Footer Link */}
+                <div className="mt-auto pt-8 flex items-center text-white/40 text-[10px] sm:text-xs font-semibold tracking-wider uppercase group-hover:text-orange-400 transition-colors duration-300 relative z-10">
+                  <span>{t("common.read_more", card.footer || "Read More")}</span>
+                  <div className="ml-2 transform group-hover:translate-x-1 transition-transform duration-300">
+                    {card.footerIcon}
+                  </div>
+                </div>
+
+                {/* Faint Watermark Icon */}
+                <div className="absolute -bottom-6 -right-6 text-white/[0.02] group-hover:text-orange-500/[0.05] transition-colors duration-500 pointer-events-none transform scale-[4]">
+                  {card.icon}
+                </div>
 
                 <div className="absolute bottom-0 left-0 w-full h-[2px] rounded-b-xl sm:rounded-b-2xl bg-gradient-to-r from-transparent via-orange-500 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
               </motion.div>

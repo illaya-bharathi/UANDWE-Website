@@ -113,7 +113,7 @@ export default function Services() {
               {/* Header section (Always visible) */}
               <div className="p-8 sm:p-10 pb-4 z-20 pointer-events-none mt-auto sm:mt-0 transition-transform duration-500 ease-out group-hover:-translate-y-2">
 
-                <h3 className="text-3xl sm:text-4xl font-semibold text-white leading-snug tracking-tight drop-shadow-lg">
+                <h3 className="text-3xl sm:text-2xl font-semibold text-white leading-snug tracking-tight drop-shadow-lg">
                   {category.title}
                 </h3>
               </div>

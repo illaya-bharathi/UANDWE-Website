@@ -14,17 +14,17 @@ const healthcareData = {
         {
           name: "Application Development",
           path: "/services/application-development",
-          description: "Full-lifecycle development of HIPAA-compliant healthcare portals, patient management systems, and electronic health record (EHR) applications."
+          description: "End-to-end custom application development delivering scalable, high-performance web and mobile solutions tailored to your unique requirements."
         },
         {
-          name: "Cloud Service",
-          path: "/services/cloud",
-          description: "Secure, scalable cloud infrastructure for massive telemedicine deployments, medical imaging storage, and IoMT data ingestion."
+          name: "Cloud Services",
+          path: "/services/cloud-services",
+          description: "Accelerate your digital transformation with secure, scalable, and high-performance cloud solutions designed for the modern enterprise."
         },
         {
-          name: "AI & Data",
+          name: "AI & Data Services",
           path: "/services/ai-data",
-          description: "Advanced machine learning models for early disease detection, predictive patient analytics, and DICOM image segmentation."
+          description: "Harnessing the power of artificial intelligence and machine learning to drive predictive analytics and intelligent data processing."
         }
       ]
     },
@@ -32,33 +32,33 @@ const healthcareData = {
       name: "Hardware",
       links: [
         {
-          name: "PCB Design",
-          path: "/services/hardware/pcb",
+          name: "Medical Wearables PCB",
+          path: "/services/hardware/medical-pcb",
           description: "High-precision, ultra-compact rigid-flex PCB designs for wearable biosensors, diagnostic imaging equipment, and surgical robotics."
         },
         {
-          name: "FPGA Design",
-          path: "/services/hardware/fpga",
+          name: "Medical Imaging FPGA",
+          path: "/services/hardware/imaging-fpga",
           description: "Low-latency FPGA logic implementation for real-time ultrasound processing, MRI image reconstruction, and genomic sequencing accelerators."
         },
         {
-          name: "ASIC Design",
-          path: "/services/hardware/asic",
+          name: "Implantable ASICs",
+          path: "/services/hardware/implantable-asic",
           description: "Custom ASIC engineering tailored for ultra-low-power pacemakers, implantable neural stimulators, and advanced hearing aids."
         },
         {
-          name: "Circuit Design",
-          path: "/services/hardware/circuit",
-          description: "Analog front-end (AFE) circuit design for precise physiological signal acquisition like ECG, EEG, and continuous glucose monitoring."
+          name: "Analog Front-End (AFE)",
+          path: "/services/hardware/afe-circuit",
+          description: "Analog front-end circuit design for highly precise physiological signal acquisition like ECG, EEG, and continuous glucose monitoring."
         },
         {
-          name: "Hardware Prototyping",
-          path: "/services/hardware/prototyping",
+          name: "MedTech Prototyping",
+          path: "/services/hardware/medtech-prototyping",
           description: "Rapid development of medical hardware prototypes to validate physical ergonomics, sensor accuracy, and regulatory safety."
         },
         {
-          name: "Hardware Validation",
-          path: "/services/hardware/validation",
+          name: "IEC 60601 Validation",
+          path: "/services/hardware/iec60601-validation",
           description: "Rigorous electrical and environmental testing to ensure compliance with IEC 60601 safety standards for medical electrical equipment."
         }
       ]
@@ -67,33 +67,33 @@ const healthcareData = {
       name: "Embedded Design",
       links: [
         {
-          name: "Device Drivers",
-          path: "/services/embedded/drivers",
+          name: "Medical Sensor Drivers",
+          path: "/services/embedded/medical-drivers",
           description: "Reliable custom drivers for interfacing with complex medical sensors, motor controllers, and high-resolution imaging cameras."
         },
         {
-          name: "Firmware Development",
-          path: "/services/embedded/firmware",
+          name: "IEC 62304 Firmware",
+          path: "/services/embedded/iec62304",
           description: "IEC 62304 compliant bare-metal firmware engineered for fail-safe operation in Class II and Class III life-critical medical devices."
         },
         {
-          name: "RTOS Development",
-          path: "/services/embedded/rtos",
-          description: "Deterministic real-time operating system integration for robotic surgery arms, infusion pumps, and critical patient ventilators."
+          name: "Surgical Robotics RTOS",
+          path: "/services/embedded/surgical-rtos",
+          description: "Deterministic real-time operating system integration for robotic surgery arms, precision infusion pumps, and critical patient ventilators."
         },
         {
-          name: "Embedded Linux",
-          path: "/services/embedded/linux",
+          name: "Clinical Display Linux",
+          path: "/services/embedded/clinical-linux",
           description: "Hardened, secure Embedded Linux distributions powering patient monitoring dashboards and advanced diagnostic bedside consoles."
         },
         {
-          name: "BSP Development",
-          path: "/services/embedded/bsp",
+          name: "Med-Grade BSPs",
+          path: "/services/embedded/med-bsp",
           description: "Custom Board Support Packages bringing up complex SoCs and medical-grade processors for next-generation clinical instruments."
         },
         {
-          name: "Protocol Integration",
-          path: "/services/embedded/protocol",
+          name: "Healthcare Protocols",
+          path: "/services/embedded/health-protocols",
           description: "Implementation of secure medical interoperability protocols like HL7, FHIR, Bluetooth Medical Device Profile, and encrypted IoT streaming."
         }
       ]

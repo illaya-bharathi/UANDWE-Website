@@ -1,89 +1,105 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 import { MapPin, Briefcase, Clock, ArrowRight, Search, Zap, Code, Shield, Cpu, ChevronRight } from 'lucide-react';
 import SectionHeading from '../../components/SectionHeading';
 
-const JOBS = [
+const RAW_JOBS = [
   {
     id: 1,
-    title: "Principal SoC Architect",
-    location: "San Jose, CA (Hybrid)",
-    type: "Full-Time",
+    defaultTitle: "Principal SoC Architect",
+    defaultLocation: "San Jose, CA (Hybrid)",
+    defaultType: "Full-Time",
     category: "Hardware",
-    desc: "Lead the architectural definition of next-generation AI accelerators. Requires 15+ years of experience in silicon architecture and deep knowledge of memory subsystems."
+    defaultDesc: "Lead the architectural definition of next-generation AI accelerators. Requires 15+ years of experience in silicon architecture and deep knowledge of memory subsystems."
   },
   {
     id: 2,
-    title: "Senior Firmware Engineer",
-    location: "Bangalore, India",
-    type: "Full-Time",
+    defaultTitle: "Senior Firmware Engineer",
+    defaultLocation: "Bangalore, India",
+    defaultType: "Full-Time",
     category: "Embedded",
-    desc: "Develop mission-critical RTOS firmware for automotive safety systems. ISO 26262 experience strongly preferred."
+    defaultDesc: "Develop mission-critical RTOS firmware for automotive safety systems. ISO 26262 experience strongly preferred."
   },
   {
     id: 3,
-    title: "Cloud Infrastructure Architect",
-    location: "Remote (US)",
-    type: "Full-Time",
+    defaultTitle: "Cloud Infrastructure Architect",
+    defaultLocation: "Remote (US)",
+    defaultType: "Full-Time",
     category: "Software",
-    desc: "Design scalable, secure cloud-native architectures for enterprise clients using Kubernetes, AWS, and modern microservices patterns."
+    defaultDesc: "Design scalable, secure cloud-native architectures for enterprise clients using Kubernetes, AWS, and modern microservices patterns."
   },
   {
     id: 4,
-    title: "RTL Design Engineer",
-    location: "Austin, TX",
-    type: "Full-Time",
+    defaultTitle: "RTL Design Engineer",
+    defaultLocation: "Austin, TX",
+    defaultType: "Full-Time",
     category: "Hardware",
-    desc: "Perform micro-architecture and RTL coding (Verilog/SystemVerilog) for high-speed digital cores."
+    defaultDesc: "Perform micro-architecture and RTL coding (Verilog/SystemVerilog) for high-speed digital cores."
   },
   {
     id: 5,
-    title: "AI / ML Research Scientist",
-    location: "Remote (Global)",
-    type: "Full-Time",
+    defaultTitle: "AI / ML Research Scientist",
+    defaultLocation: "Remote (Global)",
+    defaultType: "Full-Time",
     category: "AI & Data",
-    desc: "Push the boundaries of edge AI by developing quantized neural networks optimized for low-power NPU hardware."
+    defaultDesc: "Push the boundaries of edge AI by developing quantized neural networks optimized for low-power NPU hardware."
   },
   {
     id: 6,
-    title: "Linux BSP Developer",
-    location: "Bangalore, India",
-    type: "Full-Time",
+    defaultTitle: "Linux BSP Developer",
+    defaultLocation: "Bangalore, India",
+    defaultType: "Full-Time",
     category: "Embedded",
-    desc: "Port Linux to custom hardware platforms, develop kernel drivers, and optimize boot times for IoT devices."
+    defaultDesc: "Port Linux to custom hardware platforms, develop kernel drivers, and optimize boot times for IoT devices."
   }
 ];
 
 const CATEGORIES = ["All", "Hardware", "Embedded", "Software", "AI & Data"];
 
-const BENEFITS = [
+const RAW_BENEFITS = [
   {
     icon: <Zap size={24} />,
-    title: "Work on the Bleeding Edge",
-    desc: "From 3nm silicon to edge AI, you'll be working on technologies that won't hit the consumer market for years."
+    defaultTitle: "Work on the Bleeding Edge",
+    defaultDesc: "From 3nm silicon to edge AI, you'll be working on technologies that won't hit the consumer market for years."
   },
   {
     icon: <Code size={24} />,
-    title: "Engineering-First Culture",
-    desc: "We are led by engineers, for engineers. We prioritize technical excellence over bureaucracy."
+    defaultTitle: "Engineering-First Culture",
+    defaultDesc: "We are led by engineers, for engineers. We prioritize technical excellence over bureaucracy."
   },
   {
     icon: <Shield size={24} />,
-    title: "Comprehensive Health",
-    desc: "Premium medical, dental, and vision coverage for you and your dependents, plus mental wellness stipends."
+    defaultTitle: "Comprehensive Health",
+    defaultDesc: "Premium medical, dental, and vision coverage for you and your dependents, plus mental wellness stipends."
   },
   {
     icon: <Cpu size={24} />,
-    title: "Continuous Learning",
-    desc: "Generous stipends for courses, conferences, and certifications. Never stop growing your technical toolkit."
+    defaultTitle: "Continuous Learning",
+    defaultDesc: "Generous stipends for courses, conferences, and certifications. Never stop growing your technical toolkit."
   }
 ];
 
 export default function Jobs() {
   const [activeCategory, setActiveCategory] = useState("All");
   const [searchQuery, setSearchQuery] = useState("");
+  const { t } = useTranslation();
 
-  const filteredJobs = JOBS.filter(job => {
+  const translatedJobs = t("careers.jobs.jobList", { returnObjects: true, defaultValue: [] });
+  const translatedWhyItems = t("careers.jobs.whyJoin.items", { returnObjects: true, defaultValue: [] });
+
+  const jobsList = RAW_JOBS.map((job, idx) => {
+    const jobObj = Array.isArray(translatedJobs) && translatedJobs[idx] ? translatedJobs[idx] : {};
+    return {
+      ...job,
+      title: jobObj.title || job.defaultTitle,
+      location: jobObj.location || job.defaultLocation,
+      type: jobObj.type || job.defaultType,
+      desc: jobObj.desc || job.defaultDesc
+    };
+  });
+
+  const filteredJobs = jobsList.filter(job => {
     const matchesCategory = activeCategory === "All" || job.category === activeCategory;
     const matchesSearch = job.title.toLowerCase().includes(searchQuery.toLowerCase()) || 
                           job.desc.toLowerCase().includes(searchQuery.toLowerCase());
@@ -109,7 +125,7 @@ export default function Jobs() {
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 text-white/70 text-sm font-medium mb-8"
           >
             <Briefcase size={16} className="text-[#ff6b1a]" />
-            Careers at UANDWE
+            {t("careers.jobs.badge", "Careers at UANDWE")}
           </motion.div>
           
           <motion.h1 
@@ -118,7 +134,7 @@ export default function Jobs() {
             transition={{ delay: 0.1 }}
             className="text-4xl md:text-5xl lg:text-7xl font-bold leading-tight mb-8"
           >
-            Build the <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#ff6b1a] to-orange-400">Future</span>
+            {t("careers.jobs.heroTitlePart1", "Build the")} <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#ff6b1a] to-orange-400">{t("careers.jobs.heroTitlePart2", "Future")}</span>
           </motion.h1>
           
           <motion.p 
@@ -127,7 +143,7 @@ export default function Jobs() {
             transition={{ delay: 0.2 }}
             className="text-lg md:text-xl text-white/60 leading-relaxed max-w-2xl mx-auto"
           >
-            We are always looking for brilliant minds to join our global engineering teams. Discover exciting opportunities to solve complex problems and shape the technologies of tomorrow.
+            {t("careers.jobs.heroDescription", "We are always looking for brilliant minds to join our global engineering teams. Discover exciting opportunities to solve complex problems and shape the technologies of tomorrow.")}
           </motion.p>
         </div>
 
@@ -139,7 +155,7 @@ export default function Jobs() {
               <Search size={20} className="absolute left-4 top-1/2 -translate-y-1/2 text-white/40" />
               <input 
                 type="text"
-                placeholder="Search job titles or keywords..."
+                placeholder={t("careers.jobs.searchPlaceholder", "Search job titles or keywords...")}
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="w-full bg-white/5 border border-white/10 rounded-full py-4 pl-12 pr-6 text-white placeholder:text-white/40 focus:outline-none focus:border-[#ff6b1a]/50 focus:bg-white/10 transition-all text-lg"
@@ -147,19 +163,23 @@ export default function Jobs() {
             </div>
 
             <div className="flex flex-wrap gap-2 w-full lg:w-auto justify-center lg:justify-end">
-              {CATEGORIES.map((category) => (
-                <button
-                  key={category}
-                  onClick={() => setActiveCategory(category)}
-                  className={`px-5 py-2.5 rounded-full text-sm font-semibold transition-all duration-300 border ${
-                    activeCategory === category 
-                      ? 'bg-[#ff6b1a] border-[#ff6b1a] text-white shadow-[0_0_20px_rgba(255,107,26,0.3)]' 
-                      : 'bg-white/5 border-white/10 text-white/70 hover:bg-white/10 hover:text-white'
-                  }`}
-                >
-                  {category}
-                </button>
-              ))}
+              {CATEGORIES.map((category) => {
+                const label = t(`careers.jobs.categories.${category}`, category);
+
+                return (
+                  <button
+                    key={category}
+                    onClick={() => setActiveCategory(category)}
+                    className={`px-5 py-2.5 rounded-full text-sm font-semibold transition-all duration-300 border ${
+                      activeCategory === category 
+                        ? 'bg-[#ff6b1a] border-[#ff6b1a] text-white shadow-[0_0_20px_rgba(255,107,26,0.3)]' 
+                        : 'bg-white/5 border-white/10 text-white/70 hover:bg-white/10 hover:text-white'
+                    }`}
+                  >
+                    {label}
+                  </button>
+                );
+              })}
             </div>
             
           </div>
@@ -168,7 +188,7 @@ export default function Jobs() {
         {/* JOBS GRID */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-32">
           <AnimatePresence>
-            {filteredJobs.map((job, idx) => (
+            {filteredJobs.map((job) => (
               <motion.div
                 layout
                 initial={{ opacity: 0, scale: 0.95 }}
@@ -183,7 +203,7 @@ export default function Jobs() {
                 
                 <div className="flex items-start justify-between mb-6 relative z-10">
                   <div className="px-3 py-1 bg-white/5 border border-white/10 rounded-md text-xs font-semibold uppercase tracking-wider text-white/70">
-                    {job.category}
+                    {t(`careers.jobs.categories.${job.category}`, job.category)}
                   </div>
                 </div>
 
@@ -205,7 +225,7 @@ export default function Jobs() {
                 </div>
 
                 <button className="w-full py-3 bg-white/5 border border-white/10 rounded-full text-white font-semibold flex items-center justify-center gap-2 group-hover:bg-[#ff6b1a] group-hover:border-[#ff6b1a] transition-all duration-300 relative z-10">
-                  Apply Now <ChevronRight size={18} className="group-hover:translate-x-1 transition-transform" />
+                  {t("careers.jobs.applyNow", "Apply Now")} <ChevronRight size={18} className="group-hover:translate-x-1 transition-transform" />
                 </button>
               </motion.div>
             ))}
@@ -219,13 +239,17 @@ export default function Jobs() {
             className="flex flex-col items-center justify-center py-20 text-center border border-dashed border-white/10 rounded-3xl bg-white/[0.02] mb-32 -mt-16"
           >
             <Search size={48} className="text-white/20 mb-6" />
-            <h3 className="text-2xl font-bold text-white mb-2">No open positions found</h3>
-            <p className="text-white/50 max-w-md">We don't currently have any openings matching your search criteria. Try adjusting your filters.</p>
+            <h3 className="text-2xl font-bold text-white mb-2">
+              {t("careers.jobs.empty.title", "No open positions found")}
+            </h3>
+            <p className="text-white/50 max-w-md">
+              {t("careers.jobs.empty.desc", "We don't currently have any openings matching your search criteria. Try adjusting your filters.")}
+            </p>
             <button 
               onClick={() => { setActiveCategory("All"); setSearchQuery(""); }}
               className="mt-8 px-6 py-2.5 bg-[#ff6b1a] text-white font-semibold rounded-full hover:bg-[#e55a10] transition-colors"
             >
-              Clear Filters
+              {t("careers.jobs.empty.clear", "Clear Filters")}
             </button>
           </motion.div>
         )}
@@ -233,51 +257,38 @@ export default function Jobs() {
         {/* WHY JOIN US */}
         <div className="mb-32">
           <SectionHeading 
-            titlePart1="Why Build With" 
-            titlePart2="UANDWE" 
+            titlePart1={t("careers.jobs.whyJoin.titlePart1", "Why Build With")} 
+            titlePart2={t("careers.jobs.whyJoin.titlePart2", "UANDWE")} 
             className="mb-16 text-center"
           />
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
-            {BENEFITS.map((benefit, idx) => (
-              <motion.div
-                key={idx}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: idx * 0.1 }}
-                className="bg-[#12121a] p-8 md:p-10 rounded-[2rem] border border-white/5 hover:border-white/20 transition-colors flex gap-6"
-              >
-                <div className="w-14 h-14 rounded-full bg-[#ff6b1a]/10 flex items-center justify-center text-[#ff6b1a] flex-shrink-0">
-                  {benefit.icon}
-                </div>
-                <div>
-                  <h3 className="text-xl font-bold text-white mb-3">{benefit.title}</h3>
-                  <p className="text-white/60 leading-relaxed text-sm">{benefit.desc}</p>
-                </div>
-              </motion.div>
-            ))}
+            {RAW_BENEFITS.map((benefit, idx) => {
+              const bObj = Array.isArray(translatedWhyItems) && translatedWhyItems[idx] ? translatedWhyItems[idx] : {};
+              const title = bObj.title || benefit.defaultTitle;
+              const desc = bObj.desc || benefit.defaultDesc;
+
+              return (
+                <motion.div
+                  key={idx}
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5, delay: idx * 0.1 }}
+                  className="bg-[#12121a] p-8 md:p-10 rounded-[2rem] border border-white/5 hover:border-white/20 transition-colors flex gap-6"
+                >
+                  <div className="w-14 h-14 rounded-full bg-[#ff6b1a]/10 flex items-center justify-center text-[#ff6b1a] flex-shrink-0">
+                    {benefit.icon}
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold text-white mb-3">{title}</h3>
+                    <p className="text-white/60 leading-relaxed text-sm">{desc}</p>
+                  </div>
+                </motion.div>
+              );
+            })}
           </div>
         </div>
-
-        {/* CTA */}
-        <motion.div 
-          initial={{ opacity: 0, scale: 0.95 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          viewport={{ once: true }}
-          className="bg-gradient-to-r from-[#ff6b1a] via-[#e55a10] to-[#b84307] rounded-[3rem] p-12 md:p-20 text-center relative overflow-hidden"
-        >
-          <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1557682250-33bd709cbe85?w=1200&auto=format&fit=crop&q=80')] opacity-10 mix-blend-screen bg-cover bg-center" />
-          <div className="relative z-10 max-w-2xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">Don't see a perfect fit?</h2>
-            <p className="text-white/90 text-lg mb-10">
-              We are constantly growing and looking for exceptional engineering talent. Send us your resume, and we'll reach out when the right role opens up.
-            </p>
-            <button className="px-10 py-5 bg-white text-black rounded-full font-bold text-lg hover:scale-105 transition-transform duration-300 shadow-2xl flex items-center gap-3 mx-auto">
-              Submit Your Resume
-            </button>
-          </div>
-        </motion.div>
 
       </div>
     </div>

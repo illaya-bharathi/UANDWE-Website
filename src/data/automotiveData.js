@@ -1,12 +1,12 @@
 /**
  * automotiveData.js
  *
- * Automotive industry data mapped to the exact service categories
+ * Automotive Engineering industry data mapped to the exact service categories
  * defined in the main Navbar (Software Services, Hardware, Embedded Design).
  */
 
 const automotiveData = {
-  description: "Accelerating the future of mobility with robust embedded systems, hardware, and automotive software.",
+  description: "Accelerating the future of mobility with functional safety-certified hardware, AUTOSAR compliant software, and advanced EV technology.",
   categories: [
     {
       name: "Software Services",
@@ -14,17 +14,17 @@ const automotiveData = {
         {
           name: "Application Development",
           path: "/services/application-development",
-          description: "Development of comprehensive fleet management portals, connected car companion apps, and V2X mobility applications."
+          description: "End-to-end custom application development delivering scalable, high-performance web and mobile solutions tailored to your unique requirements."
         },
         {
-          name: "Cloud Service",
-          path: "/services/cloud",
-          description: "Scalable automotive cloud infrastructure for over-the-air (OTA) update management, telematics ingestion, and remote diagnostics."
+          name: "Cloud Services",
+          path: "/services/cloud-services",
+          description: "Accelerate your digital transformation with secure, scalable, and high-performance cloud solutions designed for the modern enterprise."
         },
         {
-          name: "AI & Data",
+          name: "AI & Data Services",
           path: "/services/ai-data",
-          description: "Advanced machine learning pipelines for predictive vehicle maintenance, autonomous driving models, and driver monitoring systems."
+          description: "Harnessing the power of artificial intelligence and machine learning to drive predictive analytics and intelligent data processing."
         }
       ]
     },
@@ -32,34 +32,34 @@ const automotiveData = {
       name: "Hardware",
       links: [
         {
-          name: "PCB Design",
-          path: "/services/hardware/pcb",
+          name: "Automotive HDI PCB Design",
+          path: "/services/hardware/automotive-pcb",
           description: "Automotive-grade HDI PCB design built for high-vibration, high-temperature environments in EV powertrains and ADAS modules."
         },
         {
-          name: "FPGA Design",
-          path: "/services/hardware/fpga",
-          description: "High-performance FPGA acceleration for LiDAR point-cloud processing, radar signal processing, and real-time vision systems."
+          name: "LiDAR & Radar FPGA",
+          path: "/services/hardware/fpga-adas",
+          description: "High-performance FPGA acceleration for LiDAR point-cloud processing, radar signal filtering, and real-time vision systems."
         },
         {
-          name: "ASIC Design",
-          path: "/services/hardware/asic",
+          name: "ASIL-D Compliant ASICs",
+          path: "/services/hardware/asil-asic",
           description: "Custom automotive ASICs designed for ISO 26262 compliance, targeting smart sensors, BMS controllers, and motor drivers."
         },
         {
-          name: "Circuit Design",
-          path: "/services/hardware/circuit",
-          description: "Robust power electronics and analog circuit design for battery management systems (BMS) and high-voltage EV inverters."
+          name: "EV Power Electronics",
+          path: "/services/hardware/ev-power",
+          description: "Robust power electronics and analog circuit design for Battery Management Systems (BMS) and high-voltage EV traction inverters."
         },
         {
-          name: "Hardware Prototyping",
-          path: "/services/hardware/prototyping",
-          description: "Rapid A-sample and B-sample prototyping for automotive electronic control units (ECUs) and infotainment head units."
+          name: "ECU Prototyping",
+          path: "/services/hardware/ecu-prototyping",
+          description: "Rapid A-sample and B-sample hardware prototyping for advanced Electronic Control Units (ECUs) and zonal domain controllers."
         },
         {
-          name: "Hardware Validation",
-          path: "/services/hardware/validation",
-          description: "Stringent validation against AEC-Q100/Q200 standards, including EMI/EMC testing, thermal cycling, and shock resistance."
+          name: "AEC-Q100 Validation",
+          path: "/services/hardware/aec-validation",
+          description: "Stringent validation against AEC-Q100/Q200 standards, including EMI/EMC testing, thermal cycling, and harsh shock resistance."
         }
       ]
     },
@@ -67,34 +67,34 @@ const automotiveData = {
       name: "Embedded Design",
       links: [
         {
-          name: "Device Drivers",
-          path: "/services/embedded/drivers",
-          description: "AUTOSAR MCAL (Microcontroller Abstraction Layer) and complex device driver (CDD) development for automotive MCUs."
+          name: "AUTOSAR MCAL Drivers",
+          path: "/services/embedded/autosar-mcal",
+          description: "Microcontroller Abstraction Layer (MCAL) and complex device driver (CDD) development for multi-core automotive MCUs."
         },
         {
-          name: "Firmware Development",
-          path: "/services/embedded/firmware",
-          description: "ISO 26262 ASIL-compliant firmware development for critical powertrain, chassis, and body control modules (BCM)."
+          name: "ISO 26262 Firmware",
+          path: "/services/embedded/iso26262",
+          description: "ASIL-compliant firmware development for safety-critical powertrain, chassis control, and body control modules (BCM)."
         },
         {
-          name: "RTOS Development",
-          path: "/services/embedded/rtos",
+          name: "Automotive RTOS",
+          path: "/services/embedded/automotive-rtos",
           description: "Integration of safe and secure automotive RTOS (like OSEK/VDX or QNX) for deterministic multi-core ECU execution."
         },
         {
-          name: "Embedded Linux",
-          path: "/services/embedded/linux",
-          description: "Automotive Grade Linux (AGL) optimization for next-generation digital cockpits and in-vehicle infotainment (IVI) systems."
+          name: "Digital Cockpit Linux",
+          path: "/services/embedded/agl",
+          description: "Automotive Grade Linux (AGL) and Android Automotive optimization for next-generation In-Vehicle Infotainment (IVI) systems."
         },
         {
-          name: "BSP Development",
-          path: "/services/embedded/bsp",
-          description: "Board Support Packages for advanced automotive SoCs, enabling hypervisor configurations for mixed-criticality workloads."
+          name: "Hypervisor BSPs",
+          path: "/services/embedded/hypervisor-bsp",
+          description: "Board Support Packages for advanced automotive SoCs, enabling secure hypervisor configurations for mixed-criticality workloads."
         },
         {
-          name: "Protocol Integration",
-          path: "/services/embedded/protocol",
-          description: "Implementation of in-vehicle networking protocols including CAN FD, LIN, FlexRay, SOME/IP, and Automotive Ethernet."
+          name: "In-Vehicle Networking",
+          path: "/services/embedded/in-vehicle-network",
+          description: "Implementation of critical in-vehicle networking protocols including CAN FD, LIN, FlexRay, SOME/IP, and Automotive Ethernet."
         }
       ]
     }

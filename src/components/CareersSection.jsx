@@ -10,7 +10,7 @@ export default function CareersSection() {
   const { t } = useTranslation();
 
   return (
-    <section className="relative w-full bg-[#0b0b12] text-white py-20 px-[4%] z-20 min-h-[70vh] flex flex-col justify-center overflow-hidden">
+    <section className="relative w-full bg-[#0b0b12] text-white px-4 sm:px-6 md:px-[5%] pt-8 pb-8 sm:pt-8 sm:pb-8 overflow-hidden z-20">
 
       {/* Header */}
       <SectionHeading titlePart1="" titlePart2={t("careers_section.header")} />
@@ -27,7 +27,7 @@ export default function CareersSection() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: 0.1 }}
-                className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white leading-tight mb-6"
+                className="text-lg md:text-2xl lg:text-3xl font-normal text-white leading-tight mb-6"
               >
                 {t("careers_section.title")}
               </motion.h3>
@@ -44,9 +44,9 @@ export default function CareersSection() {
                 transition={{ delay: 0.3 }}
               >
                 {/* We use a Link if the route exists, but for now a button is fine */}
-                <Link to="/careers/jobs" className="inline-flex items-center justify-center px-8 py-4 bg-orange-500 text-white font-semibold rounded-full hover:bg-orange-600 transition-all hover:scale-105 shadow-[0_0_20px_rgba(249,115,22,0.3)]">
+                <Link to="/careers/jobs" className="inline-flex items-center justify-center px-6 py-3 text-sm bg-orange-500 text-white font-normal rounded-full hover:bg-orange-600 transition-all hover:scale-105 shadow-[0_0_20px_rgba(249,115,22,0.3)]">
                   {t("careers_section.button")}
-                  <ArrowRight className="ml-2 w-5 h-5" />
+                  <ArrowRight className="ml-2 w-4 h-4" />
                 </Link>
               </motion.div>
             </div>

@@ -1,5 +1,5 @@
 import Hero from "../components/Hero";
-import Services from "../components/Services";
+import NewsInsights from "../components/NewsInsights";
 import About from "../components/About";
 import WhyChooseUs from "../components/Whyuandwe";
 import Contactus from "../components/ContactUs";
@@ -12,7 +12,7 @@ const Home = () => {
       <Hero />
       <About />
       <Industries />
-      <Services />
+      <NewsInsights />
       <CareersSection />
       <WhyChooseUs />
       <div id="contactus">

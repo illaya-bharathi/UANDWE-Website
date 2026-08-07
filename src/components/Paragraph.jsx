@@ -2,14 +2,14 @@ import React from "react";
 import { motion } from "framer-motion";
 
 export const AnimatedText = ({ text, className = "" }) => {
-  const characters = typeof text === "string" ? text.split("") : [];
+  const words = typeof text === "string" ? text.split(" ") : [];
   return (
     <motion.span
       variants={{
         hidden: { opacity: 0 },
         visible: {
           opacity: 1,
-          transition: { staggerChildren: 0.03 } // Faster stagger for letters
+          transition: { staggerChildren: 0.015 } // Faster stagger for letters
         }
       }}
       initial="hidden"
@@ -17,17 +17,32 @@ export const AnimatedText = ({ text, className = "" }) => {
       viewport={{ once: true }}
       className={`inline-block ${className}`}
     >
-      {characters.map((char, i) => (
-        <motion.span
-          key={i}
-          variants={{
-            hidden: { opacity: 0, y: 15 },
-            visible: { opacity: 1, y: 0, transition: { duration: 0.4, ease: "easeOut" } }
-          }}
-          className={`inline-block ${char === " " ? "w-[0.35em]" : ""}`}
-        >
-          {char === " " ? "\u00A0" : char}
-        </motion.span>
+      {words.map((word, wordIndex) => (
+        <span key={wordIndex} className="inline-block whitespace-nowrap">
+          {word.split("").map((char, i) => (
+            <motion.span
+              key={i}
+              variants={{
+                hidden: { opacity: 0, y: 10 },
+                visible: { opacity: 1, y: 0, transition: { duration: 0.25, ease: "easeOut" } }
+              }}
+              className="inline-block"
+            >
+              {char}
+            </motion.span>
+          ))}
+          {wordIndex !== words.length - 1 && (
+            <motion.span
+              variants={{
+                hidden: { opacity: 0, y: 10 },
+                visible: { opacity: 1, y: 0, transition: { duration: 0.25, ease: "easeOut" } }
+              }}
+              className="inline-block w-[0.35em]"
+            >
+              {"\u00A0"}
+            </motion.span>
+          )}
+        </span>
       ))}
     </motion.span>
   );
@@ -48,7 +63,7 @@ export default function Paragraph({
   ...props
 }) {
   const defaultClasses =
-    "text-white/80 text-sm sm:text-base md:text-[17px] lg:text-[18px] xl:text-[19px] 2xl:text-[20px] min-[1920px]:text-2xl min-[2560px]:text-3xl max-w-full sm:max-w-[600px] xl:max-w-[800px] 2xl:max-w-[1000px] leading-relaxed";
+    "text-white/80 text-[9px] sm:text-[10px] md:text-[11px] lg:text-xs xl:text-[13px] 2xl:text-sm min-[1920px]:text-[15px] min-[2560px]:text-base max-w-full sm:max-w-[600px] xl:max-w-[800px] 2xl:max-w-[1000px] leading-relaxed";
 
   const combinedClasses = `${defaultClasses} ${className}`.trim();
 

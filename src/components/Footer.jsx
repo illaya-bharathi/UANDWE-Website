@@ -1,6 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
+import SmallParagraph from "./SmallParagraph";
 
 const Footer = () => {
   const { t } = useTranslation();
@@ -31,9 +32,10 @@ const Footer = () => {
             <span className="text-[#ff6b1a]">UANDWE</span>
           </h2>
 
-          <p className="text-[#8a8a9a] text-sm leading-7 mt-4 max-w-[280px]">
-            {t("footer.desc")}
-          </p>
+          <SmallParagraph 
+            text={t("footer.desc")} 
+            className="!text-[#8a8a9a] !mt-4 !max-w-[280px]" 
+          />
 
           <div className="flex gap-3 mt-5">
             {["in", "𝕏"].map((icon) => (

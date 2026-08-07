@@ -14,6 +14,143 @@
       "usa": "USA"
     }
   },
+  "header_menu": {
+    "Hardware": "Hardware",
+    "rf_microwave": "RF & Microwave Design",
+    "antenna": "Antenna Engineering",
+    "optical": "Optical Networking",
+    "baseband": "Baseband ASICs",
+    "signal_integrity": "Signal Integrity Analysis",
+    "telecom_validation": "Telecom Validation",
+    "Embedded Design": "Embedded Design",
+    "dsp_firmware": "DSP Firmware",
+    "phy_layer": "PHY Layer Development",
+    "routing": "Routing Protocol Integration",
+    "fpga_acceleration": "FPGA Acceleration",
+    "packet_processing": "Real-Time Packet Processing",
+    "satcom": "Satellite Comms Firmware",
+    "Industries": "Industries",
+    "Automotive": "Automotive",
+    "Medical": "Medical",
+    "Semiconductor": "Semiconductor",
+    "Telecom": "Telecom",
+    "Resources": "Resources",
+    "Blogs": "Blogs",
+    "Case Studies": "Case Studies",
+    "Whitepapers": "Whitepapers",
+    "Engineering Insights": "Engineering Insights",
+    "About Us": "About Us",
+    "Company Overview": "Company Overview",
+    "Leadership": "Leadership",
+    "Testimonials": "Testimonials",
+    "Partnerships": "Partnerships",
+    "Careers": "Careers",
+    "Jobs": "Jobs",
+    "Life at UANDWE": "Life at UANDWE",
+    "Benefits": "Benefits",
+    "Work environment": "Work environment",
+    "Communication Engineering": "Communication Engineering",
+    "Healthcare": "Healthcare",
+    "services": {
+      "categories": {
+        "application": {
+          "title": "Software Services",
+          "services": {
+            "s1": { "name": "Application Development" },
+            "s2": { "name": "Cloud Services" },
+            "s3": { "name": "AI & Data" }
+          }
+        }
+      }
+    },
+    "Software Services": "Software Services",
+    "Embedded SW": "Embedded SW",
+    "Hardware Design": "Hardware Design",
+    "Application Development": "Application Development",
+    "Cloud Services": "Cloud Services",
+    "AI & Data": "AI & Data",
+    "DSP Firmware": "DSP Firmware",
+    "PHY Layer Development": "PHY Layer Development",
+    "Routing Protocol Integration": "Routing Protocol Integration",
+    "FPGA Acceleration": "FPGA Acceleration",
+    "Real-Time Packet Processing": "Real-Time Packet Processing",
+    "Satellite Comms Firmware": "Satellite Comms Firmware",
+    "RF & Microwave Design": "RF & Microwave Design",
+    "Antenna Engineering": "Antenna Engineering",
+    "Optical Networking": "Optical Networking",
+    "Baseband ASICs": "Baseband ASICs",
+    "Signal Integrity Analysis": "Signal Integrity Analysis",
+    "Telecom Validation": "Telecom Validation",
+    "AUTOSAR (Classic & Adaptive)": "AUTOSAR (Classic & Adaptive)",
+    "ADAS & Sensor Fusion": "ADAS & Sensor Fusion",
+    "In-Vehicle Infotainment (IVI)": "In-Vehicle Infotainment (IVI)",
+    "Functional Safety (ISO 26262)": "Functional Safety (ISO 26262)",
+    "EV Battery Management (BMS)": "EV Battery Management (BMS)",
+    "V2X Communications": "V2X Communications",
+    "Automotive ECUs & Domain Controllers": "Automotive ECUs & Domain Controllers",
+    "EV Power Electronics": "EV Power Electronics",
+    "Radar & LiDAR Hardware": "Radar & LiDAR Hardware",
+    "Hardware Security Modules (HSM)": "Hardware Security Modules (HSM)",
+    "Automotive PCB & Thermal Design": "Automotive PCB & Thermal Design",
+    "EMI/EMC & Automotive Compliance": "EMI/EMC & Automotive Compliance",
+    "Medical Imaging Software": "Medical Imaging Software",
+    "Medical Device Firmware (IEC 62304)": "Medical Device Firmware (IEC 62304)",
+    "Wearable Health Algorithms": "Wearable Health Algorithms",
+    "Connected Health & IoMT": "Connected Health & IoMT",
+    "Point-of-Care Diagnostic Systems": "Point-of-Care Diagnostic Systems",
+    "Wearable Sensor Hardware": "Wearable Sensor Hardware",
+    "Medical Imaging & DAQ Hardware": "Medical Imaging & DAQ Hardware",
+    "Diagnostic & Lab Equipment": "Diagnostic & Lab Equipment",
+    "Implantable Electronics (AIMD)": "Implantable Electronics (AIMD)",
+    "Medical Power Supplies & BMS": "Medical Power Supplies & BMS",
+    "EMI/EMC for Medical Devices": "EMI/EMC for Medical Devices",
+    "desc": {
+      "Application Development": "Enterprise-grade full-stack application development",
+      "AI & Data": "AI and Data Analytics solutions",
+      "DSP Firmware": "High-performance DSP firmware",
+      "PHY Layer Development": "PHY layer protocol development and optimization",
+      "Routing Protocol Integration": "Routing protocol integration solutions",
+      "FPGA Acceleration": "FPGA hardware acceleration design",
+      "Real-Time Packet Processing": "Real-time packet processing solutions",
+      "Satellite Comms Firmware": "Satellite communications firmware development",
+      "RF & Microwave Design": "RF and microwave circuit design",
+      "Antenna Engineering": "Antenna systems engineering design",
+      "Optical Networking": "Optical networking solutions",
+      "Baseband ASICs": "Baseband ASIC design",
+      "Signal Integrity Analysis": "Signal integrity simulation and analysis",
+      "Telecom Validation": "Communication system validation testing"
+    }
+  },
+  "industries_desc": {
+    "Semiconductor": "Comprehensive semiconductor solutions from chip design to validation.",
+    "CommunicationEngineering": "Building scalable communication systems through modern application, hardware, and embedded solutions.",
+    "Automotive": "Delivering next-generation automotive software, hardware, and embedded platforms.",
+    "Healthcare": "Engineering intelligent medical solutions with application, hardware, and embedded technologies."
+  },
+  "news_insights": {
+    "heading": {
+      "part1": "News &",
+      "part2": "Insights"
+    },
+    "read_more": "Read More",
+    "articles": {
+      "news-1": {
+        "category": "Company News",
+        "date": "Oct 24, 2026",
+        "desc": "Our new facility will serve as a central hub for our growing roster of European enterprise clients, focusing on mission-critical embedded systems."
+      },
+      "news-2": {
+        "category": "Industry Insights",
+        "date": "Sep 12, 2026",
+        "desc": "An in-depth look at how the latest advancements in custom ASIC designs are pushing the boundaries of what's possible at the edge."
+      },
+      "news-3": {
+        "category": "Tech Innovations",
+        "date": "Aug 05, 2026",
+        "desc": "We are thrilled to announce a new strategic partnership aimed at developing ultra-reliable hardware solutions for autonomous vehicles."
+      }
+    }
+  },
   "hero": {
     "title_1": "Where Innovation Meets",
     "title_2": "Engineering Excellence.",
@@ -70,6 +207,40 @@
       "medical": {
         "title": "Healthcare",
         "desc": "Transforming healthcare through precision robotics, smart diagnostics, and real-time medical imaging technologies."
+      }
+    }
+  },
+  "industries_pages": {
+    "semiconductor": {
+      "hero": {
+        "title": "Semiconductor Engineering",
+        "description": "Powering the future of silicon with end-to-end SoC design, advanced ASIC verification, and physical implementation services.",
+        "primaryButtonText": "Explore Silicon Solutions",
+        "secondaryButtonText": "Consult Our Experts"
+      }
+    },
+    "healthcare": {
+      "hero": {
+        "title": "Healthcare",
+        "description": "Engineering life-saving medical software, IEC 62304 compliant devices, biomedical AI diagnostics, and secure IoMT systems.",
+        "primaryButtonText": "Explore MedTech Solutions",
+        "secondaryButtonText": "Talk to Healthcare Engineers"
+      }
+    },
+    "automotive": {
+      "hero": {
+        "title": "Automotive & Mobility",
+        "description": "Engineering software-defined vehicles with AUTOSAR, advanced EV powertrains, ADAS perception, and ISO 26262 functional safety.",
+        "primaryButtonText": "Explore Automotive Tech",
+        "secondaryButtonText": "Connect with Auto Experts"
+      }
+    },
+    "communication": {
+      "hero": {
+        "title": "Communication Engineering",
+        "description": "Connecting the world with high-throughput 5G/6G systems, optical communications, and resilient network protocol software.",
+        "primaryButtonText": "Explore Telecom Solutions",
+        "secondaryButtonText": "Talk to Telecom Engineers"
       }
     }
   },
@@ -229,6 +400,12 @@
     "Circuit Design": "Circuit Design",
     "Hardware Prototyping": "Hardware Prototyping",
     "Hardware Validation": "Hardware Validation",
+    "rf_microwave": "RF & Microwave Design",
+    "antenna": "Antenna Engineering",
+    "optical": "Optical Networking",
+    "baseband": "Baseband ASICs",
+    "signal_integrity": "Signal Integrity Analysis",
+    "telecom_validation": "Telecom Validation",
     "Embedded Design": "Embedded SW",
     "Device Drivers": "Device Drivers",
     "Firmware Development": "Firmware Development",
@@ -236,6 +413,12 @@
     "Embedded Linux": "Embedded Linux",
     "BSP Development": "BSP Development",
     "Protocol Integration": "Protocol Integration",
+    "dsp_firmware": "DSP Firmware",
+    "phy_layer": "PHY Layer Development",
+    "routing": "Routing Protocol Integration",
+    "fpga_acceleration": "FPGA Acceleration",
+    "packet_processing": "Real-Time Packet Processing",
+    "satcom": "Satellite Comms Firmware",
     "Industries": "Industries",
     "Automotive": "Automotive",
     "Medical": "Healthcare",

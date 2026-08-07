@@ -22,29 +22,30 @@ export default function Header() {
           name: "Software Services",
           links: [
             { name: "Application Development", path: "/services/application-development" },
+            { name: "Cloud Services", path: "/services/cloud-services" },
             { name: "AI & Data", path: "/services/ai-data" }
           ]
         },
         {
           name: "Embedded SW",
           links: [
-            { name: "Device Drivers", path: "/services/embedded/drivers" },
-            { name: "Firmware Development", path: "/services/embedded/firmware" },
-            { name: "RTOS Development", path: "/services/embedded/rtos" },
-            { name: "Embedded Linux", path: "/services/embedded/linux" },
-            { name: "BSP Development", path: "/services/embedded/bsp" },
-            { name: "Protocol Integration", path: "/services/embedded/protocol" }
+            { name: "DSP Firmware", path: "/services/embedded/dsp" },
+            { name: "PHY Layer Development", path: "/services/embedded/phy-layer" },
+            { name: "Routing Protocol Integration", path: "/services/embedded/routing" },
+            { name: "FPGA Acceleration", path: "/services/embedded/fpga" },
+            { name: "Real-Time Packet Processing", path: "/services/embedded/packet-processing" },
+            { name: "Satellite Comms Firmware", path: "/services/embedded/satcom" }
           ]
         },
         {
           name: "Hardware Design",
           links: [
-            { name: "PCB Design", path: "/services/hardware/pcb" },
-            { name: "FPGA Design", path: "/services/hardware/fpga" },
-            { name: "ASIC Design", path: "/services/hardware/asic" },
-            { name: "Circuit Design", path: "/services/hardware/circuit" },
-            { name: "Hardware Prototyping", path: "/services/hardware/prototyping" },
-            { name: "Hardware Validation", path: "/services/hardware/validation" }
+            { name: "RF & Microwave Design", path: "/services/hardware/rf-microwave" },
+            { name: "Antenna Engineering", path: "/services/hardware/antenna" },
+            { name: "Optical Networking", path: "/services/hardware/optical" },
+            { name: "Baseband ASICs", path: "/services/hardware/baseband" },
+            { name: "Signal Integrity Analysis", path: "/services/hardware/signal-integrity" },
+            { name: "Telecom Validation", path: "/services/hardware/telecom-validation" }
           ]
         }
       ]
@@ -56,29 +57,30 @@ export default function Header() {
           name: "Software Services",
           links: [
             { name: "Application Development", path: "/services/application-development" },
+            { name: "Cloud Services", path: "/services/cloud-services" },
             { name: "AI & Data", path: "/services/ai-data" }
           ]
         },
         {
           name: "Embedded SW",
           links: [
-            { name: "Device Drivers", path: "/services/embedded/drivers" },
-            { name: "Firmware Development", path: "/services/embedded/firmware" },
-            { name: "RTOS Development", path: "/services/embedded/rtos" },
-            { name: "Embedded Linux", path: "/services/embedded/linux" },
-            { name: "BSP Development", path: "/services/embedded/bsp" },
-            { name: "Protocol Integration", path: "/services/embedded/protocol" }
+            { name: "AUTOSAR (Classic & Adaptive)", path: "/services/embedded/autosar" },
+            { name: "ADAS & Sensor Fusion", path: "/services/embedded/adas" },
+            { name: "In-Vehicle Infotainment (IVI)", path: "/services/embedded/infotainment" },
+            { name: "Functional Safety (ISO 26262)", path: "/services/embedded/functional-safety" },
+            { name: "EV Battery Management (BMS)", path: "/services/embedded/bms" },
+            { name: "V2X Communications", path: "/services/embedded/v2x" }
           ]
         },
         {
           name: "Hardware Design",
           links: [
-            { name: "PCB Design", path: "/services/hardware/pcb" },
-            { name: "FPGA Design", path: "/services/hardware/fpga" },
-            { name: "ASIC Design", path: "/services/hardware/asic" },
-            { name: "Circuit Design", path: "/services/hardware/circuit" },
-            { name: "Hardware Prototyping", path: "/services/hardware/prototyping" },
-            { name: "Hardware Validation", path: "/services/hardware/validation" }
+            { name: "Automotive ECUs & Domain Controllers", path: "/services/hardware/ecu" },
+            { name: "EV Power Electronics", path: "/services/hardware/power-electronics" },
+            { name: "Radar & LiDAR Hardware", path: "/services/hardware/radar-lidar" },
+            { name: "Hardware Security Modules (HSM)", path: "/services/hardware/security" },
+            { name: "Automotive PCB & Thermal Design", path: "/services/hardware/automotive-pcb" },
+            { name: "EMI/EMC & Automotive Compliance", path: "/services/hardware/emc" }
           ]
         }
       ]
@@ -90,29 +92,29 @@ export default function Header() {
           name: "Software Services",
           links: [
             { name: "Application Development", path: "/services/application-development" },
-            { name: "AI & Data", path: "/services/ai-data" }
+            { name: "Cloud Services", path: "/services/cloud-services" },
+            { name: "AI & Data", path: "/services/ai-data" },
+            { name: "Medical Imaging Software", path: "/services/imaging-software" }
           ]
         },
         {
           name: "Embedded SW",
           links: [
-            { name: "Device Drivers", path: "/services/embedded/drivers" },
-            { name: "Firmware Development", path: "/services/embedded/firmware" },
-            { name: "RTOS Development", path: "/services/embedded/rtos" },
-            { name: "Embedded Linux", path: "/services/embedded/linux" },
-            { name: "BSP Development", path: "/services/embedded/bsp" },
-            { name: "Protocol Integration", path: "/services/embedded/protocol" }
+            { name: "Medical Device Firmware (IEC 62304)", path: "/services/embedded/medical-firmware" },
+            { name: "Wearable Health Algorithms", path: "/services/embedded/wearable-algorithms" },
+            { name: "Connected Health & IoMT", path: "/services/embedded/connected-health" },
+            { name: "Point-of-Care Diagnostic Systems", path: "/services/embedded/point-of-care" }
           ]
         },
         {
           name: "Hardware Design",
           links: [
-            { name: "PCB Design", path: "/services/hardware/pcb" },
-            { name: "FPGA Design", path: "/services/hardware/fpga" },
-            { name: "ASIC Design", path: "/services/hardware/asic" },
-            { name: "Circuit Design", path: "/services/hardware/circuit" },
-            { name: "Hardware Prototyping", path: "/services/hardware/prototyping" },
-            { name: "Hardware Validation", path: "/services/hardware/validation" }
+            { name: "Wearable Sensor Hardware", path: "/services/hardware/wearable-hardware" },
+            { name: "Medical Imaging & DAQ Hardware", path: "/services/hardware/imaging-hardware" },
+            { name: "Diagnostic & Lab Equipment", path: "/services/hardware/diagnostic-equipment" },
+            { name: "Implantable Electronics (AIMD)", path: "/services/hardware/implantable-electronics" },
+            { name: "Medical Power Supplies & BMS", path: "/services/hardware/medical-power-supplies" },
+            { name: "EMI/EMC for Medical Devices", path: "/services/hardware/medical-emc" }
           ]
         }
       ]
@@ -184,30 +186,30 @@ export default function Header() {
           heading: t("services.categories.application.title") || "Software Services",
           links: [
             { name: t("services.categories.application.services.s1.name") || "Application Development", path: "/services/application-development" },
-            { name: t("services.categories.application.services.s2.name") || "Cloud Service", path: "/services/cloud" },
+            { name: t("services.categories.application.services.s2.name") || "Cloud Services", path: "/services/cloud-services" },
             { name: t("services.categories.application.services.s3.name") || "AI & Data", path: "/services/ai-data" }
           ]
         },
         {
-          heading: t("header_menu.Hardware"),
+          heading: t("header_menu.Hardware") || "Hardware",
           links: [
-            { name: t("header_menu.PCB Design"), path: "/services/hardware/pcb" },
-            { name: t("header_menu.FPGA Design"), path: "/services/hardware/fpga" },
-            { name: t("header_menu.ASIC Design"), path: "/services/hardware/asic" },
-            { name: t("header_menu.Circuit Design"), path: "/services/hardware/circuit" },
-            { name: t("header_menu.Hardware Prototyping"), path: "/services/hardware/prototyping" },
-            { name: t("header_menu.Hardware Validation"), path: "/services/hardware/validation" }
+            { name: t("header_menu.rf_microwave") || "RF & Microwave Design", path: "/services/hardware/rf-microwave" },
+            { name: t("header_menu.antenna") || "Antenna Engineering", path: "/services/hardware/antenna" },
+            { name: t("header_menu.optical") || "Optical Networking", path: "/services/hardware/optical" },
+            { name: t("header_menu.baseband") || "Baseband ASICs", path: "/services/hardware/baseband" },
+            { name: t("header_menu.signal_integrity") || "Signal Integrity Analysis", path: "/services/hardware/signal-integrity" },
+            { name: t("header_menu.telecom_validation") || "Telecom Validation", path: "/services/hardware/telecom-validation" }
           ]
         },
         {
-          heading: t("header_menu.Embedded Design"),
+          heading: t("header_menu.Embedded Design") || "Embedded Design",
           links: [
-            { name: t("header_menu.Device Drivers"), path: "/services/embedded/drivers" },
-            { name: t("header_menu.Firmware Development"), path: "/services/embedded/firmware" },
-            { name: t("header_menu.RTOS Development"), path: "/services/embedded/rtos" },
-            { name: t("header_menu.Embedded Linux"), path: "/services/embedded/linux" },
-            { name: t("header_menu.BSP Development"), path: "/services/embedded/bsp" },
-            { name: t("header_menu.Protocol Integration"), path: "/services/embedded/protocol" }
+            { name: t("header_menu.dsp_firmware") || "DSP Firmware", path: "/services/embedded/dsp" },
+            { name: t("header_menu.phy_layer") || "PHY Layer Development", path: "/services/embedded/phy-layer" },
+            { name: t("header_menu.routing") || "Routing Protocol Integration", path: "/services/embedded/routing" },
+            { name: t("header_menu.fpga_acceleration") || "FPGA Acceleration", path: "/services/embedded/fpga" },
+            { name: t("header_menu.packet_processing") || "Real-Time Packet Processing", path: "/services/embedded/packet-processing" },
+            { name: t("header_menu.satcom") || "Satellite Comms Firmware", path: "/services/embedded/satcom" }
           ]
         },
         {
@@ -300,17 +302,17 @@ export default function Header() {
   return (
     <>
       <motion.nav
-        initial={{ y: -80, opacity: 0 }}
+        initial={{ y: -70, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5 }}
-        className={`absolute top-0 left-0 right-0 z-50 flex items-center px-[4%] h-[80px] transition-colors duration-300 ${scrolled || activeDropdown ? 'bg-[#000000] border-b border-white/10' : 'bg-transparent'}`}
+        className={`absolute top-0 left-0 right-0 z-50 flex items-center px-[4%] h-[70px] transition-colors duration-300 ${scrolled || activeDropdown || mobileMenuOpen ? 'bg-[#000000] border-b border-white/10' : 'bg-transparent'}`}
       >
         {/* LEFT: LOGO */}
         <div className="flex-1 flex items-center z-50">
           <Link to="/" className="flex items-center gap-2 group">
             <img src={logo} alt="logo" className="w-15 h-15 transition-transform duration-300 group-hover:scale-110" />
             <div className="overflow-hidden w-0 opacity-0 group-hover:w-[100px] group-hover:opacity-100 transition-all duration-500 ease-in-out">
-              <span className="text-white text-lg lg:text-xl font-bold tracking-tight block">UANDWE</span>
+              <span className="text-white text-[17px] lg:text-[19px] font-bold tracking-tight block">UANDWE</span>
             </div>
           </Link>
         </div>
@@ -325,7 +327,7 @@ export default function Header() {
                 onMouseLeave={() => setActiveDropdown(null)}
                 className="h-full flex items-center px-2 lg:px-3 xl:px-4 cursor-pointer relative group"
               >
-                <div className={`flex items-center gap-1.5 text-base lg:text-lg xl:text-[22px] font-bold transition-colors ${activeDropdown === item.key ? 'text-white' : 'text-white/80 group-hover:text-white'}`}>
+                <div className={`flex items-center gap-1.5 text-[15px] lg:text-[17px] xl:text-[18px] transition-colors ${activeDropdown === item.key ? 'text-white' : 'text-white/80 group-hover:text-white'}`}>
                   {item.name}
                   <ChevronDown size={14} className={`transition-transform duration-300 ${activeDropdown === item.key ? 'rotate-180' : ''}`} />
                 </div>
@@ -343,16 +345,16 @@ export default function Header() {
           <Search
             className="text-white/80 hover:text-white cursor-pointer transition-colors"
             onClick={() => setSearchOpen(true)}
-            size={28}
+            size={24}
           />
 
           {/* LANGUAGE SELECTOR */}
           <div ref={langRef} className="relative flex items-center gap-2 cursor-pointer group" onClick={() => setLanguageOpen(!languageOpen)}>
-            <Globe size={28} className="text-white/80 group-hover:text-white transition-colors" />
-            <span className="text-white/80 group-hover:text-white text-base lg:text-lg xl:text-[20px] font-semibold transition-colors">
+            <Globe size={24} className="text-white/80 group-hover:text-white transition-colors" />
+            <span className="text-white/80 group-hover:text-white text-[15px] lg:text-[17px] transition-colors">
               {selectedRegion}
             </span>
-            <ChevronDown size={18} className={`text-white/80 group-hover:text-white transition-transform ${languageOpen ? 'rotate-180' : ''}`} />
+            <ChevronDown size={17} className={`text-white/80 group-hover:text-white transition-transform ${languageOpen ? 'rotate-180' : ''}`} />
 
             <AnimatePresence>
               {languageOpen && (
@@ -424,7 +426,7 @@ export default function Header() {
               animate={{ opacity: 1, height: "auto" }}
               exit={{ opacity: 0, height: 0 }}
               transition={{ duration: 0.3, ease: "easeInOut" }}
-              className="absolute top-[80px] left-0 w-full bg-[#121212] overflow-hidden shadow-2xl hidden lg:block border-b border-white/10"
+              className="absolute top-[70px] left-0 w-full bg-[#121212] overflow-hidden shadow-2xl hidden lg:block border-b border-white/10"
               onMouseEnter={() => setActiveDropdown(activeDropdown)}
               onMouseLeave={() => setActiveDropdown(null)}
             >
@@ -432,10 +434,10 @@ export default function Header() {
                 <div className="flex flex-col gap-10">
                   {/* Top Row: Big Title */}
                   <div>
-                    <h2 className="text-2xl lg:text-3xl xl:text-[36px] font-bold text-white flex items-center gap-3">
+                    <h2 className="text-lg lg:text-xl xl:text-[22px] text-white flex items-center gap-3">
                       {menuData[activeDropdown].title}
-                      <span className="w-8 h-8 bg-[#ff6b1a] flex items-center justify-center text-white flex-shrink-0">
-                        <ChevronRight size={20} strokeWidth={3} />
+                      <span className="w-7 h-7 bg-[#ff6b1a] flex items-center justify-center text-white flex-shrink-0">
+                        <ChevronRight size={18} strokeWidth={3} />
                       </span>
                     </h2>
                   </div>
@@ -450,8 +452,8 @@ export default function Header() {
                             key={ind}
                             onMouseEnter={() => setActiveIndustry(ind)}
                             className={`relative px-6 py-5 cursor-pointer rounded-xl transition-all duration-300 flex items-center ${activeIndustry === ind
-                                ? 'bg-white/5 text-white shadow-lg'
-                                : 'text-white/50 hover:text-white/90 hover:bg-white/[0.02]'
+                              ? 'bg-white/5 text-white shadow-lg'
+                              : 'text-white/50 hover:text-white/90 hover:bg-white/[0.02]'
                               }`}
                           >
                             {/* Orange vertical indicator */}
@@ -459,7 +461,7 @@ export default function Header() {
                               className={`absolute left-0 top-1/2 -translate-y-1/2 w-1.5 bg-[#ff6b1a] rounded-r-md transition-all duration-300 ${activeIndustry === ind ? 'h-[60%] opacity-100' : 'h-0 opacity-0'
                                 }`}
                             />
-                            <span className="text-lg lg:text-xl font-bold ml-2 tracking-wide">{ind}</span>
+                            <span className="text-[15px] lg:text-base ml-2 tracking-wide">{t(`header_menu.${ind}`, ind)}</span>
                           </div>
                         ))}
                       </div>
@@ -475,7 +477,6 @@ export default function Header() {
                             transition={{ duration: 0.25 }}
                             className="w-full h-full bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-[20px] backdrop-blur-[18px] p-8 lg:p-10 flex flex-col shadow-2xl"
                           >
-                            <h3 className="text-3xl lg:text-4xl font-black text-white mb-10 tracking-tight">{activeIndustry}</h3>
 
                             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12 mb-10 flex-grow">
                               {industriesData[activeIndustry].categories.map((category, idx) => (
@@ -486,16 +487,16 @@ export default function Header() {
                                   transition={{ delay: idx * 0.08, duration: 0.4 }}
                                   className="flex flex-col"
                                 >
-                                  <h4 className="text-[#ff6b1a] text-lg lg:text-xl font-bold mb-4 pb-2 border-b border-[#333333]">{category.name}</h4>
+                                  <h4 className="text-[#ff6b1a] text-[15px] lg:text-base xl:text-[17px] mb-4 pb-2 border-b border-[#333333]">{t(`header_menu.${category.name}`, category.name)}</h4>
                                   <div className="flex flex-col gap-3">
                                     {category.links.map((link, i) => (
                                       <Link
                                         key={i}
                                         to={link.path}
-                                        className="text-white/80 hover:text-white hover:underline decoration-1 underline-offset-4 transition-all duration-300 text-sm lg:text-base font-medium flex items-center w-fit"
+                                        className="text-white/80 hover:text-white hover:underline decoration-1 underline-offset-4 transition-all duration-300 text-[12px] lg:text-[13px] xl:text-[14px] flex items-center w-fit"
                                         onClick={(e) => handleLinkClick(e, link.path, link.name, () => setActiveDropdown(null))}
                                       >
-                                        {link.name}
+                                        {t(`header_menu.${link.name}`, link.name)}
                                       </Link>
                                     ))}
                                   </div>
@@ -504,8 +505,8 @@ export default function Header() {
                             </div>
 
                             <div className="pt-6 border-t border-white/10 mt-auto">
-                              <p className="text-white/70 text-lg lg:text-xl font-medium leading-relaxed">
-                                {industriesData[activeIndustry].description}
+                              <p className="text-white/70 text-[11px] sm:text-xs md:text-[13px] lg:text-sm xl:text-[15px] 2xl:text-base min-[1920px]:text-[17px] min-[2560px]:text-lg leading-relaxed">
+                                {t(`industries_desc.${activeIndustry.replace(/\\s+/g, '')}`, industriesData[activeIndustry].description)}
                               </p>
                             </div>
                           </motion.div>
@@ -516,13 +517,13 @@ export default function Header() {
                     <div className="w-full grid grid-cols-2 lg:grid-cols-4 gap-8">
                       {menuData[activeDropdown].sections.map((section, idx) => (
                         <div key={idx} className="flex flex-col">
-                          <h3 className="text-[#ff6b1a] text-base lg:text-lg xl:text-xl font-bold mb-6 pb-2 border-b border-[#333333]">{section.heading}</h3>
+                          <h3 className="text-[#ff6b1a] text-[15px] lg:text-base xl:text-[17px] mb-6 pb-2 border-b border-[#333333]">{section.heading}</h3>
                           <div className="flex flex-col gap-4">
                             {section.links.map((link, i) => (
                               <Link
                                 key={i}
                                 to={link.path}
-                                className="text-white hover:underline decoration-1 underline-offset-4 transition-all duration-300 text-sm lg:text-base xl:text-[16px] font-semibold flex items-center w-fit"
+                                className="text-white hover:underline decoration-1 underline-offset-4 transition-all duration-300 text-[12px] lg:text-[13px] xl:text-[14px] flex items-center w-fit"
                                 onClick={(e) => handleLinkClick(e, link.path, link.name, () => setActiveDropdown(null))}
                               >
                                 {link.name}
@@ -563,6 +564,7 @@ export default function Header() {
                 {menuItems.map((item) => (
                   <div key={item.key} className="mb-1 border-b border-white/5">
                     <button
+                      type="button"
                       onClick={() => toggleMobileDropdown(item.key)}
                       className="flex justify-between items-center w-full py-5 text-white/80 hover:text-white group"
                     >

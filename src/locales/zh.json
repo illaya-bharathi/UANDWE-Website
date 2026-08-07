@@ -14,6 +14,143 @@
       "usa": "美国"
     }
   },
+  "header_menu": {
+    "Hardware": "硬件",
+    "rf_microwave": "射频与微波设计",
+    "antenna": "天线工程",
+    "optical": "光通信网络",
+    "baseband": "基带 ASIC",
+    "signal_integrity": "信号完整性分析",
+    "telecom_validation": "通信验证",
+    "Embedded Design": "嵌入式设计",
+    "dsp_firmware": "DSP 固件",
+    "phy_layer": "PHY 层开发",
+    "routing": "路由协议集成",
+    "fpga_acceleration": "FPGA 加速",
+    "packet_processing": "实时数据包处理",
+    "satcom": "卫星通信固件",
+    "Industries": "行业领域",
+    "Automotive": "汽车",
+    "Medical": "医疗",
+    "Semiconductor": "半导体",
+    "Telecom": "通信",
+    "Resources": "资源中心",
+    "Blogs": "博客",
+    "Case Studies": "案例研究",
+    "Whitepapers": "白皮书",
+    "Engineering Insights": "工程洞察",
+    "About Us": "关于我们",
+    "Company Overview": "公司概述",
+    "Leadership": "领导团队",
+    "Testimonials": "客户评价",
+    "Partnerships": "合作伙伴",
+    "Careers": "职业机会",
+    "Jobs": "招聘职位",
+    "Life at UANDWE": "在 UANDWE 的生活",
+    "Benefits": "员工福利",
+    "Work environment": "工作环境",
+    "Communication Engineering": "通信工程",
+    "Healthcare": "医疗健康",
+    "services": {
+      "categories": {
+        "application": {
+          "title": "软件服务",
+          "services": {
+            "s1": { "name": "企业级应用开发" },
+            "s2": { "name": "云服务" },
+            "s3": { "name": "AI 与数据分析" }
+          }
+        }
+      }
+    },
+    "Software Services": "软件服务",
+    "Embedded SW": "嵌入式软件",
+    "Hardware Design": "硬件设计",
+    "Application Development": "应用开发",
+    "Cloud Services": "云服务",
+    "AI & Data": "AI 与数据",
+    "DSP Firmware": "DSP 固件",
+    "PHY Layer Development": "PHY 层开发",
+    "Routing Protocol Integration": "路由协议集成",
+    "FPGA Acceleration": "FPGA 加速",
+    "Real-Time Packet Processing": "实时数据包处理",
+    "Satellite Comms Firmware": "卫星通信固件",
+    "RF & Microwave Design": "射频与微波设计",
+    "Antenna Engineering": "天线工程",
+    "Optical Networking": "光通信网络",
+    "Baseband ASICs": "基带 ASIC",
+    "Signal Integrity Analysis": "信号完整性分析",
+    "Telecom Validation": "通信验证",
+    "AUTOSAR (Classic & Adaptive)": "AUTOSAR（经典版与自适应版）",
+    "ADAS & Sensor Fusion": "ADAS 与传感器融合",
+    "In-Vehicle Infotainment (IVI)": "车载信息娱乐系统 (IVI)",
+    "Functional Safety (ISO 26262)": "功能安全 (ISO 26262)",
+    "EV Battery Management (BMS)": "电动汽车电池管理 (BMS)",
+    "V2X Communications": "V2X 车联通信",
+    "Automotive ECUs & Domain Controllers": "汽车 ECU 与域控制器",
+    "EV Power Electronics": "电动汽车功率电子",
+    "Radar & LiDAR Hardware": "雷达与激光雷达硬件",
+    "Hardware Security Modules (HSM)": "硬件安全模块 (HSM)",
+    "Automotive PCB & Thermal Design": "汽车 PCB 与热设计",
+    "EMI/EMC & Automotive Compliance": "EMI/EMC 与汽车合规",
+    "Medical Imaging Software": "医学影像软件",
+    "Medical Device Firmware (IEC 62304)": "医疗器械固件 (IEC 62304)",
+    "Wearable Health Algorithms": "可穿戴健康算法",
+    "Connected Health & IoMT": "互联健康与医疗物联网",
+    "Point-of-Care Diagnostic Systems": "即时检测诊断系统",
+    "Wearable Sensor Hardware": "可穿戴传感器硬件",
+    "Medical Imaging & DAQ Hardware": "医学影像与数据采集硬件",
+    "Diagnostic & Lab Equipment": "诊断与实验室设备",
+    "Implantable Electronics (AIMD)": "植入式电子设备 (AIMD)",
+    "Medical Power Supplies & BMS": "医疗电源与电池管理",
+    "EMI/EMC for Medical Devices": "医疗设备 EMI/EMC",
+    "desc": {
+      "Application Development": "企业级全栈应用开发",
+      "AI & Data": "AI 与数据分析解决方案",
+      "DSP Firmware": "高性能数字信号处理固件",
+      "PHY Layer Development": "物理层协议开发与优化",
+      "Routing Protocol Integration": "路由协议集成方案",
+      "FPGA Acceleration": "FPGA 硬件加速设计",
+      "Real-Time Packet Processing": "实时数据包处理方案",
+      "Satellite Comms Firmware": "卫星通信固件开发",
+      "RF & Microwave Design": "射频与微波电路设计",
+      "Antenna Engineering": "天线系统工程设计",
+      "Optical Networking": "光通信网络解决方案",
+      "Baseband ASICs": "基带专用集成电路设计",
+      "Signal Integrity Analysis": "信号完整性仿真分析",
+      "Telecom Validation": "通信系统验证测试"
+    }
+  },
+  "industries_desc": {
+    "Semiconductor": "从芯片设计到验证的全面半导体解决方案。",
+    "CommunicationEngineering": "通过现代应用、硬件和嵌入式解决方案构建可扩展的通信系统。",
+    "Automotive": "交付下一代汽车软件、硬件和嵌入式平台。",
+    "Healthcare": "利用应用、硬件和嵌入式技术开发智能医疗解决方案。"
+  },
+  "news_insights": {
+    "heading": {
+      "part1": "新闻与",
+      "part2": "洞察"
+    },
+    "read_more": "阅读更多",
+    "articles": {
+      "news-1": {
+        "category": "公司新闻",
+        "date": "2026年10月24日",
+        "desc": "我们的新设施将成为我们不断增长的欧洲企业客户群的中心枢纽，专注于关键任务的嵌入式系统。"
+      },
+      "news-2": {
+        "category": "行业洞察",
+        "date": "2026年9月12日",
+        "desc": "深入探讨定制 ASIC 设计的最新进展如何不断突破边缘计算的边界。"
+      },
+      "news-3": {
+        "category": "技术创新",
+        "date": "2026年8月5日",
+        "desc": "我们非常高兴地宣布一项新的战略合作伙伴关系，旨在为自动驾驶汽车开发超可靠的硬件解决方案。"
+      }
+    }
+  },
   "hero": {
     "title_1": "创新与",
     "title_2": "卓越工程的交汇点。",
@@ -65,6 +202,308 @@
         "title": "医疗保健",
         "desc": "通过精密机器人、智能诊断和实时医学成像技术，推动医疗保健的变革。"
       }
+    }
+  },
+  "industries_pages": {
+    "semiconductor": {
+      "hero": {
+        "title": "半导体工程",
+        "description": "通过端到端的 SoC 设计、高级 ASIC 验证和物理实现服务，为硅芯片的未来提供动力。",
+        "primaryButtonText": "探索硅芯片解决方案",
+        "secondaryButtonText": "咨询我们的专家"
+      },
+      "challenge": {
+        "title": "应对现代硅技术的复杂性",
+        "description": "随着节点尺寸的缩小和性能需求的爆炸式增长，半导体公司面临着巨大的压力，需要在管理热约束、验证瓶颈和紧凑的流片周期的同时，交付完美的SoC设计。",
+        "points": [
+          {
+            "title": "流片延迟",
+            "description": "验证和物理设计收敛通常会推迟关键的截止日期并增加成本。"
+          },
+          {
+            "title": "热量与功率限制",
+            "description": "在极端的处理性能与严格的低功耗预算之间取得平衡。"
+          },
+          {
+            "title": "不断扩展的复杂性",
+            "description": "应对5纳米以下和3纳米FinFET/GAA技术节点的极端物理特性和设计规则检查(DRC)规则。"
+          }
+        ],
+        "risks": [
+          "耗资数百万美元的重新流片",
+          "错失市场窗口",
+          "次优的功率/性能",
+          "先进节点的良率下降"
+        ]
+      },
+      "approach": [
+        {
+          "title": "首次流片即成功",
+          "description": "严格的UVM验证和形式化方法确保零重新流片和完美的流片。"
+        },
+        {
+          "title": "PPA优化",
+          "description": "先进的物理设计技术，最大限度地提高功率、性能和面积。"
+        },
+        {
+          "title": "敏捷流片",
+          "description": "简化的RTL到GDSII流程，极大地缩短您的上市时间。"
+        }
+      ],
+      "experts": [
+        {
+          "name": "Dr. Rajesh Kumar",
+          "role": "首席硅架构师",
+          "bio": "前首席工程师，拥有40多次在5纳米和3纳米节点成功流片的经验。"
+        },
+        {
+          "name": "Elena Rodriguez",
+          "role": "物理设计主管",
+          "bio": "PPA优化专家，专注于高性能AI加速器芯片。"
+        }
+      ],
+      "testimonials": [
+        {
+          "quote": "UANDWE的物理设计团队提前两周完成了我们的5纳米AI加速器的时序收敛。他们在先进节点流片方面的专业知识是无与伦比的。",
+          "author": "David Lin",
+          "title": "NextGen AI，硅工程副总裁"
+        },
+        {
+          "quote": "他们提供的验证IP非常强大。它为我们在SoC仿真阶段节省了无数时间，并确保了首次流片的成功。",
+          "author": "Anita Desai",
+          "title": "CoreTech，ASIC验证总监"
+        },
+        {
+          "quote": "从架构到GDSII，UANDWE是我们首选的合作伙伴。他们的运作既具有初创公司的敏捷性，又具有一级设计公司的严谨性。",
+          "author": "Robert Vance",
+          "title": "SiliconEdge，首席执行官"
+        }
+      ]
+    },
+    "healthcare": {
+      "hero": {
+        "title": "医疗保健与医疗技术",
+        "description": "设计开发挽救生命的医疗软件、符合 IEC 62304 标准的设备、生物医学人工智能诊断以及安全的医疗物联网 (IoMT) 系统。",
+        "primaryButtonText": "探索医疗技术解决方案",
+        "secondaryButtonText": "与医疗工程师交谈"
+      },
+      "challenge": {
+        "title": "在创新与生命攸关的可靠性之间取得平衡",
+        "description": "开发医疗技术设备需要尖端的软件和硬件，但FDA批准、HIPAA合规性和IEC 62304标准带来的巨大监管压力往往会阻碍创新并延迟关键产品的发布。",
+        "points": [
+          {
+            "title": "严格的监管合规",
+            "description": "应对复杂的IEC 62304、ISO 13485和FDA 510(k)提交，同时不影响开发进度。"
+          },
+          {
+            "title": "零容错率",
+            "description": "设计任务关键的II类和III类生命维持系统，在这些系统中软件故障是绝对不可接受的。"
+          },
+          {
+            "title": "医疗物联网(IoMT)中的数据安全",
+            "description": "在互联的医院网络中保护高度敏感的患者遥测数据，抵御复杂的网络威胁。"
+          }
+        ],
+        "risks": [
+          "FDA 510(k)拒绝",
+          "昂贵的硬件迭代",
+          "网络安全漏洞",
+          "患者安全事件"
+        ]
+      },
+      "approach": [
+        {
+          "title": "设计合规",
+          "description": "从第一天起，就将ISO 13485质量管理和IEC 62304软件生命周期标准直接整合到我们的工程流程中。"
+        },
+        {
+          "title": "故障安全工程",
+          "description": "为拯救生命的医疗设备开发超可靠、确定性的裸机固件和坚固的硬件。"
+        },
+        {
+          "title": "安全的IoMT集成",
+          "description": "为互联的医疗保健生态系统实施端到端加密、零信任架构和符合HIPAA的数据路由。"
+        }
+      ],
+      "experts": [
+        {
+          "name": "Dr. Sarah Chen",
+          "role": "医疗软件总监",
+          "bio": "符合IEC 62304标准的架构和III类生命维持系统确定性RTOS集成的先驱。"
+        },
+        {
+          "name": "James Wilson",
+          "role": "首席生物医学架构师",
+          "bio": "医疗物联网安全专家，在FDA上市前网络安全指南和医学成像FPGA设计方面具有深厚的专业知识。"
+        }
+      ],
+      "testimonials": [
+        {
+          "quote": "满足IEC 62304的合规性令人望而生畏，但UANDWE的医疗软件团队交付了无瑕疵的固件，使我们的FDA 510(k)提交顺利通过，没有出现任何与软件相关的缺陷。",
+          "author": "Dr. Emily Stanton",
+          "title": "BioMed Robotics，首席医疗官"
+        },
+        {
+          "quote": "他们对IoMT安全和HIPAA协议的深刻理解帮助我们为连续血糖监测仪构建了零信任云架构，全面保护了患者数据。",
+          "author": "Marcus Vance",
+          "title": "HealthSync，工程副总裁"
+        },
+        {
+          "quote": "从用于可穿戴设备的超紧凑刚挠结合PCB到他们严格的IEC 60601验证流程，UANDWE的医疗技术工程是世界级的。",
+          "author": "Sarah Jenkins",
+          "title": "MedDev Innovations，产品总监"
+        }
+      ]
+    },
+    "automotive": {
+      "hero": {
+        "title": "汽车与移动出行",
+        "description": "通过 AUTOSAR、高级电动汽车动力总成、ADAS 感知和 ISO 26262 功能安全设计软件定义汽车。",
+        "primaryButtonText": "探索汽车技术",
+        "secondaryButtonText": "联系汽车专家"
+      },
+      "challenge": {
+        "title": "向量子软件定义汽车转型",
+        "description": "汽车行业正在快速转型。原始设备制造商(OEM)和一级供应商在努力整合复杂的ADAS、电动汽车动力总成和信息娱乐系统，同时必须严格遵守ISO 26262功能安全标准并向区域架构过渡。",
+        "points": [
+          {
+            "title": "ISO 26262合规性",
+            "description": "获得严苛的ASIL-D安全认证，同时不延误车辆开发时间表或使软件堆栈臃肿。"
+          },
+          {
+            "title": "区域架构迁移",
+            "description": "通过车载以太网从传统的分布式ECU迁移到高性能的集中式域控制器。"
+          },
+          {
+            "title": "ADAS与感知集成",
+            "description": "以确定性、零延迟的执行来处理大量的实时传感器、雷达和激光雷达点云数据。"
+          }
+        ],
+        "risks": [
+          "ISO 26262认证失败",
+          "车辆发布周期延迟",
+          "关键安全召回",
+          "ECU软件漏洞"
+        ]
+      },
+      "approach": [
+        {
+          "title": "功能安全第一",
+          "description": "在我们设计的每一行安全关键固件和硬件中，都严格遵守ISO 26262和ASIL-D标准。"
+        },
+        {
+          "title": "AUTOSAR精通",
+          "description": "无缝集成、配置和优化经典与自适应AUTOSAR软件堆栈。"
+        },
+        {
+          "title": "面向未来的电动出行",
+          "description": "为下一代电动汽车构建可扩展、高性能的电力电子设备和电池管理系统(BMS)。"
+        }
+      ],
+      "experts": [
+        {
+          "name": "Marcus Weber",
+          "role": "首席汽车架构师",
+          "bio": "AUTOSAR联盟贡献者，ASIL-D功能安全架构和系统管理程序配置专家。"
+        },
+        {
+          "name": "Priya Sharma",
+          "role": "电动汽车动力总成主管",
+          "bio": "领导下一代电池管理系统(BMS)、牵引逆变器和宽禁带(SiC/GaN)设计的开发。"
+        }
+      ],
+      "testimonials": [
+        {
+          "quote": "我们与UANDWE合作构建了符合ASIL-D标准的BMS。他们对AUTOSAR MCAL和ISO 26262的深刻理解从根本上降低了我们整个电动汽车项目的风险。",
+          "author": "Klaus Richter",
+          "title": "AutoTech GmbH，电子电气架构主管"
+        },
+        {
+          "quote": "他们的团队将自适应AUTOSAR无缝集成到我们的下一代ADAS域控制器中，处理了复杂的激光雷达流水线，并大大缩短了我们的上市时间。",
+          "author": "Yoshi Tatsu",
+          "title": "DriveNext，自主系统总监"
+        },
+        {
+          "quote": "从AEC-Q100硬件验证到编写确定性的RTOS固件，UANDWE的汽车工程团队无疑是世界级的。",
+          "author": "Elise Dubois",
+          "title": "EV Mobility Solutions，软件副总裁"
+        }
+      ]
+    },
+    "communication": {
+      "hero": {
+        "title": "通信工程",
+        "description": "通过高吞吐量 5G/6G 系统、光通信和弹性网络协议软件连接世界。",
+        "primaryButtonText": "探索电信解决方案",
+        "secondaryButtonText": "与电信工程师交谈"
+      },
+      "challenge": {
+        "title": "克服信号衰减和网络拥塞",
+        "description": "现代通信工程需要在退化的信道上实现无瑕疵的传输。该行业在提高频谱效率、减轻多径衰落以及设计能够进行大规模MIMO部署的硬件方面面临着前所未有的挑战。",
+        "points": [
+          {
+            "title": "高频下的信号完整性",
+            "description": "设计能够在毫米波频率下保持极端线性并最小化插入损耗的射频前端。"
+          },
+          {
+            "title": "频谱拥塞",
+            "description": "开发认知无线电和先进的DSP算法，以动态分配和利用拥挤的射频频谱。"
+          },
+          {
+            "title": "硬件尺寸、重量和功耗(SWaP)",
+            "description": "在不影响热性能的情况下，为航空航天、卫星和移动基础设施实现基带ASIC和射频收发器的微型化。"
+          }
+        ],
+        "risks": [
+          "严重的信号衰减",
+          "未能符合频谱合规性",
+          "过度的散热",
+          "更高的制造成本"
+        ]
+      },
+      "approach": [
+        {
+          "title": "射频与微波工程",
+          "description": "执行从天线综合到定制低噪声放大器(LNA)特性的复杂微波设计。"
+        },
+        {
+          "title": "数字信号处理",
+          "description": "在FPGA和ASIC目标上实施实时DSP流水线，用于先进的调制和纠错。"
+        },
+        {
+          "title": "光学与卫星链路",
+          "description": "设计高增益卫星跟踪系统和超低延迟的DWDM光纤收发器。"
+        }
+      ],
+      "experts": [
+        {
+          "name": "Dr. Elena Rostova",
+          "role": "首席射频架构师",
+          "bio": "拥有25年以上设计相控阵雷达和毫米波通信前端的经验。"
+        },
+        {
+          "name": "Marcus Thorne",
+          "role": "首席DSP工程师",
+          "bio": "FPGA基带处理、OFDM调制和数字预失真技术专家。"
+        }
+      ],
+      "testimonials": [
+        {
+          "quote": "UANDWE的射频团队完全重新设计了我们卫星收发器的低噪声放大器，使我们的噪声系数降低了1.2dB，同时缩小了PCB的尺寸。",
+          "author": "James Halpert",
+          "title": "AeroSat Communications，工程副总裁"
+        },
+        {
+          "quote": "他们在软件定义无线电(SDR)方面的专业知识使我们能够在国防合同截止日期前几个月部署了频率敏捷的战术通信系统。",
+          "author": "Sarah Jenkins",
+          "title": "SecureComm，国防承包总监"
+        },
+        {
+          "quote": "从MATLAB中的DSP算法仿真到ASIC上的最终RTL部署，UANDWE的工程师证明了他们是精英通信专家。",
+          "author": "Dr. Henrik Larsen",
+          "title": "Nord Telecom，首席架构师"
+        }
+      ]
     }
   },
   "services": {
@@ -192,6 +631,2248 @@
           }
         }
       }
+    },
+    "general": {
+      "faqs_title_part1": "常见",
+      "faqs_title_part2": "问题"
+    },
+    "rtlDesign": {
+      "hero": {
+        "title": "RTL设计",
+        "description": "将架构规范转化为经过优化的寄存器传输级代码，用于高性能SoC和ASIC。",
+        "primaryButtonText": "探讨您的架构"
+      },
+      "about": {
+        "titlePart1": "关于",
+        "titlePart2": "我们的RTL专业知识",
+        "metrics": [
+          {
+            "tag": "频率",
+            "label": "达到GHz以上的时钟速度"
+          },
+          {
+            "tag": "功耗",
+            "label": "低功耗设计架构"
+          },
+          {
+            "tag": "面积",
+            "label": "优化的逻辑占用空间"
+          },
+          {
+            "tag": "标准",
+            "label": "兼容的编码指南"
+          }
+        ]
+      },
+      "sub_services_title": {
+        "part1": "核心",
+        "part2": "RTL能力"
+      },
+      "sub_services": [
+        {
+          "title": "微架构设计",
+          "description": "将高级规范转化为用于高效硅实现的详细块级架构。"
+        },
+        {
+          "title": "低功耗RTL设计",
+          "description": "通过时钟门控、电源门控和多电压域实现功率感知编码。"
+        },
+        {
+          "title": "第三方IP集成",
+          "description": "无缝集成复杂的第三方IP，如PCIe、DDR、USB和以太网。"
+        },
+        {
+          "title": "时钟/复位树",
+          "description": "设计稳健的同步策略，管理偏斜、抖动和多时钟域(CDC)。"
+        },
+        {
+          "title": "性能优化",
+          "description": "重构现有设计，以实现更高频率或更低延迟的目标。"
+        },
+        {
+          "title": "Linting & CDC检查",
+          "description": "使用SpyGlass进行严格的代码质量和跨时钟域分析。"
+        }
+      ],
+      "advantages_title": {
+        "part1": "为什么选择我们的",
+        "part2": "RTL设计"
+      },
+      "advantages": [
+        {
+          "title": "后端感知的RTL",
+          "description": "我们编写了解物理综合限制的代码。"
+        },
+        {
+          "title": "快速启动",
+          "description": "利用预先验证的内部模块来缩短上市时间。"
+        },
+        {
+          "title": "可扩展的架构",
+          "description": "为下一代硅芯片重用而设计。"
+        },
+        {
+          "title": "严格的指南",
+          "description": "遵守严格的内部和行业编码标准。"
+        }
+      ],
+      "experts_title": {
+        "part1": "RTL",
+        "part2": "专家"
+      },
+      "experts": [
+        {
+          "name": "Dr. Sarah Chen",
+          "role": "首席架构师",
+          "description": "在高性能计算和网络SoC设计方面拥有15年以上的经验。"
+        },
+        {
+          "name": "James Wilson",
+          "role": "首席RTL工程师",
+          "description": "极低功耗设计架构和跨时钟域专家。"
+        },
+        {
+          "name": "Elena Rodriguez",
+          "role": "IP集成主管",
+          "description": "专注于将复杂的模拟和数字IP模块组装成连贯的系统。"
+        },
+        {
+          "name": "David Kim",
+          "role": "性能优化师",
+          "description": "擅长消除数据路径瓶颈，实现以GHz为目标的设计。"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "您支持哪些硬件描述语言？",
+          "answer": "我们在Verilog、SystemVerilog和VHDL方面都有深厚的专业知识。对于新设计，由于其先进的功能和与UVM验证环境的对齐，我们强烈推荐SystemVerilog。"
+        },
+        {
+          "question": "您如何处理低功耗设计要求？",
+          "answer": "我们将低功耗技术直接融入到RTL阶段。这包括广泛的架构时钟门控、数据路径中的操作数隔离以及为下游后端流程开发UPF/CPF规范。"
+        },
+        {
+          "question": "您是否协助系统架构规范？",
+          "answer": "是的。我们的前端团队经常与客户合作，将系统要求转化为详细的微架构规范，在编写任何代码之前评估性能和功耗的权衡。"
+        },
+        {
+          "question": "您的RTL到物理移交流程是什么？",
+          "answer": "我们进行彻底的质量检查，包括SpyGlass Lint、CDC检查和初始综合，以确保移交的代码在逻辑上是健壮的，并且能够满足时序、面积和功耗目标，而不会出现不可预见的问题。"
+        }
+      ]
+    },
+    "physicalDesign": {
+      "hero": {
+        "title": "物理设计",
+        "description": "应对亚纳米复杂性，将网表转化为完美优化的GDSII布局。",
+        "primaryButtonText": "加速您的流片"
+      },
+      "about": {
+        "titlePart1": "关于",
+        "titlePart2": "物理设计工程",
+        "metrics": [
+          {
+            "tag": "节点",
+            "label": "先进工艺至3纳米"
+          },
+          {
+            "tag": "良率",
+            "label": "为大批量制造优化"
+          },
+          {
+            "tag": "PPA",
+            "label": "优越的功率-性能-面积"
+          },
+          {
+            "tag": "交付",
+            "label": "按时流片成功率"
+          }
+        ]
+      },
+      "sub_services_title": {
+        "part1": "核心",
+        "part2": "物理设计服务"
+      },
+      "sub_services": [
+        {
+          "title": "平面规划",
+          "description": "宏观布局、引脚分配以及用于最佳数据流和热分布的电源网格规划。"
+        },
+        {
+          "title": "时钟树综合 (CTS)",
+          "description": "构建平衡、低偏斜的时钟网络，以实现稳健的同步和低功耗。"
+        },
+        {
+          "title": "布局与布线",
+          "description": "先进的布线策略以解决DRC违规并满足严格的时序约束。"
+        },
+        {
+          "title": "时序收敛",
+          "description": "在所有的工作条件下对建立和保持时间进行静态时序分析 (STA)。"
+        },
+        {
+          "title": "物理验证",
+          "description": "全面的DRC、LVS和天线检查，确保可制造性。"
+        },
+        {
+          "title": "签核与GDSII",
+          "description": "IR压降分析、电迁移 (EM) 检查和最终的GDSII数据库生成。"
+        }
+      ],
+      "advantages_title": {
+        "part1": "为什么",
+        "part2": "选择我们"
+      },
+      "advantages": [
+        {
+          "title": "先进节点专业知识",
+          "description": "在7nm、5nm和3nm工艺技术方面的丰富经验。"
+        },
+        {
+          "title": "PPA最优化",
+          "description": "不仅收敛时序，我们还追求最佳功率和面积。"
+        },
+        {
+          "title": "EDA工具精通",
+          "description": "精通行业标准的物理设计和签核工具。"
+        },
+        {
+          "title": "首次流片成功",
+          "description": "以高制造良率为流片成功的严谨流程。"
+        }
+      ],
+      "experts_title": {
+        "part1": "后端",
+        "part2": "团队"
+      },
+      "experts": [
+        {
+          "name": "Dr. Sarah Chen",
+          "role": "首席架构师",
+          "description": "在高性能计算和网络SoC设计方面拥有15年以上的经验。"
+        },
+        {
+          "name": "James Wilson",
+          "role": "首席RTL工程师",
+          "description": "极低功耗设计架构和跨时钟域专家。"
+        },
+        {
+          "name": "Elena Rodriguez",
+          "role": "IP集成主管",
+          "description": "专注于将复杂的模拟和数字IP模块组装成连贯的系统。"
+        },
+        {
+          "name": "David Kim",
+          "role": "性能优化师",
+          "description": "擅长消除数据路径瓶颈，实现以GHz为目标的设计。"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "您有使用哪些技术节点的经验？",
+          "answer": "我们有在各种节点（从成熟的28nm到最先进的3nm和5nm工艺）完成流片的记录。"
+        },
+        {
+          "question": "你们使用什么EDA工具？",
+          "answer": "我们的团队熟练使用各种行业标准工具，包括用于实现和签核的工具。"
+        },
+        {
+          "question": "你们如何处理多电压域设计？",
+          "answer": "我们使用UPF/CPF来精确定义功率意图并实施稳健的电源门控和电压转换策略。"
+        },
+        {
+          "question": "我们可以只将物理设计外包给你们吗？",
+          "answer": "当然。我们经常采用客户综合后的网表，并在我们严格的质量标准下将其推进至GDSII签核。"
+        }
+      ]
+    },
+    "verification": {
+      "hero": {
+        "title": "验证",
+        "description": "通过严格的、覆盖率驱动的验证方法确保首次硅片成功。",
+        "primaryButtonText": "确保设计安全"
+      },
+      "about": {
+        "titlePart1": "关于",
+        "titlePart2": "我们的验证严谨性",
+        "metrics": [
+          {
+            "tag": "覆盖率",
+            "label": "100% 功能覆盖率"
+          },
+          {
+            "tag": "发现的漏洞",
+            "label": "防止流片前出现严重缺陷"
+          },
+          {
+            "tag": "UVM",
+            "label": "高级测试台架构"
+          },
+          {
+            "tag": "形式化",
+            "label": "数学严谨性保证"
+          }
+        ]
+      },
+      "sub_services_title": {
+        "part1": "核心",
+        "part2": "验证能力"
+      },
+      "sub_services": [
+        {
+          "title": "UVM 测试台开发",
+          "description": "构建可扩展、可重用且自检的通用验证方法学架构。"
+        },
+        {
+          "title": "形式验证",
+          "description": "利用数学属性证明来详尽验证设计意图并捕获角落情况。"
+        },
+        {
+          "title": "SoC 和系统级验证",
+          "description": "使用C/C++测试在顶层集成系统来验证处理器和外设。"
+        },
+        {
+          "title": "低功耗验证",
+          "description": "通过UPF驱动的仿真验证电源门控和多电压域序列。"
+        },
+        {
+          "title": "硬件仿真",
+          "description": "将设计映射到FPGA上，以加快测试时间并及早开发软件。"
+        },
+        {
+          "title": "门级仿真 (GLS)",
+          "description": "捕捉时序问题和测试基于SDF网表流的综合后逻辑。"
+        }
+      ],
+      "advantages_title": {
+        "part1": "我们",
+        "part2": "如何验证"
+      },
+      "advantages": [
+        {
+          "title": "及早发现错误",
+          "description": "左移(Shift-left)策略可在设计周期的早期发现缺陷。"
+        },
+        {
+          "title": "覆盖率驱动",
+          "description": "功能和代码覆盖率共同决定流片签核。"
+        },
+        {
+          "title": "自动化回归",
+          "description": "具有夜间运行的CI/CD流水线确保持续验证。"
+        },
+        {
+          "title": "独立视角",
+          "description": "不受设计假设的影响，提供严厉无情的测试。"
+        }
+      ],
+      "experts_title": {
+        "part1": "验证",
+        "part2": "大师"
+      },
+      "experts": [
+        {
+          "name": "Dr. Sarah Chen",
+          "role": "首席架构师",
+          "description": "在高性能计算和网络SoC设计方面拥有15年以上的经验。"
+        },
+        {
+          "name": "James Wilson",
+          "role": "首席RTL工程师",
+          "description": "极低功耗设计架构和跨时钟域专家。"
+        },
+        {
+          "name": "Elena Rodriguez",
+          "role": "IP集成主管",
+          "description": "专注于将复杂的模拟和数字IP模块组装成连贯的系统。"
+        },
+        {
+          "name": "David Kim",
+          "role": "性能优化师",
+          "description": "擅长消除数据路径瓶颈，实现以GHz为目标的设计。"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "您更喜欢UVM还是其他方法？",
+          "answer": "由于UVM具有可重用性和标准化特性，因此它是我们开展大多数项目的首选方法，尽管我们也熟悉OVM和VMM等传统系统。"
+        },
+        {
+          "question": "您什么时候使用形式验证？",
+          "answer": "我们将形式方法应用于控制逻辑密集的模块（如仲裁器、接口协议和标准总线结构），在这些地方基于仿真的方法可能无法覆盖所有的角落情况。"
+        },
+        {
+          "question": "您如何处理混合信号验证？",
+          "answer": "我们结合使用实数建模(RNM)和快速SPICE求解器，以便在顶层验证期间高效地对模拟行为进行协同仿真。"
+        },
+        {
+          "question": "您能帮助我们在签核过程中建立覆盖率指标吗？",
+          "answer": "是的。我们与设计利益相关方合作制定功能覆盖率计划，从而建立清晰、量化的指标以实现流片准备就绪。"
+        }
+      ]
+    },
+    "dft": {
+      "hero": {
+        "title": "可测试性设计",
+        "description": "构建高覆盖率的测试能力，以确保零缺陷制造和快速的硅后调试。",
+        "primaryButtonText": "优化生产测试"
+      },
+      "about": {
+        "titlePart1": "关于",
+        "titlePart2": "DFT 卓越中心",
+        "metrics": [
+          {
+            "tag": "覆盖率",
+            "label": "高达 99%+ 的故障检测"
+          },
+          {
+            "tag": "测试时间",
+            "label": "减少生产测试成本"
+          },
+          {
+            "tag": "诊断",
+            "label": "快速的硅后故障隔离"
+          },
+          {
+            "tag": "良率",
+            "label": "更快的量产上市"
+          }
+        ]
+      },
+      "sub_services_title": {
+        "part1": "DFT",
+        "part2": "解决方案"
+      },
+      "sub_services": [
+        {
+          "title": "扫描链插入",
+          "description": "使用高级压缩技术实施完整的MUX扫描结构，以减少引脚数和测试时间。"
+        },
+        {
+          "title": "内存BIST (MBIST)",
+          "description": "集成内建自测架构用于快速可靠的高密度SRAM和ROM故障检测。"
+        },
+        {
+          "title": "逻辑BIST (LBIST)",
+          "description": "部署车载及关键任务IC的现场自检功能，确保ISO 26262合规性。"
+        },
+        {
+          "title": "边界扫描 (JTAG)",
+          "description": "为电路板级制造测试和调试访问插入符合IEEE 1149.1标准的测试控制器。"
+        },
+        {
+          "title": "ATPG 模式生成",
+          "description": "生成高质量的测试模式以针对固定故障(Stuck-at)、转换故障(Transition)及桥接故障(Bridging)。"
+        },
+        {
+          "title": "硅后引入",
+          "description": "通过第一批硅片协助进行模式应用、故障隔离和良率学习。"
+        }
+      ],
+      "advantages_title": {
+        "part1": "卓越的",
+        "part2": "制造"
+      },
+      "advantages": [
+        {
+          "title": "零妥协的PPA",
+          "description": "在插入DFT逻辑时不影响设计的时序、功耗或面积。"
+        },
+        {
+          "title": "降低ATE成本",
+          "description": "优化的模式集可以缩短昂贵的测试时间。"
+        },
+        {
+          "title": "层次化DFT",
+          "description": "从模块级到芯片级无缝扩展，用于大规模SoC。"
+        },
+        {
+          "title": "行业标准",
+          "description": "确保满足严格的汽车 (AEC-Q100) 等质量标准。"
+        }
+      ],
+      "experts_title": {
+        "part1": "DFT",
+        "part2": "专家"
+      },
+      "experts": [
+        {
+          "name": "Dr. Sarah Chen",
+          "role": "首席架构师",
+          "description": "在高性能计算和网络SoC设计方面拥有15年以上的经验。"
+        },
+        {
+          "name": "James Wilson",
+          "role": "首席RTL工程师",
+          "description": "极低功耗设计架构和跨时钟域专家。"
+        },
+        {
+          "name": "Elena Rodriguez",
+          "role": "IP集成主管",
+          "description": "专注于将复杂的模拟和数字IP模块组装成连贯的系统。"
+        },
+        {
+          "name": "David Kim",
+          "role": "性能优化师",
+          "description": "擅长消除数据路径瓶颈，实现以GHz为目标的设计。"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "您如何处理时序闭合和DFT的影响？",
+          "answer": "我们密切配合物理设计团队，使用层次化规划在设计的初期就将DFT策略考虑进去，最大程度减少对关键路径的影响。"
+        },
+        {
+          "question": "对于超大芯片，扫描测试时间太长怎么办？",
+          "answer": "我们采用先进的测试压缩技术和层次化扫描流，大幅降低所需模式的数据量和测试周期。"
+        },
+        {
+          "question": "您可以协助符合汽车安全标准（ISO 26262）的测试吗？",
+          "answer": "是的。我们擅长设计具有LBIST和在线自测功能的IC，以达到苛刻的汽车安全级别（如ASIL-D）的要求。"
+        },
+        {
+          "question": "您处理哪些故障模型？",
+          "answer": "我们生成全面的模式以针对固定故障(Stuck-at)、过渡故障(Transition)、开路故障、桥接故障和延迟敏感等所有故障类型。"
+        }
+      ]
+    },
+    "bspDevelopment": {
+      "hero": {
+        "title": "板级支持包 (BSP)",
+        "description": "凭借强大的引导加载程序、精确的设备树和坚如磐石的硬件抽象层，为定制芯片注入活力。",
+        "primaryButtonText": "启动您的硬件"
+      },
+      "about": {
+        "titlePart1": "关于",
+        "titlePart2": "BSP开发",
+        "metrics": [
+          {
+            "tag": "点亮",
+            "label": "定制板卡点亮"
+          },
+          {
+            "tag": "速度",
+            "label": "首次启动提示的平均时间"
+          },
+          {
+            "tag": "覆盖",
+            "label": "外设诊断"
+          },
+          {
+            "tag": "芯片",
+            "label": "精通的供应商架构"
+          }
+        ]
+      },
+      "sub_services_title": {
+        "part1": "核心",
+        "part2": "能力"
+      },
+      "sub_services": [
+        {
+          "title": "首次通电点亮",
+          "description": "在执行任何操作系统代码之前，有条理地验证电压轨、时钟树和JTAG连接。"
+        },
+        {
+          "title": "引导加载程序移植",
+          "description": "定制U-Boot、coreboot或特定供应商的初始引导程序，以初始化您的确切硬件配置。"
+        },
+        {
+          "title": "设备树 (DTS) 编写",
+          "description": "编写复杂的Linux设备树文件，以完美描述您板卡的I/O、中断和引脚复用。"
+        },
+        {
+          "title": "内存校准",
+          "description": "利用供应商工具和示波器精确调整DDR PHY时序，以获得最佳信号完整性。"
+        },
+        {
+          "title": "硬件抽象层 (HAL)",
+          "description": "构建清晰的API层，允许应用软件在不知道底层芯片细节的情况下与硬件连接。"
+        },
+        {
+          "title": "工厂测试固件",
+          "description": "开发工厂流水线使用的独立裸机诊断程序，以验证PCBA组装和外设功能。"
+        }
+      ],
+      "advantages_title": {
+        "part1": "为什么选择",
+        "part2": "我们合作"
+      },
+      "advantages": [
+        {
+          "title": "跨学科专长",
+          "description": "我们的BSP工程师阅读原理图就像阅读C代码一样流畅。我们不指责硬件，而是与您的团队一起调试。"
+        },
+        {
+          "title": "加快时间表",
+          "description": "我们在板卡到达之前就开始工作。通过针对评估套件和仿真器进行开发，我们在第一批硅片到达时就准备就绪。"
+        },
+        {
+          "title": "坚如磐石的基础",
+          "description": "BSP是您产品的基础。我们确保它稳健、无内存泄漏，并能够处理边缘情况的电噪声。"
+        },
+        {
+          "title": "熟练使用供应商工具",
+          "description": "对NXP MCUXpresso、TI Code Composer和Xilinx Vivado的深入了解使我们能够快速浏览复杂的供应商生态系统。"
+        }
+      ],
+      "experts_title": {
+        "part1": "我们的",
+        "part2": "专家"
+      },
+      "experts": [
+        {
+          "name": "Dr. Sarah Chen",
+          "role": "首席硬件架构师",
+          "description": "在亚5纳米ASIC设计和混合信号验证方面拥有15年以上的经验。"
+        },
+        {
+          "name": "James Wilson",
+          "role": "首席固件工程师",
+          "description": "裸机编程、RTOS架构和汽车协议方面的专家。"
+        },
+        {
+          "name": "Elena Rodriguez",
+          "role": "PCB设计负责人",
+          "description": "专长于高速多层HDI板及SI/PI优化。"
+        },
+        {
+          "name": "David Kim",
+          "role": "验证副总裁",
+          "description": "开创了EVT/DVT/PVT批量生产的自动化测试框架。"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "开始BSP开发您需要我们提供什么？",
+          "answer": "理想情况下，我们需要初步原理图（PDF或EDA格式）、引脚复用配置文件、目标操作系统要求以及板上任何高度专业化的专有IC的数据手册。"
+        },
+        {
+          "question": "您如何处理可能是硬件问题的Bug？",
+          "answer": "我们使用JTAG调试器、逻辑分析仪和示波器来隔离问题。如果我们怀疑存在硬件Bug（如缺少上拉电阻或时序违规），我们会向您的硬件团队提供精确的电气捕获以证明问题。"
+        },
+        {
+          "question": "您能为我们的板卡创建定制的Yocto层吗？",
+          "answer": "是的，我们BSP交付的核心部分是提供一个干净、独立的Yocto meta-<your-company> 层，无缝构建特定于您板卡的bootloader、kernel和rootfs。"
+        },
+        {
+          "question": "你们编写制造测试代码吗？",
+          "answer": "当然。我们编写专为工厂底层设计的微型、快速启动固件，在出货前Ping通I2C设备、测试RAM并验证网络PHY。"
+        }
+      ]
+    },
+    "deviceDrivers": {
+      "hero": {
+        "title": "设备驱动",
+        "description": "设计安全、高吞吐量的软件接口，弥合定制硅芯片和操作系统之间的鸿沟。",
+        "primaryButtonText": "连接您的硬件"
+      },
+      "about": {
+        "titlePart1": "关于",
+        "titlePart2": "设备驱动开发",
+        "metrics": [
+          {
+            "tag": "内核",
+            "label": "上游内核补丁"
+          },
+          {
+            "tag": "吞吐量",
+            "label": "PCIe DMA 优化"
+          },
+          {
+            "tag": "安全",
+            "label": "内存隔离保证"
+          },
+          {
+            "tag": "操作系统",
+            "label": "支持多种操作系统平台"
+          }
+        ]
+      },
+      "sub_services_title": {
+        "part1": "核心",
+        "part2": "能力"
+      },
+      "sub_services": [
+        {
+          "title": "Linux 内核模块",
+          "description": "编写符合主线标准的字符、块和网络设备驱动，无缝集成到Linux内核中。"
+        },
+        {
+          "title": "高性能 DMA",
+          "description": "设计基于散集(Scatter-Gather)的零拷贝DMA引擎接口，用于PCIe外设上的千兆级数据吞吐量。"
+        },
+        {
+          "title": "USB & 蓝牙栈",
+          "description": "为HID、UVC、大容量存储开发自定义类驱动，并为定制无线电设备进行HCI层集成。"
+        },
+        {
+          "title": "传感器 & I2C/SPI",
+          "description": "为IMU、环境传感器和定制ADC/DAC编写IIO（工业I/O）子系统驱动。"
+        },
+        {
+          "title": "Windows (WDF)",
+          "description": "为工业和企业系统开发签名的Windows驱动程序框架（KMDF和UMDF）驱动。"
+        },
+        {
+          "title": "用户空间驱动 (UIO/VFIO)",
+          "description": "在需要高安全性和防崩溃隔离时，以用户空间构建安全的高性能驱动程序。"
+        }
+      ],
+      "advantages_title": {
+        "part1": "为什么选择",
+        "part2": "我们合作"
+      },
+      "advantages": [
+        {
+          "title": "极高的吞吐量",
+          "description": "我们不仅仅是让它工作；我们通过分析缓存未命中和减少中断延迟来优化它以获得最大吞吐量。"
+        },
+        {
+          "title": "内核级安全",
+          "description": "一个有缺陷的驱动程序会使整个系统崩溃。我们采用严格的内存清理和边界检查来防止内核恐慌。"
+        },
+        {
+          "title": "开源合规",
+          "description": "我们在复杂的GPL许可情况下游刃有余，并协助对专有驱动程序和开源贡献进行架构隔离。"
+        },
+        {
+          "title": "多操作系统专业知识",
+          "description": "无论是Yocto Linux、VxWorks、QNX，还是Windows IoT，我们都知道如何在每种内核架构的生命周期中游刃有余。"
+        }
+      ],
+      "experts_title": {
+        "part1": "我们的",
+        "part2": "专家"
+      },
+      "experts": [
+        {
+          "name": "Dr. Sarah Chen",
+          "role": "首席硬件架构师",
+          "description": "在亚5纳米ASIC设计和混合信号验证方面拥有15年以上的经验。"
+        },
+        {
+          "name": "James Wilson",
+          "role": "首席固件工程师",
+          "description": "裸机编程、RTOS架构和汽车协议方面的专家。"
+        },
+        {
+          "name": "Elena Rodriguez",
+          "role": "PCB设计负责人",
+          "description": "专长于高速多层HDI板及SI/PI优化。"
+        },
+        {
+          "name": "David Kim",
+          "role": "验证副总裁",
+          "description": "开创了EVT/DVT/PVT批量生产的自动化测试框架。"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "什么是零拷贝DMA，为什么它很重要？",
+          "answer": "在传统驱动程序中，CPU将数据从硬件缓冲区复制到用户缓冲区，这需要消耗大量的CPU周期。零拷贝DMA允许硬件直接将数据写入用户空间的内存中，从而实现无CPU负载情况下的千兆位吞吐量。"
+        },
+        {
+          "question": "您能否帮助我们解决驱动程序的内核恐慌 (Kernel Panic)？",
+          "answer": "可以。我们经常被要求通过分析内核崩溃转储 (crash dumps)、追踪中断竞争条件和修复无效的指针解引用来调试和修复现有的、不稳定的驱动程序。"
+        },
+        {
+          "question": "你们为哪些操作系统编写驱动程序？",
+          "answer": "我们主要专注于用于定制硬件的嵌入式Linux（Yocto/Buildroot）。然而，我们也广泛地为QNX、VxWorks、FreeRTOS，甚至Windows IoT (KMDF/UMDF)编写驱动程序。"
+        },
+        {
+          "question": "您如何确保您的代码能在未来的内核版本中幸存？",
+          "answer": "我们严格遵守标准的Linux内核API。如果您的项目是开源的，我们可以管理将您的驱动程序上游化到主线Linux内核的过程。"
+        }
+      ]
+    },
+    "embeddedLinux": {
+      "hero": {
+        "title": "嵌入式 Linux",
+        "description": "构建专为您的定制硬件量身打造的精简、安全且坚如磐石的Linux发行版。",
+        "primaryButtonText": "构建您的系统"
+      },
+      "about": {
+        "titlePart1": "关于",
+        "titlePart2": "嵌入式 Linux",
+        "metrics": [
+          {
+            "tag": "优化",
+            "label": "极快的启动时间"
+          },
+          {
+            "tag": "占用空间",
+            "label": "超小的RootFS尺寸"
+          },
+          {
+            "tag": "Yocto",
+            "label": "定制食谱(Recipes)编写"
+          },
+          {
+            "tag": "安全",
+            "label": "CVE补丁管理"
+          }
+        ]
+      },
+      "sub_services_title": {
+        "part1": "核心",
+        "part2": "能力"
+      },
+      "sub_services": [
+        {
+          "title": "Yocto & Buildroot",
+          "description": "从头开始构建高度定制、可重复的构建系统，并包含您确切需要的软件包。"
+        },
+        {
+          "title": "启动时间优化",
+          "description": "将Linux启动时间从几分钟缩短到亚秒级，这对于汽车和医疗设备至关重要。"
+        },
+        {
+          "title": "内核定制",
+          "description": "精简单体Linux内核以移除多余模块，减少受攻击面并改善RAM的使用。"
+        },
+        {
+          "title": "安全与加固",
+          "description": "实施SELinux/AppArmor，启用加密文件系统，并执行只读根分区。"
+        },
+        {
+          "title": "OTA 架构",
+          "description": "利用Mender、RAUC或定制的A/B分区方案进行防故障的系统级更新。"
+        },
+        {
+          "title": "实时 Linux (PREEMPT_RT)",
+          "description": "应用RT补丁以实现机器人和工业控制系统中的低延迟、确定的调度。"
+        }
+      ],
+      "advantages_title": {
+        "part1": "为什么选择",
+        "part2": "我们合作"
+      },
+      "advantages": [
+        {
+          "title": "精简与高效",
+          "description": "我们交付的不是臃肿的桌面级系统；我们交付的操作系统是极度优化的。"
+        },
+        {
+          "title": "强大的安全性",
+          "description": "安全在设计之初就已融入。"
+        },
+        {
+          "title": "长期的生命周期支持",
+          "description": "我们构建便于长期维护的系统。"
+        },
+        {
+          "title": "深度的底层理解",
+          "description": "我们拥有跨越软件栈底层的广泛知识。"
+        }
+      ],
+      "experts_title": {
+        "part1": "我们的",
+        "part2": "专家"
+      },
+      "experts": [
+        {
+          "name": "Dr. Sarah Chen",
+          "role": "首席硬件架构师",
+          "description": "在亚5纳米ASIC设计和混合信号验证方面拥有15年以上的经验。"
+        },
+        {
+          "name": "James Wilson",
+          "role": "首席固件工程师",
+          "description": "裸机编程、RTOS架构和汽车协议方面的专家。"
+        },
+        {
+          "name": "Elena Rodriguez",
+          "role": "PCB设计负责人",
+          "description": "专长于高速多层HDI板及SI/PI优化。"
+        },
+        {
+          "name": "David Kim",
+          "role": "验证副总裁",
+          "description": "开创了EVT/DVT/PVT批量生产的自动化测试框架。"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "您推荐Yocto还是Buildroot？",
+          "answer": "这取决于具体情况。对于简单的、一次性的系统，Buildroot的启动速度很快。对于商业和长生命周期的产品（需要多硬件平台支持，定制的发行版，或者高级别OTA架构），Yocto是业界标准的绝佳选择。"
+        },
+        {
+          "question": "您能使Linux的启动速度有多快？",
+          "answer": "通过极致的内核优化，利用非压缩的执行，在优化的eMMC或NOR flash存储器上进行根文件系统挂载，我们将复杂的Linux系统启动时间缩短到了一秒钟以内。"
+        },
+        {
+          "question": "您如何应对产品生命周期内的CVE（常见漏洞和暴露）？",
+          "answer": "我们提供可交付的SBOM（软件物料清单），并可以设置自动化管道进行CVE监控，并集成安全层，以便在安全补丁变得可用时方便地采用它们。"
+        },
+        {
+          "question": "你们做安卓系统的开发吗？",
+          "answer": "是的。我们有专业的团队定制Android系统（AOSP），用于信息娱乐系统和带有屏幕界面的智能设备，并在底层将硬件特有的HAL与其集成。"
+        }
+      ]
+    },
+    "firmwareDevelopment": {
+      "hero": {
+        "title": "固件开发",
+        "description": "设计高度优化、安全且可靠的裸机代码，为定制电子产品注入生命。",
+        "primaryButtonText": "探讨项目"
+      },
+      "about": {
+        "titlePart1": "关于",
+        "titlePart2": "固件开发",
+        "metrics": [
+          {
+            "tag": "设备",
+            "label": "全球运行我们固件的设备"
+          },
+          {
+            "tag": "效率",
+            "label": "实现的深度睡眠电流"
+          },
+          {
+            "tag": "安全",
+            "label": "安全启动实现"
+          },
+          {
+            "tag": "可靠",
+            "label": "现场OTA变砖实例"
+          }
+        ]
+      },
+      "sub_services_title": {
+        "part1": "核心",
+        "part2": "能力"
+      },
+      "sub_services": [
+        {
+          "title": "裸机 C/C++ 开发",
+          "description": "编写高度确定性、符合MISRA标准的代码，直接在处理器上执行，无OS开销。"
+        },
+        {
+          "title": "引导加载程序工程",
+          "description": "定制U-Boot或从零编写主/次引导程序，以实现快速的硬件初始化。"
+        },
+        {
+          "title": "安全的OTA基础架构",
+          "description": "构建端到端的空中固件下载更新流水线，带有加密签名和自动回滚功能。"
+        },
+        {
+          "title": "外设与传感器接口",
+          "description": "开发强大的HAL，以便通过I2C/SPI/CAN与复杂的IMU、LiDAR和模拟传感器接口。"
+        },
+        {
+          "title": "电源状态管理",
+          "description": "调整时钟树和处理器状态，以大幅降低有功和静态电流消耗。"
+        },
+        {
+          "title": "硬件级安全",
+          "description": "实现硬件信任根(Root of Trust)、TrustZone隔离和加密本地数据存储。"
+        }
+      ],
+      "advantages_title": {
+        "part1": "为什么选择",
+        "part2": "我们合作"
+      },
+      "advantages": [
+        {
+          "title": "最大化硬件利用率",
+          "description": "我们绕过通用层，编写利用您所选微控制器每个特定功能的代码。"
+        },
+        {
+          "title": "安全第一的方法",
+          "description": "安全永远不是事后诸葛亮。我们从第一天起就构建安全启动链和加密通信协议。"
+        },
+        {
+          "title": "符合MISRA-C标准",
+          "description": "我们的代码遵守严格的汽车和航空航天安全标准，确保高可靠性和可维护性。"
+        },
+        {
+          "title": "快速电路板点亮",
+          "description": "我们擅长采用未经证实、早期的定制PCBA板，并编写初始测试固件来验证硬件。"
+        }
+      ],
+      "experts_title": {
+        "part1": "我们的",
+        "part2": "专家"
+      },
+      "experts": [
+        {
+          "name": "Dr. Sarah Chen",
+          "role": "首席硬件架构师",
+          "description": "在亚5纳米ASIC设计和混合信号验证方面拥有15年以上的经验。"
+        },
+        {
+          "name": "James Wilson",
+          "role": "首席固件工程师",
+          "description": "裸机编程、RTOS架构和汽车协议方面的专家。"
+        },
+        {
+          "name": "Elena Rodriguez",
+          "role": "PCB设计负责人",
+          "description": "专长于高速多层HDI板及SI/PI优化。"
+        },
+        {
+          "name": "David Kim",
+          "role": "验证副总裁",
+          "description": "开创了EVT/DVT/PVT批量生产的自动化测试框架。"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "您能帮我们为产品选择合适的MCU吗？",
+          "answer": "是的，我们经常提供硬件架构咨询。我们分析您的功耗、I/O、内存和成本需求，推荐最佳的MCU系列（例如，STM32、NXP、Nordic）。"
+        },
+        {
+          "question": "您如何确保OTA更新不会使设备变砖？",
+          "answer": "我们实现双分区(A/B)闪存。新固件下载到非活动分区，进行加密验证，然后启动。如果启动失败，硬件会自动回退到之前已知良好的状态。"
+        },
+        {
+          "question": "你们为内存极其受限的设备编写固件吗？",
+          "answer": "当然。我们在优化代码大小、消除标准库开销以及紧密管理动态内存方面经验丰富，能将固件装入RAM仅16KB的MCU中。"
+        },
+        {
+          "question": "你们解决硬件问题的调试方法是什么？",
+          "answer": "我们使用高端示波器、逻辑分析仪和JTAG/SWD调试器，精确追踪软件执行与物理电信号的交汇点。"
+        }
+      ]
+    },
+    "protocolIntegration": {
+      "hero": {
+        "title": "协议集成",
+        "description": "构建强大、安全的通信协议栈，涵盖从底层硅总线到高级云遥测技术。",
+        "primaryButtonText": "连接您的设备"
+      },
+      "about": {
+        "titlePart1": "关于",
+        "titlePart2": "协议集成",
+        "metrics": [
+          {
+            "tag": "协议",
+            "label": "集成的工业与物联网标准"
+          },
+          {
+            "tag": "可靠",
+            "label": "数据包投递保证"
+          },
+          {
+            "tag": "安全",
+            "label": "端到端加密通道"
+          },
+          {
+            "tag": "延迟",
+            "label": "针对关键任务优化的响应"
+          }
+        ]
+      },
+      "sub_services_title": {
+        "part1": "核心",
+        "part2": "能力"
+      },
+      "sub_services": [
+        {
+          "title": "工业物联网 (IIoT)",
+          "description": "集成MQTT、CoAP、OPC-UA和Modbus协议，以实现稳健的工厂车间到云的数据摄取。"
+        },
+        {
+          "title": "汽车总线",
+          "description": "开发符合MISRA标准的CAN、CAN-FD、LIN和汽车以太网的固件层。"
+        },
+        {
+          "title": "低功耗无线",
+          "description": "针对受限边缘节点实施蓝牙低功耗 (BLE)、Zigbee、Thread和LoRaWAN栈。"
+        },
+        {
+          "title": "有线骨干网",
+          "description": "优化EtherCAT、PROFINET和TSN（时间敏感网络），用于具有硬实时限制的机器人技术。"
+        },
+        {
+          "title": "安全通信",
+          "description": "集成mbedTLS或wolfSSL，在微控制器上实现TLS 1.3的相互认证和证书生命周期。"
+        },
+        {
+          "title": "定制专有协议",
+          "description": "通过不可靠射频或次声波通道，从零开始设计带宽优化、具有前向纠错的自定义封包结构。"
+        }
+      ],
+      "advantages_title": {
+        "part1": "为什么选择",
+        "part2": "我们合作"
+      },
+      "advantages": [
+        {
+          "title": "独立于协议栈",
+          "description": "我们并不局限于某个单一供应商的库。我们评估并实施针对您的内存和延迟要求最优的协议栈，无论是开源还是商业栈。"
+        },
+        {
+          "title": "端到端加密",
+          "description": "我们在不影响受限设备吞吐量的情况下，在底层和传输层集成硬件加密加速。"
+        },
+        {
+          "title": "防弹错误处理",
+          "description": "网络会发生故障。我们编写复杂的重试逻辑、退避算法和离线数据缓冲，以确保绝不丢失读数。"
+        },
+        {
+          "title": "极低的延迟",
+          "description": "通过紧密的DMA和中断集成，我们绕过OS调度瓶颈，以达到工业控制协议要求的微秒级延迟。"
+        }
+      ],
+      "experts_title": {
+        "part1": "我们的",
+        "part2": "专家"
+      },
+      "experts": [
+        {
+          "name": "Dr. Sarah Chen",
+          "role": "首席硬件架构师",
+          "description": "在亚5纳米ASIC设计和混合信号验证方面拥有15年以上的经验。"
+        },
+        {
+          "name": "James Wilson",
+          "role": "首席固件工程师",
+          "description": "裸机编程、RTOS架构和汽车协议方面的专家。"
+        },
+        {
+          "name": "Elena Rodriguez",
+          "role": "PCB设计负责人",
+          "description": "专长于高速多层HDI板及SI/PI优化。"
+        },
+        {
+          "name": "David Kim",
+          "role": "验证副总裁",
+          "description": "开创了EVT/DVT/PVT批量生产的自动化测试框架。"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "您可以从零开始设计一个定制的无线协议吗？",
+          "answer": "是的。对于需要避开蓝牙/Wi-Fi拥塞或需要极端传输范围的应用（例如，Sub-GHz工业传感器），我们使用原始无线电收发器设计自定义的时分多址(TDMA)或载波侦听多路访问(CSMA)MAC层。"
+        },
+        {
+          "question": "您如何应对不稳定的蜂窝或卫星连接？",
+          "answer": "我们实现复杂的队列管理。如果蜂窝调制解调器失去连接，传感器数据会被压缩并写入非易失性存储器，然后在重新连接后安全地突发传输至云端。"
+        },
+        {
+          "question": "你能通过CAN总线进行固件更新（OTA）吗？",
+          "answer": "是的。我们经常将ISO-TP (ISO 15765-2) 等协议集成到汽车应用中，以实现在CAN/CAN-FD总线上的可靠分块有效载荷传输，用于重新刷写ECU固件。"
+        },
+        {
+          "question": "您在微控制器上对TLS进行剖析吗？",
+          "answer": "当然。TLS握手占用的CPU资源非常大。我们利用加密协处理器（如果可用）对握手进行基准测试和剖析，并优化会话恢复缓存以节省电池寿命。"
+        }
+      ]
+    },
+    "rtosDevelopment": {
+      "hero": {
+        "title": "RTOS 开发",
+        "description": "构建确定的、抢占式多任务处理系统，保证满足硬实时截止期限。",
+        "primaryButtonText": "安排架构讨论"
+      },
+      "about": {
+        "titlePart1": "关于",
+        "titlePart2": "我们的RTOS工程",
+        "metrics": [
+          {
+            "tag": "确定性",
+            "label": "微秒级中断延迟"
+          },
+          {
+            "tag": "调度",
+            "label": "任务执行保证"
+          },
+          {
+            "tag": "内存",
+            "label": "静态分配内存以确保安全"
+          },
+          {
+            "tag": "认证",
+            "label": "构建符合SIL 3/4标准的系统"
+          }
+        ]
+      },
+      "sub_services_title": {
+        "part1": "核心",
+        "part2": "能力"
+      },
+      "sub_services": [
+        {
+          "title": "FreeRTOS & Zephyr",
+          "description": "将现代、轻量级RTOS移植并优化至您的定制硅架构中，以用于物联网应用。"
+        },
+        {
+          "title": "硬实时调度",
+          "description": "设计速率单调和基于截止期限的调度策略，以防止任务饥饿和优先级反转。"
+        },
+        {
+          "title": "多核AMP系统",
+          "description": "架构非对称多处理，其中RTOS在协处理器上处理关键任务，同时Linux在主核上运行。"
+        },
+        {
+          "title": "安全认证就绪",
+          "description": "开发符合IEC 61508 (SIL 3) 和 ISO 26262 (ASIL-D) 标准的系统，采用如SafeRTOS等商用RTOS。"
+        },
+        {
+          "title": "确定性设备驱动",
+          "description": "编写RTOS驱动层，通过紧凑耦合的DMA和基于信号量的中断处理优化中断服务程序 (ISR) 延迟。"
+        },
+        {
+          "title": "系统堆栈配置",
+          "description": "深入分析线程堆栈使用、内存碎片和CPU负载，以消除在极端压力下的现场崩溃。"
+        }
+      ],
+      "advantages_title": {
+        "part1": "为什么选择",
+        "part2": "我们合作"
+      },
+      "advantages": [
+        {
+          "title": "杜绝竞争条件",
+          "description": "通过正确应用互斥锁(mutex)、信号量和无锁环形缓冲区设计，我们在代码交付前就消除了并发错误。"
+        },
+        {
+          "title": "消除内存泄漏",
+          "description": "通过采用静态内存分配和创建用于动态需求的内存池，我们保证在系统运行多年时没有堆碎片化。"
+        },
+        {
+          "title": "确定性执行",
+          "description": "我们通过剖析每个线程的最坏情况执行时间 (WCET)，为您最关键的控制回路提供微秒级精度保证。"
+        },
+        {
+          "title": "异构硅的专长",
+          "description": "熟练管理不同架构之间的核间通信协议 (IPC)（例如，基于RPMsg的Cortex-A与Cortex-M内核间通信）。"
+        }
+      ],
+      "experts_title": {
+        "part1": "我们的",
+        "part2": "专家"
+      },
+      "experts": [
+        {
+          "name": "Dr. Sarah Chen",
+          "role": "首席硬件架构师",
+          "description": "在亚5纳米ASIC设计和混合信号验证方面拥有15年以上的经验。"
+        },
+        {
+          "name": "James Wilson",
+          "role": "首席固件工程师",
+          "description": "裸机编程、RTOS架构和汽车协议方面的专家。"
+        },
+        {
+          "name": "Elena Rodriguez",
+          "role": "PCB设计负责人",
+          "description": "专长于高速多层HDI板及SI/PI优化。"
+        },
+        {
+          "name": "David Kim",
+          "role": "验证副总裁",
+          "description": "开创了EVT/DVT/PVT批量生产的自动化测试框架。"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "您如何防止优先级反转？",
+          "answer": "我们根据速率单调调度对架构任务的优先级进行严格评估，并利用优先级继承互斥锁（Priority Inheritance Mutexes）来确保低优先级任务不会阻塞高优先级任务对共享资源的访问。"
+        },
+        {
+          "question": "为什么使用RTOS而不使用裸机？",
+          "answer": "裸机（超级循环）非常适合简单任务。但是一旦您的产品需要TCP/IP、USB、复杂的GUI或需要快速响应的多个异步事件时，RTOS提供的基于线程的并发对于维持确定性是必不可少的。"
+        },
+        {
+          "question": "你们在RTOS项目中如何处理动态内存？",
+          "answer": "作为最佳实践，我们一般避免使用原生的 malloc() 和 \free()。如果有必要，我们倾向于采用具有预定义块大小的静态分配内存池，以完全消除内存碎片和在压力下分配失败的问题。"
+        },
+        {
+          "question": "您能调试RTOS栈溢出吗？",
+          "answer": "是的。我们利用硬件看门狗和RTOS内置钩子，再结合诸如Percepio Tracealyzer等追踪工具，来可视化线程行为、准确查找堆栈高水位线并调整分配大小，防止越界腐败。"
+        }
+      ]
+    },
+    "adasSensorFusion": {
+      "hero": { "title": "ADAS与传感器融合", "description": "开发先进算法，将摄像头、雷达和激光雷达数据融合，以实现下一代自动驾驶功能。", "primaryButtonText": "探讨项目", "secondaryButtonText": "查看能力" },
+      "about": { "titlePart1": "关于", "titlePart2": "ADAS工程", "description": "通过精确的传感器数据融合实现更安全的自动驾驶。", "metrics": [{"tag": "FUSION", "label": "多传感器融合"}, {"tag": "VISION", "label": "计算机视觉"}, {"tag": "RADAR", "label": "雷达处理"}, {"tag": "LIDAR", "label": "激光雷达分析"}] },
+      "sub_services_title": { "part1": "核心", "part2": "能力" },
+      "sub_services": [
+        { "title": "目标检测", "description": "在复杂环境中识别和跟踪车辆、行人和障碍物。" },
+        { "title": "路径规划", "description": "为自动驾驶汽车计算安全、高效的行驶轨迹。" },
+        { "title": "传感器校准", "description": "确保多模式传感器套件的空间和时间对齐。" },
+        { "title": "深度学习", "description": "在嵌入式边缘设备上部署优化的神经网络。" },
+        { "title": "环境感知", "description": "创建车辆周围360度的详细动态地图。" },
+        { "title": "控制集成", "description": "将感知数据转化为转向和制动执行器的控制信号。" }
+      ],
+      "advantages_title": { "part1": "为什么选择", "part2": "我们合作" },
+      "advantages": [
+        { "title": "跨模态专长", "description": "在融合视觉、雷达和激光雷达数据方面具有深厚经验。" },
+        { "title": "边缘优化", "description": "将复杂的神经网络压缩以在资源受限的车载芯片上运行。" },
+        { "title": "安全关键设计", "description": "算法设计遵循严格的功能安全标准。" },
+        { "title": "端到端开发", "description": "从数据采集到车内闭环测试的全方位支持。" }
+      ],
+      "faqs": [
+        { "question": "什么是传感器融合？", "answer": "将多个传感器的输入结合起来，以产生比单独任何一个传感器更准确的环境模型。" },
+        { "question": "你们支持哪些硬件平台？", "answer": "我们支持NVIDIA DRIVE、Mobileye、NXP以及其他领先的汽车级AI计算平台。" },
+        { "question": "如何处理极端天气条件？", "answer": "我们的算法依赖于不受天气影响的雷达数据，并在视觉条件差时动态调整信任权重。" },
+        { "question": "你们如何验证感知算法？", "answer": "我们使用海量真实驾驶数据集和高保真合成仿真环境进行硬件在环(HIL)测试。" }
+      ]
+    },
+    "autosar": {
+      "hero": { "title": "AUTOSAR开发", "description": "提供端到端的AUTOSAR Classic和Adaptive解决方案，从MCAL驱动到完整的BSW配置。", "primaryButtonText": "探讨项目", "secondaryButtonText": "查看能力" },
+      "about": { "titlePart1": "关于", "titlePart2": "AUTOSAR开发", "description": "构建现代车辆的软件基础，实现可扩展、安全的汽车系统。", "metrics": [{"tag": "PLATFORMS", "label": "Classic与Adaptive"}, {"tag": "NETWORKS", "label": "车载网络通信"}, {"tag": "SAFETY", "label": "ASIL D合规"}, {"tag": "SILICON", "label": "深入的MCAL专长"}] },
+      "sub_services_title": { "part1": "核心", "part2": "能力" },
+      "sub_services": [
+        { "title": "应用层设计", "description": "编写可移植的软件组件(SWC)并通过标准化的arxml定义接口。" },
+        { "title": "BSW集成", "description": "为特定OEM需求配置存储(NvM)、诊断(Dem/Dcm)和通信(Com)栈。" },
+        { "title": "复杂设备驱动(CDD)", "description": "编写CDD以处理定制传感器和非标准外设。" },
+        { "title": "网络管理", "description": "实现CAN FD、以太网和LIN通信协议栈。" },
+        { "title": "多核操作系统设置", "description": "在多核SoC上分配OS任务，保持内存保护(MPU)。" },
+        { "title": "网络安全(SecOC)", "description": "配置加密栈和安全车载通信以保护车辆网络。" }
+      ],
+      "advantages_title": { "part1": "为什么选择", "part2": "我们合作" },
+      "advantages": [
+        { "title": "工具无关性", "description": "熟练掌握Vector DaVinci、EB tresos和ETAS ISOLAR等工具链。" },
+        { "title": "软硬件协同", "description": "精通底层MCAL层及相关车规级芯片寄存器。" },
+        { "title": "OEM合规", "description": "定制协议栈以通过大众、福特、通用等不同OEM的特定审核。" },
+        { "title": "功能安全", "description": "严格遵守ISO 26262 ASIL D标准及MISRA C/C++规范。" }
+      ],
+      "faqs": [
+        { "question": "AUTOSAR的主要优势是什么？", "answer": "硬件抽象。它标准化了接口，允许OEM在不同的硬件平台上重用应用软件。" },
+        { "question": "Classic和Adaptive AUTOSAR有什么区别？", "answer": "Classic用于硬实时的底层ECU，Adaptive用于运行POSIX操作系统的域控制器，支持动态更新。" },
+        { "question": "什么是RTE？", "answer": "运行环境(RTE)是应用软件和基础软件(BSW)之间的'胶水'，根据系统配置自动生成。" },
+        { "question": "能否帮助我们将遗留代码迁移到AUTOSAR？", "answer": "可以。我们将遗留代码封装在复杂设备驱动(CDD)或标准SWC中，实现平滑过渡。" }
+      ]
+    },
+    "batteryManagement": {
+      "hero": { "title": "电池管理系统(BMS)", "description": "开发高级BMS算法、电芯均衡逻辑及符合ASIL D标准的高压控制固件。", "primaryButtonText": "探讨项目", "secondaryButtonText": "查看能力" },
+      "about": { "titlePart1": "关于", "titlePart2": "BMS开发", "description": "为电动汽车革命提供智能核心，开发安全关键固件以最大化电池组寿命和性能。", "metrics": [{"tag": "ACCURACY", "label": "高精度SoC估算"}, {"tag": "CHEMISTRY", "label": "多电池化学适配"}, {"tag": "SAFETY", "label": "ASIL D功能安全"}, {"tag": "METHOD", "label": "基于模型的设计"}] },
+      "sub_services_title": { "part1": "核心", "part2": "能力" },
+      "sub_services": [
+        { "title": "核心算法(SoC/SoH)", "description": "开发数学模型以在动态负载下预测电池电量和健康状态。" },
+        { "title": "电芯均衡", "description": "编写主动和被动均衡固件，均衡串联电芯的电压。" },
+        { "title": "快速充电(CCS)", "description": "实现350kW以上直流快充所需的通信协议和热降额逻辑。" },
+        { "title": "热管理", "description": "与车辆热管理系统集成，在充电和极端温度下控制电芯温度。" },
+        { "title": "高压管理", "description": "编写安全逻辑以控制接触器、管理预充电并检测接地故障。" },
+        { "title": "基于模型的设计", "description": "在Simulink中迭代算法并自动生成符合MISRA规范的C代码。" }
+      ],
+      "advantages_title": { "part1": "为什么选择", "part2": "我们合作" },
+      "advantages": [
+        { "title": "算法精度", "description": "我们的卡尔曼滤波实现能从电池包中榨取最大续航，同时不触及安全极限。" },
+        { "title": "化学体系无关", "description": "模型可适配LFP、NMC或固态电池等特定电化学特性。" },
+        { "title": "硬件协同", "description": "深入了解各大厂商的模拟前端(AFE)芯片，并编写底层SPI驱动。" },
+        { "title": "ISO 26262合规", "description": "严格按照ASIL D安全标准开发，防止灾难性故障。" }
+      ],
+      "faqs": [
+        { "question": "为什么荷电状态(SoC)难以测量？", "answer": "因为无法直接测量SoC，只能测量电压、电流和温度。我们使用复杂模型来推断真实的SoC。" },
+        { "question": "什么是电芯均衡？", "answer": "均衡通过微调单体电池电量，确保所有电芯同时充满或放空，从而最大化整体续航。" },
+        { "question": "代码是用C还是Simulink编写？", "answer": "通常在Simulink中进行基于模型的设计(MBD)并仿真，然后自动生成C代码。" },
+        { "question": "什么是功率状态(SoP)？", "answer": "SoP预测电池在未来几秒内能安全提供或吸收的瞬时功率，对加速和能量回收至关重要。" }
+      ]
+    },
+    "functionalSafety": {
+      "hero": { "title": "ISO 26262 功能安全", "description": "提供汽车软件架构设计，确保其满足严苛的ASIL D功能安全合规性。", "primaryButtonText": "探讨项目", "secondaryButtonText": "查看能力" },
+      "about": { "titlePart1": "关于", "titlePart2": "功能安全", "description": "确保电子电气系统的安全性，防范系统性失效和随机硬件失效。", "metrics": [{"tag": "ASIL", "label": "高达ASIL D级别"}, {"tag": "AUDIT", "label": "通过安全审核"}, {"tag": "ISO26262", "label": "全面标准遵循"}, {"tag": "FMEA", "label": "严密失效分析"}] },
+      "sub_services_title": { "part1": "核心", "part2": "能力" },
+      "sub_services": [
+        { "title": "危害分析和风险评估", "description": "执行HARA以确定系统级危害和ASIL等级。" },
+        { "title": "安全架构设计", "description": "设计具有冗余、监控机制和安全状态回退机制的系统。" },
+        { "title": "软件工具鉴定", "description": "对编译器和代码生成器等开发工具进行置信度评估和鉴定。" },
+        { "title": "FMEA和FTA", "description": "执行故障树分析和失效模式与影响分析。" },
+        { "title": "基于微控制器的安全", "description": "配置看门狗、内存保护单元(MPU)和锁步核心。" },
+        { "title": "独立安全评估", "description": "为您的现有设计和代码库提供第三方审核和差距分析。" }
+      ],
+      "advantages_title": { "part1": "为什么选择", "part2": "我们合作" },
+      "advantages": [
+        { "title": "内嵌的安全文化", "description": "安全不仅仅是文档工作，而是我们编写每一行代码的指导原则。" },
+        { "title": "深厚的技术背景", "description": "我们的安全经理也是资深的软件工程师，懂设计也懂合规。" },
+        { "title": "量产经验", "description": "我们有将概念原型成功转化为通过认证并量产产品的丰富经验。" },
+        { "title": "敏捷与安全的平衡", "description": "在确保严格合规的同时，我们不减缓您的开发速度。" }
+      ],
+      "faqs": [
+        { "question": "什么是ASIL？", "answer": "汽车安全完整性等级。从ASIL A(最低)到ASIL D(最高风险)，代表避免不合理风险所需的严格程度。" },
+        { "question": "如何达到ASIL D？", "answer": "通常需要冗余设计、锁步微控制器、严格的流程控制以及形式化验证技术。" },
+        { "question": "你们负责硬件安全吗？", "answer": "我们主要关注软件安全机制(如软件看门狗、RAM/ROM自检)，但会与硬件团队紧密配合进行FMEDA。" },
+        { "question": "功能安全认证需要多长时间？", "answer": "具体取决于系统复杂度和当前状态。从零开始通常需要数月到一年的时间以确保严密的流程执行。" }
+      ]
+    },
+    "infotainment": {
+      "hero": { "title": "车载信息娱乐系统 (IVI)", "description": "构建下一代数字座舱、Android Automotive集成及高性能仪表盘UI。", "primaryButtonText": "探讨项目", "secondaryButtonText": "查看能力" },
+      "about": { "titlePart1": "关于", "titlePart2": "IVI开发", "description": "将消费级电子体验带入汽车，同时保证车规级的可靠性和启动速度。", "metrics": [{"tag": "UX", "label": "流畅用户体验"}, {"tag": "BOOT", "label": "极速冷启动"}, {"tag": "ANDROID", "label": "AAOS集成"}, {"tag": "QOS", "label": "无缝音视频"}] },
+      "sub_services_title": { "part1": "核心", "part2": "能力" },
+      "sub_services": [
+        { "title": "Android Automotive (AAOS)", "description": "定制和深度集成原生Android系统作为车机底层平台。" },
+        { "title": "Hypervisor与多系统", "description": "配置Hypervisor以在一个SoC上同时运行安全关键的仪表和IVI。" },
+        { "title": "车载音频总线(A2B)", "description": "开发低延迟、高质量的多通道音频处理和主动降噪(ANC)固件。" },
+        { "title": "HMI与UI/UX开发", "description": "使用Qt、Kanzi或Android构建60fps流畅的用户界面。" },
+        { "title": "无线投屏协议", "description": "集成Apple CarPlay、Android Auto和百度CarLife协议栈。" },
+        { "title": "极速启动优化", "description": "在数秒内唤醒系统以显示倒车影像和关键车辆信息。" }
+      ],
+      "advantages_title": { "part1": "为什么选择", "part2": "我们合作" },
+      "advantages": [
+        { "title": "底层架构能力", "description": "我们能处理从Linux内核驱动、HAL层到上层Android应用的所有工作。" },
+        { "title": "无缝融合体验", "description": "确保导航、娱乐、车辆控制界面的流畅交互和稳定切换。" },
+        { "title": "连接性专长", "description": "无缝集成蓝牙、Wi-Fi、5G以及复杂的车内多媒体路由。" },
+        { "title": "严格的性能调优", "description": "消除内存泄漏和卡顿，确保车辆生命周期内的流畅体验。" }
+      ],
+      "faqs": [
+        { "question": "Android Auto和Android Automotive的区别？", "answer": "Android Auto是手机投屏应用；Android Automotive是直接运行在车机硬件上的完整操作系统。" },
+        { "question": "如何保证仪表盘在系统崩溃时不受影响？", "answer": "我们使用硬件隔离(Hypervisor)技术。即使IVI安卓系统崩溃，运行在另一分区的RTOS仪表盘也能持续稳定工作。" },
+        { "question": "能实现怎样的启动速度？", "answer": "通过内核裁剪、休眠唤醒优化，我们可以在几百毫秒内点亮摄像头，2-3秒内显示仪表。" },
+        { "question": "你们支持多屏互动吗？", "answer": "支持。我们能实现中控屏、副驾屏及后排娱乐屏幕之间的数据共享和视频流无缝漂移。" }
+      ]
+    },
+    "v2xCommunications": {
+      "hero": { "title": "V2X通信与连接", "description": "集成C-V2X和DSRC协议栈、安全证书管理及车路协同应用，为自动驾驶铺平道路。", "primaryButtonText": "探讨项目", "secondaryButtonText": "查看能力" },
+      "about": { "titlePart1": "关于", "titlePart2": "V2X开发", "description": "让车辆看见视距之外。我们构建使车辆与车辆(V2V)、基础设施(V2I)实时对话的连接纽带。", "metrics": [{"tag": "STANDARDS", "label": "C-V2X/DSRC"}, {"tag": "LATENCY", "label": "超低延迟"}, {"tag": "SECURITY", "label": "SCMS安全"}, {"tag": "POSITIONING", "label": "高精定位"}] },
+      "sub_services_title": { "part1": "核心", "part2": "能力" },
+      "sub_services": [
+        { "title": "无线协议栈集成", "description": "将高通、NXP或Autotalks的V2X基带芯片与主机处理器集成。" },
+        { "title": "协议栈定制", "description": "调整标准协议栈以适应特定OS和资源受限环境。" },
+        { "title": "ASN.1 编解码", "description": "编写高效的UPER解析器处理CAM/DENM/BSM消息。" },
+        { "title": "高精度定位融合", "description": "融合GNSS/RTK与IMU数据，实现亚车道级精度。" },
+        { "title": "SCMS与PKI安全", "description": "开发安全环境以请求、存储并使用假名证书进行消息签名。" },
+        { "title": "V2X应用层开发", "description": "开发解释接收消息并向驾驶员发出警报的安全用例(如碰撞预警)。" }
+      ],
+      "advantages_title": { "part1": "为什么选择", "part2": "我们合作" },
+      "advantages": [
+        { "title": "全球标准精通", "description": "熟知WAVE(美)、ETSI ITS(欧)及CSAE(中)标准的细微差异。" },
+        { "title": "芯片原厂合作", "description": "具有集成主流V2X基带调制解调器的丰富第一手经验。" },
+        { "title": "密码学优化", "description": "优化ECDSA验证算法，确保CPU能应对每秒数千条消息的负荷。" },
+        { "title": "端到端交付", "description": "从底层射频配置到上层预警应用，构建完整的车载单元(OBU)。" }
+      ],
+      "faqs": [
+        { "question": "DSRC和C-V2X有什么区别？", "answer": "DSRC基于Wi-Fi技术(802.11p)；C-V2X使用蜂窝技术(直连模式PC5)。C-V2X覆盖更广，已成为全球主流。" },
+        { "question": "有了雷达和摄像头，为什么还需要V2X？", "answer": "传感器需要'视距'。V2X允许车辆'看'到转角处或其他车辆前方的突发事件(如紧急制动)，实现超前预警。" },
+        { "question": "V2X如何保证安全和隐私？", "answer": "通过证书管理系统(SCMS)。车辆使用频繁更换的'假名'证书对消息进行签名，确保消息真实但不泄露隐私身份。" },
+        { "question": "什么是Day 1和Day 2应用？", "answer": "Day 1指基本安全预警(如前向碰撞)；Day 2涉及更复杂的协同驾驶(如编队行驶)，对延迟和可靠性要求更高。" }
+      ]
+    },
+    "dspFirmware": {
+      "hero": { "title": "DSP 固件开发", "description": "为音频、射频(RF)和传感器数据的高速数字信号处理开发优化的数学算法和底层代码。", "primaryButtonText": "探讨项目", "secondaryButtonText": "查看能力" },
+      "about": { "titlePart1": "关于", "titlePart2": "DSP 工程", "description": "将数学转化为机器语言。我们在资源受限的硬件上实现极低延迟的过滤、转换和调制算法。", "metrics": [{"tag": "PERFORMANCE", "label": "超低延迟"}, {"tag": "MATH", "label": "定点/浮点优化"}, {"tag": "HARDWARE", "label": "SIMD 加速"}, {"tag": "DOMAIN", "label": "频域分析"}] },
+      "sub_services_title": { "part1": "核心", "part2": "能力" },
+      "sub_services": [
+        { "title": "音频信号处理", "description": "开发噪声消除(ANC)、回声消除(AEC)和语音识别预处理算法。" },
+        { "title": "射频基带处理", "description": "为软件无线电(SDR)平台实现复杂的调制解调、载波恢复和信道均衡。" },
+        { "title": "雷达与激光雷达(LiDAR)", "description": "处理海量点云数据，执行快速傅里叶变换(FFT)以提取距离和多普勒速度信息。" },
+        { "title": "算法移植与优化", "description": "将MATLAB/Simulink浮点算法转换为高效的C/C++定点代码，并针对特定DSP架构进行优化。" },
+        { "title": "图像与视频处理", "description": "在嵌入式系统上实现实时图像增强、边缘检测和视频编解码(H.264/H.265)。" },
+        { "title": "汇编级优化", "description": "针对关键路径，利用特定DSP芯片（如TI C6000、Qualcomm Hexagon）的SIMD指令集进行底层优化。" }
+      ],
+      "advantages_title": { "part1": "为什么选择", "part2": "我们合作" },
+      "advantages": [
+        { "title": "深厚的数学功底", "description": "我们的工程师精通数字信号处理背后的复杂数学理论，确保算法的准确性和稳定性。" },
+        { "title": "硬件架构专长", "description": "深刻理解各种DSP架构（VLIW、SIMD、多核），最大限度地发挥硬件算力。" },
+        { "title": "实时系统经验", "description": "确保信号处理在严格的时序约束下完成，满足硬实时系统的要求。" },
+        { "title": "全栈开发能力", "description": "不仅能写算法，还能将其无缝集成到上层操作系统和应用程序中。" }
+      ],
+      "faqs": [
+        { "question": "DSP与通用微处理器(MCU)有什么区别？", "answer": "DSP具有专门的硬件乘加器(MAC)和多总线架构，能够在一个时钟周期内执行复杂的数学运算，非常适合信号处理。" },
+        { "question": "浮点和定点DSP有什么区别？", "answer": "浮点DSP处理小数更精确且易于编程，但成本高、功耗大。定点DSP更便宜、功耗低，但需要复杂的数值缩放来防止溢出。" },
+        { "question": "你们支持哪些DSP平台？", "answer": "我们广泛支持德州仪器(TI) C2000/C6000系列、高通Hexagon、ADI SHARC/Blackfin以及基于ARM Cortex-M4/M7的DSP扩展。" },
+        { "question": "如何验证DSP算法的正确性？", "answer": "我们通常采用硬件在环(HIL)测试，将实际硬件的输出与MATLAB/Python模型的黄金标准结果进行位级比对验证。" }
+      ]
+    },
+    "fpgaAcceleration": {
+      "hero": { "title": "FPGA 硬件加速", "description": "利用现场可编程门阵列(FPGA)释放极致计算性能，处理CPU无法胜任的海量并行任务。", "primaryButtonText": "探讨项目", "secondaryButtonText": "查看能力" },
+      "about": { "titlePart1": "关于", "titlePart2": "FPGA 工程", "description": "软件速度太慢时的终极解决方案。我们设计定制的高速数字逻辑电路，将关键算法卸载到专用硬件上运行。", "metrics": [{"tag": "SPEED", "label": "纳秒级延迟"}, {"tag": "THROUGHPUT", "label": "Tbps 吞吐量"}, {"tag": "CUSTOM", "label": "完全定制IP"}, {"tag": "INTEGRATION", "label": "软硬件协同"}] },
+      "sub_services_title": { "part1": "核心", "part2": "能力" },
+      "sub_services": [
+        { "title": "定制IP核设计", "description": "使用Verilog/VHDL或高层次综合(HLS)开发完全定制的逻辑模块，满足特定的计算需求。" },
+        { "title": "高速网络卸载", "description": "实现硬件级的包过滤、深度包检测(DPI)和加密/解密加速（如IPsec, MACsec）。" },
+        { "title": "AI与机器学习推理", "description": "将神经网络模型部署到FPGA上，实现比GPU更低延迟、更低功耗的边缘推理。" },
+        { "title": "高速接口协议", "description": "开发和集成PCIe Gen4/5、400G/800G以太网、JESD204B/C等高速互连协议。" },
+        { "title": "视频与图像处理", "description": "实现无压缩的4K/8K视频流实时处理，包括缩放、色彩空间转换和叠加。" },
+        { "title": "SoC FPGA 协同设计", "description": "在Xilinx Zynq或Intel SoC平台上，实现ARM处理器与FPGA逻辑架构之间的高效数据交互。" }
+      ],
+      "advantages_title": { "part1": "为什么选择", "part2": "我们合作" },
+      "advantages": [
+        { "title": "跨域架构师", "description": "我们精通软件和硬件界限，能够准确判断哪些任务应由CPU处理，哪些任务必须卸载到FPGA。" },
+        { "title": "高层次综合(HLS)", "description": "除了传统的RTL，我们还精通HLS，能使用C/C++快速实现复杂算法的硬件加速。" },
+        { "title": "时序收敛专家", "description": "在极高时钟频率下解决复杂的布线和时序违例问题，确保设计在所有条件下稳定运行。" },
+        { "title": "全面的测试验证", "description": "采用UVM(通用验证方法学)建立严密的测试平台，在投产前彻底消除逻辑缺陷。" }
+      ],
+      "faqs": [
+        { "question": "什么时候应该选择FPGA而不是GPU？", "answer": "当您需要确定的超低延迟（纳秒级）、特殊的自定义接口或在极低功耗下进行高吞吐量处理时，FPGA是更好的选择。" },
+        { "question": "什么是SoC FPGA？", "answer": "像Xilinx Zynq这样的芯片，将多核ARM处理器与FPGA可编程逻辑集成在同一块硅片上，非常适合需要复杂控制（Linux）和高速处理（FPGA）的系统。" },
+        { "question": "高层次综合(HLS)真的有效吗？", "answer": "是的。对于复杂的数学算法，HLS可以大幅缩短开发时间。但对于接口协议和精确的时序控制，传统的Verilog/VHDL仍然是不可或缺的。" },
+        { "question": "你们提供哪些平台的开发服务？", "answer": "我们支持AMD/Xilinx、Intel/Altera、Microchip/Microsemi和Lattice的全系列FPGA及CPLD产品。" }
+      ]
+    },
+    "packetProcessing": {
+      "hero": { "title": "实时数据包处理", "description": "开发高性能的网络数据平面，实现线速(Line-Rate)的包转发、检查和修改。", "primaryButtonText": "探讨项目", "secondaryButtonText": "查看能力" },
+      "about": { "titlePart1": "关于", "titlePart2": "网络软件工程", "description": "突破操作系统的网络瓶颈。我们利用先进的技术绕过内核，实现数百万包每秒的极致吞吐量。", "metrics": [{"tag": "PERFORMANCE", "label": "千万级PPS"}, {"tag": "TECHNOLOGY", "label": "DPDK / VPP / eBPF"}, {"tag": "LATENCY", "label": "微秒级转发"}, {"tag": "SCALE", "label": "100G+ 吞吐"}] },
+      "sub_services_title": { "part1": "核心", "part2": "能力" },
+      "sub_services": [
+        { "title": "DPDK 应用开发", "description": "利用数据平面开发套件(DPDK)绕过Linux内核，实现用户空间的高速数据包处理。" },
+        { "title": "VPP (矢量包处理)", "description": "基于FD.io VPP框架构建模块化的网络节点，实现高效的批处理(Batch processing)路由和交换。" },
+        { "title": "eBPF 与 XDP", "description": "在内核级早期拦截和处理网络数据包，实现极低开销的负载均衡和DDoS防御。" },
+        { "title": "状态防火墙与NAT", "description": "设计支持海量并发连接的高性能会话跟踪(Connection Tracking)和网络地址转换功能。" },
+        { "title": "SDN 与 OpenFlow", "description": "开发软件定义网络(SDN)的数据平面，实现与ONOS/OpenDaylight控制器的无缝集成。" },
+        { "title": "智能网卡(SmartNIC)卸载", "description": "将虚拟交换机(OVS)和加密任务卸载到基于ARM或FPGA的智能网卡上，释放主机CPU资源。" }
+      ],
+      "advantages_title": { "part1": "为什么选择", "part2": "我们合作" },
+      "advantages": [
+        { "title": "内核级洞察", "description": "我们深刻理解Linux内核网络栈(TCP/IP, Netfilter)的局限性以及如何突破它们。" },
+        { "title": "无锁架构设计", "description": "精通无锁队列、RCU机制和CPU核心绑定，消除多核并发处理中的锁竞争开销。" },
+        { "title": "NUMA 架构感知", "description": "优化内存分配和PCIe数据流，确保数据包处理在正确的NUMA节点上进行，避免跨总线延迟。" },
+        { "title": "线速验证", "description": "使用专业的流量生成器(如Spirent, Ixia)对系统进行极限压力测试，证明其在最恶劣条件下的稳定性。" }
+      ],
+      "faqs": [
+        { "question": "为什么标准的Linux网络栈太慢？", "answer": "当网卡收到数据包时，它会触发硬件中断，随后涉及大量的内核态到用户态的上下文切换和数据拷贝。对于10G以上的网络，CPU完全被这些开销耗尽。" },
+        { "question": "DPDK是如何解决这个问题的？", "answer": "DPDK接管了网卡驱动，并使用轮询模式(Polling Mode)代替中断机制，直接在用户空间读写数据包内存，完全消除了内核开销。" },
+        { "question": "eBPF/XDP和DPDK哪个更好？", "answer": "取决于场景。DPDK提供最高的绝对吞吐量，但需要独占CPU核心。eBPF/XDP集成在内核中，无需绕过内核即可实现高性能，适合云原生和容器化环境。" },
+        { "question": "这些技术可以用于路由器吗？", "answer": "绝对可以。结合VPP和FRR(控制平面)，我们可以将标准的x86/ARM服务器转变为性能媲美专用ASIC硬件的高端边缘路由器。" }
+      ]
+    },
+    "phyLayer": {
+      "hero": { "title": "物理层 (PHY) 开发", "description": "实现通信系统的最底层基础，开发无线和有线介质的调制解调及纠错算法。", "primaryButtonText": "探讨项目", "secondaryButtonText": "查看能力" },
+      "about": { "titlePart1": "关于", "titlePart2": "基带工程", "description": "控制比特和电磁波的交界。我们设计和实现复杂的物理层协议，确保在最恶劣的信道环境中实现可靠的数据传输。", "metrics": [{"tag": "WIRELESS", "label": "5G / Wi-Fi / 蓝牙"}, {"tag": "MODULATION", "label": "OFDM / QAM"}, {"tag": "CODING", "label": "LDPC / 极化码"}, {"tag": "IMPLEMENTATION", "label": "DSP / FPGA"}] },
+      "sub_services_title": { "part1": "核心", "part2": "能力" },
+      "sub_services": [
+        { "title": "定制波形设计", "description": "为特定的工业、国防或卫星应用开发专有的无线电波形，优化抗干扰和远距离传输能力。" },
+        { "title": "OFDM 与 MIMO", "description": "实现正交频分复用(OFDM)和多输入多输出(MIMO)基带算法，大幅提升频谱效率。" },
+        { "title": "前向纠错(FEC)", "description": "开发高性能的里德-所罗门(RS)、卷积码、LDPC和极化码(Polar Codes)编解码器。" },
+        { "title": "同步与载波恢复", "description": "设计复杂的估计算法，以快速捕获并跟踪信号的频率、相位和定时偏差。" },
+        { "title": "信道均衡", "description": "实现自适应均衡器以减轻多径衰落和符号间干扰(ISI)的影响。" },
+        { "title": "软件定义无线电(SDR)", "description": "在USRP等通用SDR平台上快速原型验证物理层算法，加速从理论到实践的转换。" }
+      ],
+      "advantages_title": { "part1": "为什么选择", "part2": "我们合作" },
+      "advantages": [
+        { "title": "理论与工程的结合", "description": "我们将信息论中的深奥数学直接转化为可部署、高效率的C/C++或Verilog代码。" },
+        { "title": "跨层优化", "description": "PHY层不能孤立存在。我们确保PHY与MAC层(媒体访问控制)之间的接口和时序紧密耦合且高效。" },
+        { "title": "定点分析精度", "description": "精确分析ADC/DAC量化噪声和内部定点运算引起的信噪比(SNR)损失，确保硬件实现不影响理论性能。" },
+        { "title": "实验室验证装备", "description": "配备高端矢量信号发生器(VSG)和信号分析仪(VSA)，在真实射频环境中验证算法。" }
+      ],
+      "faqs": [
+        { "question": "MAC层和PHY层有什么区别？", "answer": "PHY层(物理层)负责将比特流转换为射频信号或电信号(调制/解调)。MAC层决定何时发送这些信号以避免冲突，并管理网络连接。" },
+        { "question": "什么是前向纠错(FEC)？", "answer": "在发送的数据中加入冗余的奇偶校验位。如果信号在空中受到干扰导致部分比特错误，接收端可以利用这些校验位自动纠正错误，而无需请求重传。" },
+        { "question": "为什么软件定义无线电(SDR)如此重要？", "answer": "传统无线电的调制方式固定在硬件(ASIC)中。SDR使用通用处理器(CPU/FPGA)来实现物理层，这意味着您可以通过软件更新完全改变无线电的协议和频段。" },
+        { "question": "你们可以开发5G的物理层吗？", "answer": "是的，我们拥有实现3GPP Release 15/16标准的经验，特别是在O-RAN(开放无线接入网)架构下的分布式单元(O-DU)基带处理。" }
+      ]
+    },
+    "routingProtocol": {
+      "hero": { "title": "路由协议栈集成", "description": "为嵌入式路由器、交换机和SD-WAN边缘设备移植和优化复杂的二层和三层网络协议栈。", "primaryButtonText": "探讨项目", "secondaryButtonText": "查看能力" },
+      "about": { "titlePart1": "关于", "titlePart2": "网络协议工程", "description": "构建互联网的神经系统。我们将复杂的路由逻辑和拓扑发现协议无缝集成到高度受限的嵌入式环境中。", "metrics": [{"tag": "LAYER 3", "label": "OSPF / BGP / IS-IS"}, {"tag": "LAYER 2", "label": "STP / VLAN / MACsec"}, {"tag": "EDGE", "label": "SD-WAN / IPsec"}, {"tag": "HARDWARE", "label": "ASIC 卸载"}] },
+      "sub_services_title": { "part1": "核心", "part2": "能力" },
+      "sub_services": [
+        { "title": "开源协议栈集成", "description": "将FRRouting (FRR)、Quagga或BIRD等工业级开源路由守护进程移植并适配到定制的硬件平台上。" },
+        { "title": "ASIC 硬件卸载", "description": "通过SAI(交换机抽象接口)或其他SDK，将路由表(FIB)和访问控制列表(ACL)编程到Broadcom、Marvell等交换芯片中，实现线速转发。" },
+        { "title": "SD-WAN 边缘开发", "description": "实现基于策略的路由、应用识别(DPI)和多WAN链路的无缝故障转移(Failover)。" },
+        { "title": "二层网络协议", "description": "集成生成树协议(STP/RSTP)、链路聚合(LACP)和VLAN隔离(802.1Q)。" },
+        { "title": "高可用性(HA)", "description": "开发不间断路由(NSR)和优雅重启(Graceful Restart)机制，确保设备故障时不丢失网络连接。" },
+        { "title": "加密与VPN隧道", "description": "配置并优化WireGuard、IPsec和OpenVPN，利用硬件加密引擎(如QAT)最大化VPN吞吐量。" }
+      ],
+      "advantages_title": { "part1": "为什么选择", "part2": "我们合作" },
+      "advantages": [
+        { "title": "深厚的Linux网络知识", "description": "从Netlink套接字(Sockets)到NAPI驱动程序，我们掌握Linux网络栈每一层的运作机制。" },
+        { "title": "供应商独立性", "description": "我们主张抽象底层的交换芯片API，确保您的网络软件架构不被单一芯片供应商绑定。" },
+        { "title": "安全至上", "description": "路由协议是黑客攻击的主要目标。我们实施严格的路由过滤、MD5认证和控制平面策略(CoPP)。" },
+        { "title": "规模验证测试", "description": "我们在实验室中注入数百万条BGP路由并打入百G级流量，以证明协议栈不会耗尽内存或发生崩溃。" }
+      ],
+      "faqs": [
+        { "question": "控制平面和数据平面有什么区别？", "answer": "控制平面是运行BGP/OSPF协议的大脑，它计算出到达目的地的最佳路径。数据平面是肌肉，它根据大脑提供的转发表，以极高的速度将数据包转发出去。" },
+        { "question": "什么是SAI(交换机抽象接口)？", "answer": "它是OCP(开放计算项目)倡导的一个标准化API。它允许同一套路由软件不做任何修改就能在不同厂商(如Broadcom, Mellanox)的交换芯片上运行。" },
+        { "question": "如果我的设备只有很小的内存(RAM)，能运行BGP吗？", "answer": "接收完整的互联网BGP路由表(目前超过90万条)需要几GB的内存。如果是边缘设备，我们可以配置它只接收默认路由或关键的子网路由以节省资源。" },
+        { "question": "你们如何保证VPN连接的速度？", "answer": "标准的软件IPsec非常消耗CPU。我们通过利用SoC内置的硬件加密加速器(如Intel QAT或NXP SEC)将VPN吞吐量提升数倍。" }
+      ]
+    },
+    "satcomFirmware": {
+      "hero": { "title": "卫星通信(Satcom)固件", "description": "为地面站调制解调器、轨道跟踪系统和抗辐射飞行硬件开发航天级固件。", "primaryButtonText": "探讨项目", "secondaryButtonText": "查看能力" },
+      "about": { "titlePart1": "关于", "titlePart2": "航天软件工程", "description": "在太空中没有重启键。我们开发符合最严苛认证标准、能够承受宇宙射线辐射和极端动态环境的关键任务代码。", "metrics": [{"tag": "ORBIT", "label": "LEO / MEO / GEO"}, {"tag": "STANDARD", "label": "DVB-S2X / CCSDS"}, {"tag": "CERT", "label": "DO-178C / ESA"}, {"tag": "RELIABILITY", "label": "抗辐射/容错设计"}] },
+      "sub_services_title": { "part1": "核心", "part2": "能力" },
+      "sub_services": [
+        { "title": "LEO 星座跟踪", "description": "编写复杂的运动学算法，以捕获和跟踪以 7 km/s 速度移动的低地球轨道卫星。" },
+        { "title": "DVB-S2X 调制解调器", "description": "实现现代卫星宽带(VSAT)使用的高效数字视频广播标准及自适应编码调制(ACM)。" },
+        { "title": "航天级RTOS移植", "description": "将VxWorks或RTEMS等实时操作系统移植到抗辐射处理器(如LEON3/4, RAD750)上。" },
+        { "title": "多普勒频移补偿", "description": "开发动态频率校正算法，以补偿低轨卫星高速运动带来的巨大多普勒频移效应。" },
+        { "title": "遥测、跟踪和命令(TT&C)", "description": "解析并生成CCSDS(空间数据系统咨询委员会)标准的数据包，实现对航天器的可靠指挥。" },
+        { "title": "辐射缓解软件机制", "description": "在软件层面实现内存洗刷(Memory Scrubbing)和多数表决机制(TMR)，以在单粒子翻转(SEU)中生存。" }
+      ],
+      "advantages_title": { "part1": "为什么选择", "part2": "我们合作" },
+      "advantages": [
+        { "title": "深谙太空挑战", "description": "我们理解航天飞行的独特限制：极端温度、硬真空，以及绝对没有物理维修的机会。" },
+        { "title": "从数学到硅片", "description": "卫星通信就是纯粹的数学。在编写哪怕一行C代码之前，我们都会进行详尽的轨道力学和射频链路预算建模。" },
+        { "title": "国防安全资质", "description": "我们维护必要的基础设施和人员背景，以参与保密的国防和政府卫星通信项目开发。" },
+        { "title": "严苛的认证流程", "description": "我们的软件开发生命周期(SDLC)旨在生成能够顺利通过NASA/ESA审计或DO-178C认证的完整可追溯性文档。" }
+      ],
+      "faqs": [
+        { "question": "LEO、MEO和GEO卫星有什么区别？", "answer": "GEO(地球同步轨道)很高，与地球自转同步，天线不需要移动但延迟很高。LEO(低地球轨道)如星链，离地球很近延迟极低，但卫星快速飞过，需要复杂的天线持续跟踪和切换。" },
+        { "question": "什么是单粒子翻转(SEU)，软件如何应对？", "answer": "在太空中，高能宇宙射线击中芯片可能会将内存中的'0'翻转为'1'。软件可以通过使用纠错内存(ECC)、定期检查和重写关键数据以及在多个核心上运行相同代码并比较结果(TMR)来应对。" },
+        { "question": "什么是DVB-S2X？", "answer": "它是目前最先进的卫星通信波形标准。它极其高效，允许在晴天时使用高阶调制(如256-APSK)提高速度，在下雨信号衰减时自动降低速率以保持连接(ACM)。" },
+        { "question": "开发空间飞行软件通常遵循什么标准？", "answer": "通常遵循NASA的软件工程要求、欧洲航天局(ESA)的ECSS标准，或航空电子设备的DO-178C标准，这些标准要求对每一行代码进行极度严格的测试和可追溯性证明。" }
+      ]
+    },
+    "connectedHealth": {
+      "hero": { "title": "互联健康平台", "description": "开发安全的IoMT(医疗物联网)设备固件，实现BLE/Wi-Fi连接、云端遥测和HIPAA合规的数据管道。", "primaryButtonText": "探讨项目", "secondaryButtonText": "查看能力" },
+      "about": { "titlePart1": "关于", "titlePart2": "互联医疗工程", "description": "让医疗设备不再是信息孤岛。我们构建安全、可靠的无线连接和数据传输系统，赋能远程患者监护和智慧医疗。", "metrics": [{"tag": "WIRELESS", "label": "BLE / Wi-Fi / LoRa"}, {"tag": "CLOUD", "label": "AWS IoT / Azure"}, {"tag": "SECURITY", "label": "HIPAA 合规"}, {"tag": "STANDARD", "label": "HL7 FHIR"}] },
+      "sub_services_title": { "part1": "核心", "part2": "能力" },
+      "sub_services": [
+        { "title": "BLE 医疗设备协议", "description": "实现符合Bluetooth SIG医疗标准(如HRS, GLS, BLP)的低功耗蓝牙协议栈和配置文件。" },
+        { "title": "安全OTA固件升级", "description": "设计经过加密签名验证的空中下载(OTA)升级机制，确保现场设备安全可靠地更新。" },
+        { "title": "云端集成(IoMT)", "description": "将设备数据安全地路由到AWS IoT Core或Azure IoT Hub，实现大规模设备管理和数据分析。" },
+        { "title": "HIPAA合规数据管道", "description": "端到端加密(TLS 1.3)的数据传输和存储架构，满足美国健康保险流通与责任法案的严格要求。" },
+        { "title": "网关与边缘计算", "description": "开发家庭或诊所中的医疗网关固件，汇聚多设备数据并进行本地预处理后上传。" },
+        { "title": "远程患者监护(RPM)", "description": "构建从传感器到医生仪表盘的完整技术栈，实现慢性病的连续远程监测与预警。" }
+      ],
+      "advantages_title": { "part1": "为什么选择", "part2": "我们合作" },
+      "advantages": [
+        { "title": "安全至上", "description": "医疗数据是最敏感的数据。我们的团队精通HIPAA、GDPR和网络安全最佳实践，从设计源头保障隐私。" },
+        { "title": "低功耗设计", "description": "可穿戴和植入式设备必须靠纽扣电池运行数月。我们在连接性和电池寿命之间实现精确的平衡。" },
+        { "title": "互操作性", "description": "我们确保设备能与iOS/Android应用、医院信息系统(HIS/EMR)和第三方平台无缝对接。" },
+        { "title": "法规导航", "description": "我们帮助客户提前准备FDA网络安全指南和MDR(欧盟医疗器械法规)所要求的技术文档。" }
+      ],
+      "faqs": [
+        { "question": "什么是IoMT(医疗物联网)？", "answer": "IoMT是指通过网络连接的医疗设备和应用程序生态系统，允许设备收集患者数据并传输到云端进行分析，从而实现远程监护和智能诊断。" },
+        { "question": "BLE和Wi-Fi在医疗设备中如何选择？", "answer": "BLE功耗极低，适合电池供电的可穿戴设备；Wi-Fi适合需要高带宽(如视频流)且有持续电源的床旁设备。很多产品两者都会支持。" },
+        { "question": "HIPAA对设备固件有什么要求？", "answer": "主要要求数据在传输中和静止时都必须加密，实施访问控制，维护审计日志，并有安全事件响应计划。我们将这些要求直接构建到固件架构中。" },
+        { "question": "你们支持FDA的网络安全预上市指南吗？", "answer": "是的。我们生成FDA要求的威胁建模报告(STRIDE)、SBOM(软件物料清单)和漏洞管理计划，作为510(k)提交材料的一部分。" }
+      ]
+    },
+    "medicalFirmware": {
+      "hero": { "title": "医疗器械固件开发", "description": "开发符合IEC 62304标准的高可靠性固件，为生命攸关的医疗设备注入智能。", "primaryButtonText": "探讨项目", "secondaryButtonText": "查看能力" },
+      "about": { "titlePart1": "关于", "titlePart2": "医疗固件工程", "description": "编写控制生命的代码。我们遵循最严格的医疗软件生命周期标准，开发零缺陷的嵌入式系统固件。", "metrics": [{"tag": "IEC 62304", "label": "软件生命周期"}, {"tag": "RISK", "label": "ISO 14971"}, {"tag": "SAFETY", "label": "C 类软件"}, {"tag": "QUALITY", "label": "FDA 510(k)"}] },
+      "sub_services_title": { "part1": "核心", "part2": "能力" },
+      "sub_services": [
+        { "title": "裸机(Bare-Metal)固件", "description": "为资源极其受限的微控制器开发高度优化的C语言代码，直接控制传感器和执行器。" },
+        { "title": "RTOS集成与开发", "description": "在FreeRTOS、Zephyr或QNX上构建确定性的多任务固件，满足硬实时截止期限。" },
+        { "title": "模拟前端(AFE)驱动", "description": "编写与高精度模数转换器(ADC)和传感器前端(如TI ADS1298)精密交互的底层驱动。" },
+        { "title": "电机与执行器控制", "description": "开发控制输液泵步进电机、呼吸机阀门或手术机器人关节的精密PID/FOC控制回路。" },
+        { "title": "功耗管理固件", "description": "在待机和多种运行模式之间实现智能切换，最大化电池供电医疗设备的使用时长。" },
+        { "title": "IEC 62304合规文档", "description": "生成完整的软件需求规格书(SRS)、架构设计、单元测试和可追溯性矩阵，直接用于FDA/CE提交。" }
+      ],
+      "advantages_title": { "part1": "为什么选择", "part2": "我们合作" },
+      "advantages": [
+        { "title": "生命周期严格把控", "description": "我们的开发流程完全符合IEC 62304的所有安全等级(A/B/C)，确保每一行代码都可审计和追溯。" },
+        { "title": "风险管理融入DNA", "description": "从项目启动的第一天起，我们就按照ISO 14971进行系统的危害分析和风险评估。" },
+        { "title": "跨平台经验", "description": "从8位PIC和MSP430到32位ARM Cortex-M和多核SoC，我们拥有广泛的硬件平台经验。" },
+        { "title": "验证即交付物", "description": "代码只是交付物的一半。我们提供完整的软件文档集，可以直接放入您的510(k)或PMA申请中。" }
+      ],
+      "faqs": [
+        { "question": "什么是IEC 62304？", "answer": "IEC 62304是医疗器械软件的国际标准，定义了软件开发生命周期过程。它要求根据软件的安全等级(A, B, C)执行不同级别的开发、测试和维护活动。" },
+        { "question": "C类软件意味着什么？", "answer": "C类是最高安全等级，意味着该软件的故障可能直接导致患者死亡或严重伤害。它要求最详尽的单元测试、集成测试和可追溯性。" },
+        { "question": "你们如何应对产品生命周期内的CVE漏洞？", "answer": "我们提供可交付的SBOM(软件物料清单)，并可以设置自动化管道进行CVE监控，方便在安全补丁发布时及时采用。" },
+        { "question": "你们做Android系统的开发吗？", "answer": "是的。我们有专业团队定制Android系统(AOSP)，用于信息娱乐系统和带触摸屏的智能医疗设备，并在底层集成硬件特有的HAL(硬件抽象层)。" }
+      ]
+    },
+    "pointOfCare": {
+      "hero": { "title": "床旁诊断(POCT)系统", "description": "为高端体外诊断(IVD)分析仪、患者监护仪和手术控制台开发嵌入式Linux操作系统和Qt触控界面。", "primaryButtonText": "探讨项目", "secondaryButtonText": "查看能力" },
+      "about": { "titlePart1": "关于", "titlePart2": "POCT工程", "description": "构建现代医学的智能终端。我们开发嵌入式Linux BSP、流畅的Qt用户界面和关键控制逻辑。", "metrics": [{"tag": "LINUX", "label": "嵌入式Linux BSP"}, {"tag": "UI", "label": "Qt 触控界面"}, {"tag": "SAFETY", "label": "安全关键隔离"}, {"tag": "CONNECTIVITY", "label": "HL7/FHIR 集成"}] },
+      "sub_services_title": { "part1": "核心", "part2": "能力" },
+      "sub_services": [
+        { "title": "嵌入式Linux BSP定制", "description": "使用Yocto/Buildroot为医疗SoC构建精简、安全和快速启动的定制Linux发行版。" },
+        { "title": "Qt医疗界面开发", "description": "设计开发信息丰富、直观且符合IEC 62366人因工程标准的高性能触控界面。" },
+        { "title": "多核异构处理", "description": "在NXP i.MX8等SoC上，Cortex-A核运行Linux负责UI，Cortex-M核运行RTOS负责实时电机控制。" },
+        { "title": "HL7 / FHIR集成", "description": "开发应用层，将患者检验结果安全地传输到医院的LIS(实验室信息系统)中。" },
+        { "title": "人因工程(IEC 62366)", "description": "与UX研究人员协作，确保软件设计能有效降低灾难性用户操作错误的风险。" },
+        { "title": "报警管理(IEC 60601-1-8)", "description": "实现严格的状态机来管理报警优先级、视觉指示灯和听觉信号。" }
+      ],
+      "advantages_title": { "part1": "为什么选择", "part2": "我们合作" },
+      "advantages": [
+        { "title": "智能设备专家", "description": "从简单的MCU过渡到嵌入式Linux SoC是一次巨大的飞跃。我们已经为数十个医疗客户完成了这一转型。" },
+        { "title": "UI与安全并存", "description": "漂亮的界面如果在手术中崩溃就毫无意义。我们知道如何将关键控制回路与复杂的图形引擎隔离开来。" },
+        { "title": "医院IT就绪", "description": "床旁设备必须与医院对话。我们理解HL7、FHIR以及医院IT管理员的严格安全要求。" },
+        { "title": "快速启动专家", "description": "标准Linux启动需要30秒。我们精简内核并优化引导加载程序，使您的设备在5秒内就绪。" }
+      ],
+      "faqs": [
+        { "question": "为什么高端医疗设备需要嵌入式Linux？", "answer": "当设备需要触摸屏GUI、网络连接、USB外设和复杂的数据处理时，裸机或简单RTOS已无法胜任。嵌入式Linux提供了丰富的中间件和驱动生态系统。" },
+        { "question": "嵌入式Linux如何满足实时性要求？", "answer": "通过使用PREEMPT_RT补丁或异构多核方案(将实时任务隔离到专用的MCU核)，我们可以在Linux系统上同时实现丰富的功能和确定性的控制。" },
+        { "question": "什么是Yocto项目？", "answer": "Yocto是一个用于创建定制嵌入式Linux发行版的框架。它允许我们精确控制内核版本、安全补丁和系统中包含的每一个软件包，这对可审计的医疗设备至关重要。" },
+        { "question": "Qt界面适合医疗设备吗？", "answer": "非常适合。Qt是C++框架，性能极高，在嵌入式Linux上可以实现60fps的流畅动画。许多全球知名的医疗设备制造商都使用Qt作为其界面框架。" }
+      ]
+    },
+    "wearableAlgorithms": {
+      "hero": { "title": "可穿戴健康算法", "description": "开发临床级信号处理和边缘AI(TinyML)算法，用于连续PPG、ECG和SpO2监测。", "primaryButtonText": "探讨项目", "secondaryButtonText": "查看能力" },
+      "about": { "titlePart1": "关于", "titlePart2": "算法工程", "description": "从噪声数据中提取临床真相。我们开发先进的信号处理和TinyML算法，将原始可穿戴传感器数据转化为可操作的、经FDA认证的生理指标。", "metrics": [{"tag": "PPG", "label": "光学传感器"}, {"tag": "ECG", "label": "心电分析"}, {"tag": "TINYML", "label": "边缘AI推理"}, {"tag": "CLINICAL", "label": "临床验证"}] },
+      "sub_services_title": { "part1": "核心", "part2": "能力" },
+      "sub_services": [
+        { "title": "运动伪影消除", "description": "利用6轴IMU(加速度计/陀螺仪)数据，通过数学方法从敏感的光学信号中减去物理运动噪声。" },
+        { "title": "生物标志物提取", "description": "编写DSP代码从原始波形中计算心率变异性(HRV)、呼吸频率和血压等关键指标。" },
+        { "title": "边缘机器学习(TinyML)", "description": "训练TinyML模型(TensorFlow Lite Micro)，直接在设备上对复杂状态(如睡眠阶段)进行分类。" },
+        { "title": "极致功耗优化", "description": "通过充分利用DMA和硬件DSP指令(CMSIS-DSP)来构建算法，让主CPU尽可能休眠以延长电池寿命。" },
+        { "title": "数据管道架构", "description": "设计安全的、符合HIPAA标准的BLE到云端管道，用于传输高频原始数据进行设备外处理和分析。" },
+        { "title": "算法验证与测试", "description": "构建大规模自动化测试套件，将数千小时的录制患者数据回放通过算法，以证明其准确性。" }
+      ],
+      "advantages_title": { "part1": "为什么选择", "part2": "我们合作" },
+      "advantages": [
+        { "title": "数学与硬件的交汇", "description": "我们深知如果算法在2小时内耗尽电池就毫无用处。我们针对目标芯片专门优化数学运算。" },
+        { "title": "临床级严谨性", "description": "我们不做健身追踪器。我们开发的算法旨在作为SaMD(医疗器械软件)通过FDA 510(k)认证。" },
+        { "title": "数据驱动", "description": "我们拥有海量、多样化的生理信号数据集，使训练出的算法能适用于所有患者群体，而非仅限于特定人群。" },
+        { "title": "端到端能力", "description": "因为我们同时设计模拟前端(AFE)硬件，所以能在信号源头解决噪声问题，而非在软件中亡羊补牢。" }
+      ],
+      "faqs": [
+        { "question": "PPG(光电容积脉搏波)传感器如何工作？", "answer": "PPG通过向皮肤发射绿色或红色LED光并测量反射光的变化来工作。当心脏跳动使血管扩张时，更多的光被吸收，形成脉搏波形。" },
+        { "question": "运动伪影为什么是最大的挑战？", "answer": "当用户走路或跑步时，手腕上的传感器会移动，导致光路变化产生巨大的噪声信号，其幅度远远超过微弱的脉搏信号。消除这些噪声需要复杂的自适应滤波算法。" },
+        { "question": "什么是TinyML？", "answer": "TinyML是指在功耗仅几毫瓦的微型微控制器(如ARM Cortex-M4)上直接运行经过压缩和量化的机器学习模型，实现本地、私密和实时的智能推理。" },
+        { "question": "算法如何获得FDA认证？", "answer": "作为SaMD，算法需要通过严格的临床试验来证明其性能(灵敏度、特异性)与现有的临床金标准方法(如参考血氧仪)具有统计学上的等效性。" }
+      ]
+    },
+    "asicDesign": {
+      "hero": { "title": "ASIC 设计服务", "description": "从架构定义到流片(Tapeout)，提供全流程的专用集成电路(ASIC)设计与验证服务。", "primaryButtonText": "探讨项目", "secondaryButtonText": "查看能力" },
+      "about": { "titlePart1": "关于", "titlePart2": "ASIC 工程", "description": "将您的创新从概念推向硅片。我们提供从RTL设计到物理实现的完整ASIC开发服务，实现极致性能和最低功耗。", "metrics": [{"tag": "PROCESS", "label": "先进工艺节点"}, {"tag": "IP", "label": "定制IP核"}, {"tag": "VERIFICATION", "label": "UVM 验证"}, {"tag": "BACKEND", "label": "物理设计(P&R)"}] },
+      "sub_services_title": { "part1": "核心", "part2": "能力" },
+      "sub_services": [
+        { "title": "RTL 设计与编码", "description": "使用SystemVerilog/VHDL编写高效、可综合的寄存器传输级(RTL)代码。" },
+        { "title": "功能验证(UVM)", "description": "构建基于UVM(通用验证方法学)的严密测试平台，实现约束随机覆盖率驱动的验证。" },
+        { "title": "逻辑综合", "description": "使用Synopsys Design Compiler或Cadence Genus将RTL综合为目标工艺库的门级网表。" },
+        { "title": "物理设计(P&R)", "description": "执行布局规划(Floorplan)、时钟树综合(CTS)、布局布线(Place & Route)和签核(Signoff)。" },
+        { "title": "低功耗设计(UPF)", "description": "利用多电压域、电源门控和动态电压频率调节(DVFS)实现极低功耗的SoC设计。" },
+        { "title": "DFT 与 BIST", "description": "插入扫描链、MBIST和JTAG TAP控制器，确保芯片在量产中的高测试覆盖率。" }
+      ],
+      "advantages_title": { "part1": "为什么选择", "part2": "我们合作" },
+      "advantages": [
+        { "title": "全流程交付", "description": "从架构规格书到GDS II文件，我们提供端到端的ASIC设计服务，无需多供应商协调。" },
+        { "title": "深厚的工艺节点经验", "description": "在从180nm到先进的FinFET工艺节点上拥有丰富的流片经验。" },
+        { "title": "一次流片成功", "description": "通过严格的形式验证、STA(静态时序分析)和物理验证(DRC/LVS)，最大限度降低昂贵的重新流片风险。" },
+        { "title": "IP复用生态", "description": "拥有成熟的可复用IP库(如接口控制器、处理器子系统)，加速您的设计进程。" }
+      ],
+      "faqs": [
+        { "question": "什么时候应该选择ASIC而不是FPGA？", "answer": "当产品量产规模达到数万颗以上时，ASIC的单位成本远低于FPGA。此外，ASIC在功耗、性能和芯片面积方面通常优于FPGA一到两个数量级。" },
+        { "question": "ASIC设计周期通常多长？", "answer": "从RTL冻结到拿到样片(First Silicon)，通常需要6-12个月，具体取决于工艺节点的复杂度和设计规模。" },
+        { "question": "什么是流片(Tapeout)？", "answer": "流片是将最终的GDS II版图数据提交给代工厂(Foundry)进行芯片制造的过程。这是一个不可逆的里程碑，因此之前的验证和签核至关重要。" },
+        { "question": "你们支持哪些代工厂？", "answer": "我们与全球主要代工厂(如台积电TSMC、三星、格芯GlobalFoundries、中芯国际SMIC)均有合作经验和工艺设计套件(PDK)。" }
+      ]
+    },
+    "circuitDesign": {
+      "hero": { "title": "电路设计", "description": "从架构定义到SPICE仿真，设计精密的模拟、数字和混合信号原理图。", "primaryButtonText": "探讨项目", "secondaryButtonText": "查看能力" },
+      "about": { "titlePart1": "关于", "titlePart2": "电路工程", "description": "一切硬件始于原理图。我们的电气工程师设计稳健、高效、经过仿真验证的电路，为后续PCB布局奠定坚实基础。", "metrics": [{"tag": "ANALOG", "label": "模拟/混合信号"}, {"tag": "POWER", "label": "电源管理"}, {"tag": "HIGH-SPEED", "label": "高速数字"}, {"tag": "SIMULATION", "label": "SPICE 仿真"}] },
+      "sub_services_title": { "part1": "核心", "part2": "能力" },
+      "sub_services": [
+        { "title": "架构与模块图", "description": "在画任何一条线之前，定义核心的硬件拓扑、IC选型和数据流。" },
+        { "title": "层次化原理图绘制", "description": "使用Altium、OrCAD或Mentor Xpedition创建深度结构化、可读性强的层次化原理图。" },
+        { "title": "电源设计", "description": "设计高效率DC-DC开关稳压器和超低噪声线性稳压器(LDO)。" },
+        { "title": "模拟与传感器前端", "description": "为复杂的物理传感器设计精密的信号调理电路(运放、滤波器)。" },
+        { "title": "BOM风险管理", "description": "通过SiliconExpert或Octopart审查每个元器件，以确保5-10年的生产生命周期。" },
+        { "title": "SPICE仿真验证", "description": "在极端温度范围和元件容差下，通过数学方法验证电路行为。" }
+      ],
+      "advantages_title": { "part1": "为什么选择", "part2": "我们合作" },
+      "advantages": [
+        { "title": "一次成功原则", "description": "我们运行详尽的设计规则检查(DRC)和同行评审，在原理图传递到布局之前消除所有错误。" },
+        { "title": "深厚的领域专长", "description": "我们的电气工程师设计过从植入式医用起搏器到100kW工业电机驱动器的各类产品。" },
+        { "title": "无缝的ECAD-MCAD协作", "description": "我们直接在原理图中定义物理约束，确保电子和机械外壳之间的完美协调。" },
+        { "title": "可测试性设计(DFT)", "description": "我们策略性地布置测试点和边界扫描链，大幅减少调试首块原型的时间。" }
+      ],
+      "faqs": [
+        { "question": "什么是混合信号设计？", "answer": "混合信号设计是在同一块电路板上同时处理模拟信号（如传感器读数、音频）和数字信号（如微控制器、通信接口）的艺术。关键挑战在于防止数字噪声污染敏感的模拟测量。" },
+        { "question": "为什么电源设计如此重要？", "answer": "现代SoC可能需要5种以上不同的电压轨，且每一种都有严格的纹波和瞬态响应要求。一个设计不当的电源会导致系统不稳定、芯片过热甚至损坏。" },
+        { "question": "SPICE仿真能预测什么？", "answer": "SPICE仿真可以在制造任何硬件之前，精确预测电路的频率响应、瞬态行为、功耗以及在极端温度(-40°C至+85°C)下的性能漂移。" },
+        { "question": "你们如何应对全球芯片短缺？", "answer": "我们在设计阶段就考虑元器件替代方案(Alternate Parts)，并使用引脚兼容的备选IC，确保即使某款芯片缺货也不会导致整个项目停滞。" }
+      ]
+    },
+    "fpgaDesign": {
+      "hero": { "title": "FPGA 设计", "description": "开发高性能RTL代码、定制IP核和经过严格UVM验证的比特流(Bitstream)。", "primaryButtonText": "探讨项目", "secondaryButtonText": "查看能力" },
+      "about": { "titlePart1": "关于", "titlePart2": "FPGA 设计", "description": "可编程的力量。我们将复杂算法转化为极致高效的硬件逻辑，释放FPGA在速度、并行性和确定性方面的全部潜力。", "metrics": [{"tag": "RTL", "label": "VHDL / SystemVerilog"}, {"tag": "SPEED", "label": "多G收发器"}, {"tag": "VERIFY", "label": "UVM 验证"}, {"tag": "VENDORS", "label": "全平台支持"}] },
+      "sub_services_title": { "part1": "核心", "part2": "能力" },
+      "sub_services": [
+        { "title": "RTL 设计", "description": "编写高质量、高度可综合的VHDL或SystemVerilog代码，高效映射到目标FPGA的LUT/DSP资源。" },
+        { "title": "硬件加速", "description": "将C/C++算法转换为流水线化的RTL，实现数个数量级的执行速度提升。" },
+        { "title": "SoC与软核集成", "description": "在自定义逻辑旁集成软处理器(MicroBlaze, Nios II, RISC-V)以管理控制平面操作。" },
+        { "title": "DSP实现", "description": "设计复杂的数字信号处理链，最大化利用硬化的DSP切片用于雷达、音频和通信。" },
+        { "title": "IP核开发", "description": "创建可复用、参数化的IP模块(如自定义存储控制器或AXI互连)，并以标准工具打包。" },
+        { "title": "时序收敛", "description": "深入综合约束和布局规划，解决密集填充芯片上顽固的建立/保持时间违例。" }
+      ],
+      "advantages_title": { "part1": "为什么选择", "part2": "我们合作" },
+      "advantages": [
+        { "title": "供应商无关", "description": "我们在AMD/Xilinx (Vivado)、Intel/Altera (Quartus)、Microchip (Libero)和Lattice (Diamond)全平台拥有深厚专业知识。" },
+        { "title": "UVM验证体系", "description": "我们不仅仅依赖仿真波形。我们构建强大的、自动化的UVM验证环境确保零缺陷比特流。" },
+        { "title": "系统级视角", "description": "我们理解FPGA如何融入更大的PCB和软件生态系统，确保顺畅的软硬件集成。" },
+        { "title": "高速接口专长", "description": "精通多G收发器(MGT)，成功部署PCIe Gen4/5、100G以太网和SDI链路。" }
+      ],
+      "faqs": [
+        { "question": "FPGA和ASIC有什么区别？", "answer": "FPGA可以在制造后通过重新编程改变功能（灵活但单位成本高），而ASIC的功能在芯片制造时就固定了（前期投入大但大批量成本极低）。FPGA常用于ASIC流片前的原型验证。" },
+        { "question": "什么是时序收敛(Timing Closure)？", "answer": "当FPGA内部的逻辑信号不能在一个时钟周期内从源触发器到达目标触发器时，就会产生时序违例。时序收敛是指通过优化RTL代码、约束和物理布局来消除所有这些违例的过程。" },
+        { "question": "你们支持HLS(高层次综合)吗？", "answer": "是的。Vivado HLS / Vitis允许用C/C++编写算法并自动转换为RTL。它对于复杂数学运算非常高效，但对于接口和精确时序控制，传统RTL仍然是首选。" },
+        { "question": "你们可以帮助从FPGA迁移到ASIC吗？", "answer": "绝对可以。这正是我们的核心优势之一。我们可以将经过FPGA验证的RTL代码进行优化、修改(如替换FPGA专用原语)，使其适合ASIC综合和流片。" }
+      ]
+    },
+    "hardwarePrototyping": {
+      "hero": { "title": "硬件原型制作", "description": "将概念快速转化为可工作的物理原型，进行迭代验证并加速产品上市。", "primaryButtonText": "探讨项目", "secondaryButtonText": "查看能力" },
+      "about": { "titlePart1": "关于", "titlePart2": "快速原型", "description": "用最快的速度将想法变成实物。我们管理从3D打印外壳到贴片焊接的完整原型制作流程，让您在数周内拿到可工作的样机。", "metrics": [{"tag": "SPEED", "label": "快速周转"}, {"tag": "ITERATION", "label": "多轮迭代"}, {"tag": "ASSEMBLY", "label": "PCBA 小批量"}, {"tag": "TEST", "label": "功能验证"}] },
+      "sub_services_title": { "part1": "核心", "part2": "能力" },
+      "sub_services": [
+        { "title": "快速PCB打样", "description": "利用加急服务在24-48小时内获得裸板PCB，加速硬件迭代周期。" },
+        { "title": "SMT贴片与焊接", "description": "在内部或合作工厂完成小批量(1-100片)的表面贴装(SMT)和通孔焊接组装。" },
+        { "title": "3D打印外壳", "description": "使用FDM、SLA或SLS技术快速制作原型外壳和机械结构件，进行形态和装配验证。" },
+        { "title": "BOM采购与管理", "description": "处理复杂的元器件采购、替代料选型和小批量物料管理，解决供应链难题。" },
+        { "title": "原型功能测试", "description": "对组装好的原型进行全面的上电测试、功能调试和初步性能评估。" },
+        { "title": "设计迭代(Respin)", "description": "根据原型测试结果快速修改原理图和PCB布局，进入下一轮更完善的迭代。" }
+      ],
+      "advantages_title": { "part1": "为什么选择", "part2": "我们合作" },
+      "advantages": [
+        { "title": "端到端能力", "description": "从原理图修改到拿到焊接好的电路板，全部在一个团队内完成，无需多方协调。" },
+        { "title": "快速响应", "description": "我们理解在竞争激烈的市场中，每多等一周都可能意味着错失机会。我们的流程为速度而优化。" },
+        { "title": "测试即服务", "description": "不只是交付焊接好的板子——我们会完成初始的上电测试并提供详细的测试报告。" },
+        { "title": "规模化衔接", "description": "我们的原型设计从一开始就考虑可量产性(DfM/DfA)，确保从原型到量产的平滑过渡。" }
+      ],
+      "faqs": [
+        { "question": "从设计到拿到第一块原型板需要多长时间？", "answer": "典型的周期是2-4周，包括PCB快速打样(2-3天)、元器件采购(取决于物料可用性)和贴片组装(2-5天)。" },
+        { "question": "你们可以处理BGA等复杂封装的焊接吗？", "answer": "是的。我们的合作工厂配备了先进的贴片设备和X射线检测仪，可以处理0.4mm间距的BGA和QFN等精细封装。" },
+        { "question": "原型阶段和量产阶段的PCB有什么区别？", "answer": "原型阶段侧重于快速验证功能，可能使用较昂贵的板材和不经济的制造工艺。量产阶段则需要优化成本、良率和测试流程。" },
+        { "question": "如果原型测试失败怎么办？", "answer": "失败是原型阶段的常态。关键在于快速定位根因。我们使用示波器、逻辑分析仪和热成像仪进行详细调试，并尽快进入下一轮修改迭代。" }
+      ]
+    },
+    "hardwareValidation": {
+      "hero": { "title": "硬件测试与验证", "description": "通过结构化的EVT/DVT/PVT阶段门控验证流程，系统性地消除硬件风险。", "primaryButtonText": "探讨项目", "secondaryButtonText": "查看能力" },
+      "about": { "titlePart1": "关于", "titlePart2": "验证工程", "description": "在产品上市前发现并修复一切问题。我们通过严酷的环境、机械和电气测试，证明您的硬件能够在真实世界中可靠运行。", "metrics": [{"tag": "EVT/DVT/PVT", "label": "阶段门控验证"}, {"tag": "SI/PI", "label": "信号/电源完整性"}, {"tag": "EMC", "label": "EMI预合规"}, {"tag": "ATE", "label": "产线测试设备"}] },
+      "sub_services_title": { "part1": "核心", "part2": "能力" },
+      "sub_services": [
+        { "title": "生命周期管理(EVT/DVT/PVT)", "description": "驱动硬件通过结构化的阶段门控验证，系统性地消除风险。" },
+        { "title": "环境与可靠性测试", "description": "将电路板置于极端温度、冲击、振动和湿度下，以计算准确的MTBF(平均无故障时间)。" },
+        { "title": "信号与电源完整性探测", "description": "使用30GHz+示波器捕获眼图、测量抖动(Jitter)并确认电源传输网络(PDN)的稳定性。" },
+        { "title": "EMI/EMC预合规扫描", "description": "在支付昂贵的正式认证实验室费用之前，在内部消声室中进行辐射和传导发射扫描。" },
+        { "title": "自动化测试设备(ATE)", "description": "设计定制的针床治具(Bed-of-Nails)并编写LabVIEW测试序列，在30秒内评估量产电路板。" },
+        { "title": "根本原因分析(RCA)", "description": "当板子失败时，我们使用X射线、切片分析和逻辑分析仪来找到确切的根本原因，而不仅仅是报告现象。" }
+      ],
+      "advantages_title": { "part1": "为什么选择", "part2": "我们合作" },
+      "advantages": [
+        { "title": "零意外", "description": "当您的产品到达正式认证实验室或工厂产线时，我们已经发现并修复了所有薄弱环节。" },
+        { "title": "数据驱动决策", "description": "我们提供全面的、数学支撑的验证报告，附带示波器截图和热成像图。" },
+        { "title": "全面的测试装备", "description": "从高带宽示波器到环境试验箱和EMC暗室，我们拥有或可调用完整的测试基础设施。" },
+        { "title": "量产测试方案", "description": "我们不仅验证原型——我们还设计在产线上每个单元都能快速、可靠地通过的自动化测试方案。" }
+      ],
+      "faqs": [
+        { "question": "EVT、DVT和PVT分别是什么？", "answer": "EVT(工程验证测试)验证基本功能；DVT(设计验证测试)在极端环境下验证可靠性和合规性；PVT(生产验证测试)验证量产工艺的良率和一致性。" },
+        { "question": "为什么需要EMC预合规测试？", "answer": "正式的EMC认证实验室每小时收费高昂，如果测试失败需要重新修改设计再次测试，成本和时间损失巨大。预合规测试能在内部提前发现问题，大幅降低正式认证的失败率。" },
+        { "question": "什么是信号完整性(SI)？", "answer": "信号完整性关注高速数字信号在PCB走线上传输时的质量。在GHz频率下，走线本身变成了传输线，阻抗不匹配和串扰会导致信号畸变(眼图闭合)。" },
+        { "question": "你们能为我们设计产线ATE系统吗？", "answer": "是的。我们设计包括机械针床治具、定制测试电路板和LabVIEW/Python自动化测试软件在内的完整ATE解决方案。" }
+      ]
+    },
+    "pcbDesign": {
+      "hero": { "title": "PCB 设计", "description": "执行高速数字、精密模拟和射频混合信号的多层印制电路板布局。", "primaryButtonText": "探讨项目", "secondaryButtonText": "查看能力" },
+      "about": { "titlePart1": "关于", "titlePart2": "PCB 布局", "description": "原理图的物理化身。我们的布局工程师将复杂的电路转化为高密度、高可靠性、可量产的印制电路板。", "metrics": [{"tag": "HIGH-SPEED", "label": "DDR5 / PCIe Gen5"}, {"tag": "HDI", "label": "微盲埋孔"}, {"tag": "SI/PI", "label": "仿真驱动"}, {"tag": "LAYERS", "label": "32层+ 叠层"}] },
+      "sub_services_title": { "part1": "核心", "part2": "能力" },
+      "sub_services": [
+        { "title": "高速布线", "description": "为DDR4/5、PCIe和千兆以太网执行严格的等长匹配、相位调谐和阻抗控制。" },
+        { "title": "HDI与微型化", "description": "部署高密度互连(HDI)结构和微孔，将复杂电路装入可穿戴/物联网尺寸中。" },
+        { "title": "SI / PI 仿真", "description": "利用HyperLynx和Sigrity在制造前仿真眼图、串扰和电源传输网络(PDN)。" },
+        { "title": "射频与混合信号布局", "description": "严格隔离噪声数字域与敏感的模拟传感器和射频天线，以保持信噪比。" },
+        { "title": "叠层设计", "description": "架构最优的层叠层结构(高达32层+)，平衡阻抗需求、热约束和成本。" },
+        { "title": "DFM与DFA", "description": "应用严格的面向制造和装配的设计规则，确保高制造良率和完美的自动贴装。" }
+      ],
+      "advantages_title": { "part1": "为什么选择", "part2": "我们合作" },
+      "advantages": [
+        { "title": "首次认证通过", "description": "我们的布局从第一天起就为EMC/EMI合规设计，大幅降低FCC/CE实验室测试失败的风险。" },
+        { "title": "工具无关专长", "description": "我们可以根据您的内部CAD偏好，在Altium Designer、Cadence Allegro和Mentor Xpedition之间无缝切换。" },
+        { "title": "仿真驱动设计", "description": "我们不是仅凭经验布线——每条关键走线都经过布局前后的SI/PI仿真验证。" },
+        { "title": "DFM合作", "description": "我们与制造厂紧密合作，确保设计规则与其工艺能力完美匹配，避免生产中的意外。" }
+      ],
+      "faqs": [
+        { "question": "为什么PCB布局如此关键？", "answer": "一个完美的原理图如果布局不当，仍然会导致信号完整性问题、EMI超标和热故障。在高频率下，PCB走线本身就是电路的一部分。" },
+        { "question": "什么是阻抗控制？", "answer": "高速信号(如PCIe, USB)要求走线具有精确的特征阻抗(通常50Ω或100Ω差分)。这需要精确计算走线宽度、铜箔厚度和介质层间距。" },
+        { "question": "HDI和标准PCB有什么区别？", "answer": "HDI(高密度互连)使用激光钻孔的微盲孔，允许在更少的层数上实现更密集的布线，这对于引脚间距极小的BGA封装是必需的。" },
+        { "question": "你们可以帮助设计刚柔结合板(Rigid-Flex)吗？", "answer": "是的。刚柔结合板广泛应用于可穿戴设备、航空航天和医疗器械中。它们允许电路板弯折以适应复杂的三维空间，但设计约束更加严格。" }
+      ]
+    },
+    "antenna": {
+      "hero": { "title": "天线工程", "description": "设计和仿真高性能天线系统，涵盖从简单的贴片天线到复杂的相控阵列。", "primaryButtonText": "探讨项目", "secondaryButtonText": "查看能力" },
+      "about": { "titlePart1": "关于", "titlePart2": "天线设计", "description": "精确控制电磁波的传播。我们利用先进的3D电磁仿真工具设计满足严苛性能指标的天线系统。", "metrics": [{"tag": "SIMULATION", "label": "HFSS / CST"}, {"tag": "TYPES", "label": "贴片/相控阵/喇叭"}, {"tag": "FREQUENCY", "label": "亚GHz至毫米波"}, {"tag": "MEASUREMENT", "label": "暗室测量"}] },
+      "sub_services_title": { "part1": "核心", "part2": "能力" },
+      "sub_services": [
+        { "title": "需求分析", "description": "定义带宽、中心频率、极化方式和所需的增益/方向性。" },
+        { "title": "拓扑选型", "description": "根据机械约束选择基本天线类型(贴片、偶极子、喇叭或相控阵)。" },
+        { "title": "3D电磁仿真", "description": "在Ansys HFSS或CST Microwave Studio中运行全波三维电磁仿真。" },
+        { "title": "馈电网络设计", "description": "架构公用馈电网络、移相器和功率分配器。" },
+        { "title": "天线罩优化", "description": "建模物理外壳对天线的电气影响，防止频率偏移。" },
+        { "title": "暗室测量验证", "description": "在微波暗室中测量实际辐射方向图、增益和效率，与仿真结果对标。" }
+      ],
+      "advantages_title": { "part1": "为什么选择", "part2": "我们合作" },
+      "advantages": [
+        { "title": "仿真驱动设计", "description": "我们在加工任何天线之前，都会通过高精度的全波仿真来预测其性能，大幅减少物理迭代次数。" },
+        { "title": "多频段经验", "description": "从亚GHz的LoRa/蓝牙到28/39GHz的5G毫米波，我们拥有跨频段的丰富设计经验。" },
+        { "title": "系统级集成", "description": "天线不是孤立的。我们确保天线设计与射频前端、外壳材料和PCB布局之间的完美协同。" },
+        { "title": "合规认证支持", "description": "我们的天线设计从一开始就考虑FCC/CE/IC等法规的SAR和辐射限值要求。" }
+      ],
+      "faqs": [
+        { "question": "什么是相控阵天线？", "answer": "相控阵由多个天线单元组成，通过电子方式控制每个单元的信号相位来改变波束方向，无需物理移动天线，广泛应用于5G和雷达系统。" },
+        { "question": "天线罩会影响天线性能吗？", "answer": "绝对会。任何靠近天线的物体(塑料外壳、人体)都会影响其谐振频率和辐射效率。我们在仿真中必须将天线罩纳入模型。" },
+        { "question": "如何选择正确的天线类型？", "answer": "取决于应用需求。贴片天线紧凑适合手机和物联网；喇叭天线增益高适合点对点链路；相控阵天线可以快速扫描波束适合雷达和5G基站。" },
+        { "question": "你们可以设计毫米波天线吗？", "answer": "是的。毫米波(如5G的28/39GHz)天线尺寸极小，对制造公差极其敏感。我们利用先进的HFSS仿真和精密的PCB工艺来实现。" }
+      ]
+    },
+    "baseband": {
+      "hero": { "title": "基带ASIC设计", "description": "设计通信系统的数字心脏——实现高性能调制解调和纠错的定制基带芯片。", "primaryButtonText": "探讨项目", "secondaryButtonText": "查看能力" },
+      "about": { "titlePart1": "关于", "titlePart2": "基带芯片工程", "description": "在硅片上实现通信标准。我们设计将数字基带算法固化为超高效、超低功耗ASIC的完整流程。", "metrics": [{"tag": "RTL", "label": "SystemVerilog"}, {"tag": "PROCESS", "label": "先进工艺节点"}, {"tag": "PPA", "label": "功耗/性能/面积"}, {"tag": "SIGNOFF", "label": "流片签核"}] },
+      "sub_services_title": { "part1": "核心", "part2": "能力" },
+      "sub_services": [
+        { "title": "算法建模", "description": "在MATLAB/Simulink中建模复杂的调制和前向纠错(FEC)算法(如LDPC、极化码)。" },
+        { "title": "RTL设计", "description": "编写高度优化的Verilog/SystemVerilog数字信号处理模块。" },
+        { "title": "逻辑综合", "description": "将RTL映射到目标代工厂的标准单元库，同时优化严格的PPA(功耗、性能、面积)指标。" },
+        { "title": "物理设计", "description": "执行布局规划、时钟树综合和极高频率下的硅版图布线。" },
+        { "title": "签核与流片", "description": "执行静态时序分析(STA)、DRC/LVS物理验证和IR-Drop分析后提交代工厂。" },
+        { "title": "后硅验证", "description": "在第一批芯片回来后，使用高速测试平台验证芯片的功能和性能是否符合规格。" }
+      ],
+      "advantages_title": { "part1": "为什么选择", "part2": "我们合作" },
+      "advantages": [
+        { "title": "从算法到硅片", "description": "我们的团队横跨DSP算法和ASIC物理设计，确保算法意图在硅片上得到忠实的实现。" },
+        { "title": "通信标准专长", "description": "我们深刻理解5G NR、Wi-Fi 6/7、DVB-S2X等通信标准的基带处理要求。" },
+        { "title": "低功耗设计大师", "description": "利用多电压域、时钟门控和精细的电源管理策略，实现毫瓦级功耗的基带SoC。" },
+        { "title": "一次流片成功", "description": "通过严格的形式验证和签核流程，最大限度地降低昂贵的重新流片(Re-spin)风险。" }
+      ],
+      "faqs": [
+        { "question": "什么是基带处理器？", "answer": "基带处理器是通信芯片中执行所有数字信号处理的核心部分——包括调制解调、信道编码/解码、均衡等——它处理的是数字数据，而不是射频信号。" },
+        { "question": "为什么基带需要做成ASIC？", "answer": "通信标准要求极高的计算吞吐量和极低的功耗(尤其是手机)。FPGA虽然灵活但功耗和面积远大于ASIC，在大批量消费级产品中ASIC是唯一可行的选择。" },
+        { "question": "什么是PPA优化？", "answer": "PPA代表Power(功耗)、Performance(性能)和Area(面积)。芯片设计的核心挑战就是在这三者之间取得最佳平衡——降低功耗通常意味着牺牲性能或增加面积。" },
+        { "question": "你们支持哪些工艺节点？", "answer": "我们有从成熟的28nm到先进的7nm/5nm FinFET工艺节点的设计经验，并与台积电(TSMC)、三星等代工厂保持紧密合作。" }
+      ]
+    },
+    "optical": {
+      "hero": { "title": "光通信网络", "description": "设计下一代光纤传输系统的硬件，从400G/800G收发器到DWDM线卡。", "primaryButtonText": "探讨项目", "secondaryButtonText": "查看能力" },
+      "about": { "titlePart1": "关于", "titlePart2": "光网络工程", "description": "以光速传输数据。我们设计支撑互联网骨干网和数据中心互连的高速光通信硬件系统。", "metrics": [{"tag": "SPEED", "label": "400G / 800G"}, {"tag": "TECHNOLOGY", "label": "硅光子/相干光"}, {"tag": "STANDARD", "label": "OIF / IEEE"}, {"tag": "SIGNAL", "label": "PAM4 / 16QAM"}] },
+      "sub_services_title": { "part1": "核心", "part2": "能力" },
+      "sub_services": [
+        { "title": "光链路预算分析", "description": "计算光功率、色散惩罚和光信噪比(OSNR)，以确保无误码传输。" },
+        { "title": "光子IC选型", "description": "选用最先进的硅光子、InP激光器和雪崩光电二极管(APD)等有源光器件。" },
+        { "title": "高速电布线", "description": "将PAM4电信号通道(56G/112G)从MAC/PHY芯片精确路由到光收发器笼。" },
+        { "title": "热仿真建模", "description": "确保高功率相干DSP和可调谐激光器保持在严格的温度范围内。" },
+        { "title": "固件集成", "description": "编写I2C/MDIO驱动程序来管理收发器状态、数字光监测(DOM)和告警。" },
+        { "title": "400G/800G模块设计", "description": "设计符合QSFP-DD和OSFP标准的可插拔光模块的硬件和固件。" }
+      ],
+      "advantages_title": { "part1": "为什么选择", "part2": "我们合作" },
+      "advantages": [
+        { "title": "光电协同设计", "description": "我们同时理解光学物理和高速电子学，能够在光电交界处进行系统级优化。" },
+        { "title": "前沿标准参与", "description": "我们跟踪并参与OIF(光互联论坛)和IEEE 802.3的最新标准制定进程。" },
+        { "title": "先进调制专长", "description": "精通PAM4和相干光通信中的DP-16QAM等先进调制格式及其对硬件的要求。" },
+        { "title": "数据中心经验", "description": "我们理解超大规模数据中心对成本、功耗和密度的极端要求。" }
+      ],
+      "faqs": [
+        { "question": "什么是PAM4调制？", "answer": "PAM4(四电平脉冲幅度调制)在每个符号中编码2个比特(而非NRZ的1个比特)，从而在相同的波特率下将数据速率翻倍。它是当前400G/800G以太网的主流电接口技术。" },
+        { "question": "相干光通信和直接检测有什么区别？", "answer": "直接检测(如PAM4)简单且成本低，适合短距离(数据中心内)。相干光通信使用本振激光器和DSP来恢复光信号的幅度和相位，能实现更高阶的调制和更远的传输距离(数百公里)。" },
+        { "question": "什么是硅光子技术？", "answer": "硅光子技术利用标准的CMOS硅晶圆制造工艺来制作光学器件(如调制器、波导)，从而大幅降低光芯片的制造成本并实现光电的单片集成。" },
+        { "question": "800G以太网何时普及？", "answer": "800G以太网(基于IEEE 802.3df标准)已开始在超大规模数据中心部署，主要用于AI/ML集群的后端互连。预计在2025-2026年将大规模铺开。" }
+      ]
+    },
+    "rfMicrowave": {
+      "hero": { "title": "射频与微波设计", "description": "从蜂窝基站到卫星载荷，设计覆盖MHz至毫米波频段的高性能射频硬件。", "primaryButtonText": "探讨项目", "secondaryButtonText": "查看能力" },
+      "about": { "titlePart1": "关于", "titlePart2": "射频工程", "description": "驾驭电磁波谱。我们设计射频收发器、功率放大器和滤波器，确保在最恶劣的电磁环境中实现可靠的无线通信。", "metrics": [{"tag": "FREQUENCY", "label": "MHz至毫米波"}, {"tag": "TOOLS", "label": "Keysight ADS"}, {"tag": "MATCHING", "label": "史密斯圆图优化"}, {"tag": "MEASUREMENT", "label": "VNA / 频谱仪"}] },
+      "sub_services_title": { "part1": "核心", "part2": "能力" },
+      "sub_services": [
+        { "title": "架构与链路预算", "description": "计算所需的增益、噪声系数(NF)和IP3，以确保在要求的距离上实现可靠的数据链路。" },
+        { "title": "射频器件选型", "description": "选用专业的射频IC、混频器、滤波器(SAW/BAW)和振荡器(TCXO/OCXO)。" },
+        { "title": "阻抗匹配网络", "description": "设计经史密斯圆图验证的匹配网络，以最小化回波损耗并最大化功率传输效率。" },
+        { "title": "ADS仿真", "description": "在Keysight ADS中执行谐波平衡和S参数仿真，在布局之前验证设计。" },
+        { "title": "射频PCB布局", "description": "路由精确阻抗控制的走线(微带线/带状线)，并采用严格的过孔围栏(Via Fencing)。" },
+        { "title": "实验室测量验证", "description": "使用矢量网络分析仪(VNA)和频谱仪在真实硬件上验证S参数、频率响应和杂散指标。" }
+      ],
+      "advantages_title": { "part1": "为什么选择", "part2": "我们合作" },
+      "advantages": [
+        { "title": "全频段覆盖", "description": "从Sub-6GHz 4G/5G到Ku/Ka波段卫星通信，我们的射频团队在极宽的频率范围内拥有深厚经验。" },
+        { "title": "仿真与测量闭环", "description": "每一个射频设计都经过严格的仿真预测和实验室测量验证的双重保障。" },
+        { "title": "射频与数字协同", "description": "我们同时精通射频模拟设计和数字基带处理，确保整个无线电系统的协调一致。" },
+        { "title": "合规设计", "description": "从设计之初就考虑FCC Part 15/22/24和CE/RED的辐射发射限值要求。" }
+      ],
+      "faqs": [
+        { "question": "什么是链路预算？", "answer": "链路预算是一种系统级计算，它将发射功率、天线增益、路径损耗和接收灵敏度等所有参数汇总，以确定在特定条件下无线链路是否能正常工作。" },
+        { "question": "为什么射频PCB布局如此困难？", "answer": "在高频下，每一条走线、过孔和铜箔开口都会像天线一样辐射或接收能量。射频布局需要极其严格地控制阻抗、隔离和接地策略。" },
+        { "question": "什么是噪声系数(NF)？", "answer": "噪声系数衡量的是射频器件(如低噪声放大器LNA)向信号中引入了多少额外噪声。更低的NF意味着更高的接收灵敏度和更远的通信距离。" },
+        { "question": "你们能设计功率放大器(PA)吗？", "answer": "是的。我们设计GaN和GaAs功率放大器，用于蜂窝基站、卫星地面终端和国防通信系统，并确保线性度和效率之间的最佳平衡(DPD技术)。" }
+      ]
+    },
+    "signalIntegrity": {
+      "hero": { "title": "信号完整性分析", "description": "通过先进的仿真和测量，确保高速数字信号在PCB上的无损传输。", "primaryButtonText": "探讨项目", "secondaryButtonText": "查看能力" },
+      "about": { "titlePart1": "关于", "titlePart2": "SI/PI 工程", "description": "在比特出错之前发现问题。我们通过数学建模和物理测量，证明您的PCB走线能够以数十Gbps的速度无损地传输信号。", "metrics": [{"tag": "SI", "label": "眼图分析"}, {"tag": "PI", "label": "PDN 阻抗"}, {"tag": "TOOLS", "label": "HFSS / Sigrity"}, {"tag": "SPEED", "label": "56G+ SerDes"}] },
+      "sub_services_title": { "part1": "核心", "part2": "能力" },
+      "sub_services": [
+        { "title": "叠层设计", "description": "与制造厂协作选择低损耗介质材料(如Megtron 6、Rogers)以优化高速信号传输。" },
+        { "title": "布局前仿真", "description": "在路由任何走线之前，提取S参数并分析理论眼图。" },
+        { "title": "约束管理", "description": "定义严格的布线规则，包括等长匹配、阻抗控制和反焊盘(Anti-pad)尺寸。" },
+        { "title": "布局后提取", "description": "在最终版图上运行3D电磁求解器(Ansys HFSS)，以捕获精确的寄生效应。" },
+        { "title": "串扰与抖动分析", "description": "量化NEXT/FEXT串扰和确定性抖动，确保充足的眼图裕量(Eye Mask Margin)。" },
+        { "title": "电源传输网络(PDN)", "description": "分析PCB电源平面的阻抗，确保在瞬态负载下为高速芯片提供稳定、低噪声的供电。" }
+      ],
+      "advantages_title": { "part1": "为什么选择", "part2": "我们合作" },
+      "advantages": [
+        { "title": "物理先于布线", "description": "我们在布局之前就进行仿真，而不是事后再去修复信号完整性问题——这从根本上节省了迭代成本。" },
+        { "title": "仿真与测量对标", "description": "我们不仅仿真——我们还用高带宽示波器和TDR测量真实硬件，确保仿真模型的准确性。" },
+        { "title": "多协议经验", "description": "精通PCIe Gen5/6、DDR5、USB4、100G/400G以太网等最前沿高速接口的信号完整性要求。" },
+        { "title": "跨学科优化", "description": "我们同时考虑信号完整性(SI)和电源完整性(PI)，因为它们在物理上是紧密耦合的。" }
+      ],
+      "faqs": [
+        { "question": "什么是眼图？", "answer": "眼图是将数千个连续的比特周期叠加在一起显示的图形。'眼睛'打开得越大，信号质量越好。当眼睛因噪声、串扰或损耗而闭合时，接收器将无法正确区分'0'和'1'。" },
+        { "question": "为什么需要布局前仿真？", "answer": "在GHz频率下，走线的物理特性(长度、间距、过孔数量)直接决定信号质量。布局前仿真可以在投入任何制造成本之前，确定走线的可行性并为布局工程师提供明确的约束。" },
+        { "question": "什么是PDN(电源传输网络)分析？", "answer": "高速数字芯片在切换时会产生巨大的瞬态电流需求。PDN分析确保电源平面能够在芯片的所有工作频率上提供足够低的阻抗，避免电压跌落导致逻辑错误。" },
+        { "question": "损耗在高速设计中为什么如此重要？", "answer": "信号在PCB走线上传输时会因铜导体损耗和介质损耗而衰减。在56Gbps以上的SerDes通道中，即使是几个dB的额外损耗也会导致眼图完全闭合。" }
+      ]
+    },
+    "telecomValidation": {
+      "hero": { "title": "电信设备验证", "description": "通过严格的电气、环境和法规合规性测试，确保通信设备的可靠性和认证通过率。", "primaryButtonText": "探讨项目", "secondaryButtonText": "查看能力" },
+      "about": { "titlePart1": "关于", "titlePart2": "电信验证", "description": "在部署前证明一切。我们驱动通信硬件通过业界最严苛的测试标准，确保在极端条件下的持续可靠运行。", "metrics": [{"tag": "STANDARD", "label": "NEBS / FCC / CE"}, {"tag": "ENVIRONMENT", "label": "-40°C至+85°C"}, {"tag": "RELIABILITY", "label": "HALT / HASS"}, {"tag": "SAFETY", "label": "浪涌/ESD防护"}] },
+      "sub_services_title": { "part1": "核心", "part2": "能力" },
+      "sub_services": [
+        { "title": "测试计划制定", "description": "开发覆盖NEBS、FCC Part 15/22/24和CE/RED要求的综合测试矩阵。" },
+        { "title": "预合规扫描", "description": "在我们的3米半电波暗室中进行早期辐射和传导发射扫描。" },
+        { "title": "极端温度测试", "description": "在环境试验箱中测试硬件在-40°C至+85°C循环条件下的运行情况。" },
+        { "title": "HALT测试", "description": "使用多轴振动和快速温度转换的高加速寿命试验来发现设计弱点和破坏极限。" },
+        { "title": "浪涌与ESD测试", "description": "向外部端口注入高达15kV的静电放电和雷击浪涌，以确保设备存活。" },
+        { "title": "法规认证协助", "description": "协助准备FCC/CE/UL等正式认证所需的全部技术文档和测试报告。" }
+      ],
+      "advantages_title": { "part1": "为什么选择", "part2": "我们合作" },
+      "advantages": [
+        { "title": "运营商级标准", "description": "我们理解Telcordia/NEBS等运营商级环境标准，确保您的设备能够部署在中心局(CO)机房中。" },
+        { "title": "首次认证通过", "description": "通过内部的全面预合规测试，我们将正式认证实验室的一次通过率提升至95%以上。" },
+        { "title": "全面的测试能力", "description": "从EMC暗室到环境试验箱和ESD发生器，我们拥有或可调用完整的测试基础设施。" },
+        { "title": "设计反馈闭环", "description": "我们不仅仅报告测试失败——我们的工程师会分析根本原因并提出具体的设计修改建议。" }
+      ],
+      "faqs": [
+        { "question": "什么是NEBS标准？", "answer": "NEBS(网络设备构建标准)是美国电信运营商(如AT&T, Verizon)要求的一套严苛的环境和安全标准。通过NEBS认证是将设备部署到运营商网络中的先决条件。" },
+        { "question": "HALT和HASS有什么区别？", "answer": "HALT(高加速寿命测试)在设计阶段使用，通过持续增加应力来发现设计的根本弱点。HASS(高加速应力筛选)在生产阶段使用，对每一台出厂设备进行快速应力筛选以剔除早期故障件。" },
+        { "question": "为什么需要ESD测试？", "answer": "操作人员在触摸设备端口时可能会释放数千伏的静电放电。如果设备的I/O端口没有适当的ESD防护(如TVS二极管)，这种放电可能会永久损坏内部的IC芯片。" },
+        { "question": "你们能帮助准备CE认证吗？", "answer": "是的。CE认证要求满足EMC指令(EN 55032/EN 55035)和安全指令(EN 62368-1)。我们提供完整的预合规测试、技术文件(TCF)和符合性声明(DoC)的编写支持。" }
+      ]
+    },
+    "applicationDevelopment": {
+      "hero": { "title": "应用开发", "description": "通过我们定制的、可扩展的和安全的应用开发服务，提供卓越的数字体验。", "primaryButtonText": "探讨项目", "secondaryButtonText": "查看能力" },
+      "about": { "titlePart1": "关于", "titlePart2": "应用工程", "description": "构建推动业务发展的软件。我们将复杂的业务需求转化为可扩展、直观和高性能的应用程序。", "metrics": [{"tag": "SCALE", "label": "云原生"}, {"tag": "AGILE", "label": "敏捷开发"}, {"tag": "QUALITY", "label": "零缺陷目标"}, {"tag": "SECURE", "label": "内置安全性"}] },
+      "sub_services_title": { "part1": "核心", "part2": "能力" },
+      "sub_services": [
+        { "title": "战略规划", "description": "将商业理念转化为可扩展的数字解决方案。" },
+        { "title": "专业工程开发", "description": "经验丰富的开发人员提供高质量的应用程序。" },
+        { "title": "现代架构设计", "description": "云原生和可扩展的应用架构设计。" },
+        { "title": "质量保证(QA)", "description": "进行全面的测试以确保系统的可靠性和性能。" },
+        { "title": "持续改进", "description": "定期更新以保持应用程序的现代化和竞争力。" },
+        { "title": "值得信赖的伙伴", "description": "致力于您业务成功的长期技术合作。" }
+      ],
+      "advantages_title": { "part1": "为什么选择", "part2": "我们合作" },
+      "advantages": [
+        { "title": "敏捷卓越", "description": "我们采用严格的敏捷方法论以确保快速、可预测的交付，同时保持适应需求变化的灵活性。" },
+        { "title": "安全设计为先", "description": "安全不是事后补充。我们实施全面的DevSecOps实践，将安全测试集成到CI/CD流水线的每个阶段。" },
+        { "title": "全球人才交付", "description": "我们的分布式团队跨越多个时区运营，提供持续的开发周期，并与您的内部团队无缝集成。" },
+        { "title": "质量保证", "description": "我们专业的QA团队采用自动化测试框架和严格的手动测试，保证软件无缺陷、高性能。" }
+      ],
+      "faqs": [
+        { "question": "什么是云原生应用？", "answer": "云原生应用是从一开始就设计为在云环境中(如AWS, Azure)运行的软件。它们利用微服务、容器化(Docker)和动态编排(Kubernetes)来实现极高的可扩展性。" },
+        { "question": "开发一个应用通常需要多长时间？", "answer": "时间取决于项目的复杂性。一个简单的MVP(最小可行产品)可能需要2-3个月，而一个企业级的复杂系统可能需要6个月以上。我们通过敏捷迭代提供早期可见性。" },
+        { "question": "你们如何确保代码质量？", "answer": "我们执行严格的代码审查、自动化单元和集成测试(TDD/BDD)，并使用SonarQube等静态代码分析工具来保持最高标准。" },
+        { "question": "发布后你们提供维护服务吗？", "answer": "是的，我们提供全面的SLA(服务等级协议)支持，包括24/7监控、漏洞修补和持续的功能演进。" }
+      ]
+    },
+    "aiData": {
+      "hero": { "title": "数据与AI (人工智能)", "description": "利用可扩展的人工智能、机器学习和高级数据分析，释放您业务的真正潜力。", "primaryButtonText": "探讨项目", "secondaryButtonText": "查看能力" },
+      "about": { "titlePart1": "关于", "titlePart2": "数据智能", "description": "将数据转化为决策力。我们构建智能算法和数据流水线，为您的业务发现洞察并自动化复杂流程。", "metrics": [{"tag": "ML", "label": "深度学习模型"}, {"tag": "DATA", "label": "大数据处理"}, {"tag": "NLP", "label": "自然语言处理"}, {"tag": "VISION", "label": "计算机视觉"}] },
+      "sub_services_title": { "part1": "核心", "part2": "能力" },
+      "sub_services": [
+        { "title": "机器学习模型构建", "description": "开发定制的预测模型和深度学习架构(如TensorFlow, PyTorch)来解决特定的业务挑战。" },
+        { "title": "数据流水线工程", "description": "设计强大的ETL/ELT流水线(如Apache Spark, Kafka)，以处理、清洗和转换PB级别的海量数据。" },
+        { "title": "自然语言处理(NLP)", "description": "实现文本分析、情感识别和基于LLM(大型语言模型)的聊天机器人以提升客户交互体验。" },
+        { "title": "计算机视觉分析", "description": "利用CNN(卷积神经网络)实现图像识别、目标检测和视频流的实时分析。" },
+        { "title": "商业智能(BI)", "description": "通过交互式仪表盘(如Tableau, PowerBI)将复杂数据可视化，为高层提供决策支持。" },
+        { "title": "MLOps 运维管理", "description": "实施模型部署、监控和持续重训练生命周期管理，防止模型在生产环境中漂移。" }
+      ],
+      "advantages_title": { "part1": "为什么选择", "part2": "我们合作" },
+      "advantages": [
+        { "title": "快速部署落地", "description": "利用我们预训练的基础模型和强大的MLOps流水线，缩短上市时间并加速投资回报(ROI)。" },
+        { "title": "AI 伦理原则", "description": "我们严格遵守负责任的AI准则，在我们构建的每一个模型中优先考虑公平性、问责制和透明度。" },
+        { "title": "跨行业领域知识", "description": "我们不仅仅懂算法，还能将数据科学深度结合医疗、汽车、金融等行业的具体痛点。" },
+        { "title": "数据安全与隐私", "description": "在处理敏感数据时，我们采用数据匿名化、联邦学习和差分隐私技术来确保合规性。" }
+      ],
+      "faqs": [
+        { "question": "AI能为我的业务做些什么？", "answer": "AI可以通过自动化重复性任务降低成本，通过预测分析提高销售，并通过个性化推荐改善客户体验。" },
+        { "question": "我需要多少数据才能开始AI项目？", "answer": "这取决于具体任务。对于传统的机器学习，通常需要数千条结构化数据；而利用预训练的迁移学习模型，有时只需几百张图像即可达到不错的效果。" },
+        { "question": "什么是MLOps，为什么它很重要？", "answer": "MLOps(机器学习运维)是DevOps在AI领域的延伸。模型在部署后会随着现实数据的变化而性能下降(漂移)，MLOps确保模型被持续监控并自动更新。" },
+        { "question": "大语言模型(LLM)可以在本地服务器运行吗？", "answer": "可以。为了数据隐私，我们可以将开源模型(如Llama, Mistral)微调并私有化部署在您的本地服务器或虚拟私有云(VPC)中。" }
+      ]
+    },
+    "cloudServices": {
+      "hero": { "title": "云服务", "description": "利用专为现代企业设计的安全、可扩展、高性能的云解决方案，加速您的数字化转型。", "primaryButtonText": "探索云解决方案", "secondaryButtonText": "咨询云架构师" },
+      "about": { "titlePart1": "关于", "titlePart2": "云服务", "description": "通过可扩展、安全和高可用的云基础设施赋能您的业务。我们提供从无缝迁移和架构设计到持续DevOps和托管服务的端到端云解决方案。", "metrics": [{"tag": "迁移", "label": "成功的云迁移"}, {"tag": "正常运行时间", "label": "保证SLA"}, {"tag": "节省成本", "label": "平均基础设施缩减"}, {"tag": "安全", "label": "主动威胁监控"}] },
+      "sub_services_title": { "part1": "核心", "part2": "能力" },
+      "sub_services": [
+        { "title": "云架构设计", "description": "根据您的业务需求设计有弹性、可扩展且经济高效的云架构。" },
+        { "title": "云迁移", "description": "零停机将旧应用和数据库无缝迁移到现代云平台（AWS、Azure、GCP）。" },
+        { "title": "DevOps 与 CI/CD", "description": "自动化您的软件交付流程，确保更快、更可靠和持续的部署。" },
+        { "title": "云安全与合规", "description": "实施零信任安全模型、强大的 IAM 策略并确保符合全球数据标准。" },
+        { "title": "无服务器计算", "description": "无需管理基础设施即可构建和运行应用程序，优化资源使用和运营成本。" },
+        { "title": "云数据湖", "description": "将企业数据集中在安全、高可用的云存储中，用于高级分析和人工智能。" }
+      ],
+      "advantages_title": { "part1": "为何选择", "part2": "我们" },
+      "advantages": [
+        { "title": "多云专业知识", "description": "我们的认证架构师在 AWS、Azure 和 GCP 方面拥有丰富的专业知识，让我们能制定完美的多云策略。" },
+        { "title": "性能优化", "description": "我们持续监控和调整您的云环境，确保最高性能，同时消除不必要的云支出。" },
+        { "title": "灾难恢复", "description": "实施强大的自动备份和灾难恢复计划，保证即使在发生严重故障时业务也能持续运作。" },
+        { "title": "端到端托管服务", "description": "专注于您的核心业务，由我们专门的 NOC 和 SOC 团队 24/7 全天候管理、监控和保护您的云基础设施。" }
+      ],
+      "faqs": [
+        { "question": "哪家云服务提供商最适合我的业务？", "answer": "最佳的云提供商取决于您的具体技术需求、现有基础设施和预算。我们进行全面评估以推荐最佳平台——无论是 AWS、Azure、GCP 还是混合云。" },
+        { "question": "你们如何确保迁移期间零停机时间？", "answer": "我们利用先进的复制工具、蓝绿部署策略和严格的暂存环境测试，以确保无缝切换并且不中断用户服务。" },
+        { "question": "你们能帮我们减少现有的云账单吗？", "answer": "绝对可以。我们的 FinOps 专家进行全面的云成本审计，识别闲置资源、调整实例大小并实施预留实例策略，通常可将成本降低达 35%。" },
+        { "question": "高度敏感数据在云端安全吗？", "answer": "是的。经过适当的架构设计，云端可提供超越本地解决方案的企业级安全性。我们实施端到端加密、严格的访问控制和持续威胁监控。" }
+      ]
+    },
+    "imagingSoftware": {
+      "hero": { "title": "医学影像软件开发", "description": "开发实时DSP、GPU加速重建算法，以及用于超声、MRI和内窥镜的3D可视化软件。", "primaryButtonText": "探讨项目", "secondaryButtonText": "查看能力" },
+      "about": { "titlePart1": "关于", "titlePart2": "影像工程", "description": "让医生看得更清。我们将复杂的传感器原始数据转化为精确、高分辨率的三维诊断图像。", "metrics": [{"tag": "3D", "label": "VTK / OpenGL"}, {"tag": "CUDA", "label": "GPU 并行加速"}, {"tag": "DICOM", "label": "医疗影像标准"}, {"tag": "SaMD", "label": "医疗器械软件"}] },
+      "sub_services_title": { "part1": "核心", "part2": "能力" },
+      "sub_services": [
+        { "title": "数字信号处理", "description": "实现高级DSP算法(滤波、抽取、快速傅里叶变换)以在图像重建前清洗原始传感器数据。" },
+        { "title": "GPU / CUDA 加速", "description": "医学成像是计算密集型的。我们使用CUDA、OpenCL或Metal将复杂的计算卸载到Nvidia Jetson或移动GPU上。" },
+        { "title": "3D 体积渲染", "description": "利用可视化工具包(VTK)和OpenGL，允许医生实时对3D模型进行切片、旋转和测量。" },
+        { "title": "DICOM 与 PACS 集成", "description": "编写网络协议栈，将图像打包成DICOM格式并安全传输到医院的PACS服务器中。" },
+        { "title": "零延迟视频处理", "description": "对于手术摄像头来说，100毫秒的延迟都是危险的。我们优化V4L2内核驱动和硬件编解码器，实现即时端到端传输。" },
+        { "title": "边缘AI / 计算机视觉", "description": "将训练好的神经网络直接集成到成像流水线中，在扫描过程中自动突出显示异常区域(如肿瘤)。" }
+      ],
+      "advantages_title": { "part1": "为什么选择", "part2": "我们合作" },
+      "advantages": [
+        { "title": "数学与物理双修", "description": "影像软件不仅仅是编码；它需要对波物理学、声学和应用数学有深刻的理解。" },
+        { "title": "性能大师", "description": "在每秒处理10Gbps数据时，内存分配至关重要。我们编写高度优化、对缓存友好的C++代码。" },
+        { "title": "SaMD 合规性", "description": "作为医疗器械的软件(SaMD)有独特的FDA要求。我们主导证明其诊断有效性所需的临床评估。" },
+        { "title": "全栈打通", "description": "我们可以设计捕获数据的FPGA、处理数据的GPU代码，以及医生用来查看影像的Qt界面。" }
+      ],
+      "faqs": [
+        { "question": "什么是DICOM？", "answer": "DICOM（医学数字成像和通信）是医学影像的国际标准。它确保不同制造商的扫描仪和医院系统可以交换图像及患者数据。" },
+        { "question": "你们可以在便携设备上进行图像重建吗？", "answer": "是的，通过将复杂的波束成形或傅里叶变换算法移植到移动GPU(如高通Adreno或苹果Metal)，我们能使超声设备像平板电脑一样便携。" },
+        { "question": "什么是SaMD(Software as a Medical Device)？", "answer": "它是指本身就是医疗器械的软件（不作为硬件医疗器械的一部分）。由于它直接影响诊断结果，因此受到FDA或CE严格的生命周期监管(ISO 62304)。" },
+        { "question": "AI在医学影像中扮演什么角色？", "answer": "AI(如卷积神经网络)可以被训练用于自动检测结节、测量病变尺寸，或者减少图像重建过程中的噪声，从而提高医生的工作效率并减少误诊。" }
+      ]
+    },
+    "automotiveEcu": {
+      "hero": { "title": "汽车ECU硬件设计", "description": "从域控制器到智能传感器，设计符合ISO 26262标准的车规级电子控制单元(ECU)。", "primaryButtonText": "探讨项目", "secondaryButtonText": "查看能力" },
+      "about": { "titlePart1": "关于", "titlePart2": "ECU硬件工程", "description": "构建车辆的物理神经系统。我们的硬件工程师设计在极端振动、高温和电气噪声下仍能可靠运行的计算平台。", "metrics": [{"tag": "SAFETY", "label": "ASIL D就绪设计"}, {"tag": "QUALITY", "label": "AEC-Q合规"}, {"tag": "THERMAL", "label": "高级热管理"}, {"tag": "SPEED", "label": "高速信号完整性"}] },
+      "sub_services_title": { "part1": "核心", "part2": "能力" },
+      "sub_services": [
+        { "title": "域控制器(DCU)", "description": "设计集成多核SoC(如高通Snapdragon, NXP S32G)的高性能计算平台。" },
+        { "title": "底盘与动力控制", "description": "为刹车、转向和动力总成系统设计包含安全微控制器和冗余机制的硬实时ECU。" },
+        { "title": "车身控制模块(BCM)", "description": "工程设计处理照明、车窗和访问控制的低功耗、高I/O节点。" },
+        { "title": "电源架构", "description": "设计可靠稳定的配电和调节系统，抵御抛负载等恶劣汽车瞬态干扰。" },
+        { "title": "高频通信接口", "description": "集成千兆车载以太网、FPD-Link/GMSL、CAN-FD和LIN物理层。" },
+        { "title": "热分析与机械协同", "description": "在设计阶段模拟热耗散，确保在密闭的车载外壳中不会出现过热降频。" }
+      ],
+      "advantages_title": { "part1": "为什么选择", "part2": "我们合作" },
+      "advantages": [
+        { "title": "系统级视角", "description": "我们不仅了解硬件，因为我们也编写底层软件。这种软硬件协同设计能避免架构瓶颈。" },
+        { "title": "功能安全驱动", "description": "我们通过实施硬件冗余和严密的FMEDA(失效模式影响与诊断分析)进行安全设计。" },
+        { "title": "DfM和DfT", "description": "面向制造和测试的设计。我们的电路板从一开始就为了高良率的大批量生产而设计。" },
+        { "title": "供应链弹性", "description": "通过设计具有替代封装和组件的电路板，降低汽车芯片短缺的影响。" }
+      ],
+      "faqs": [
+        { "question": "传统的分布式ECU和域控制器有什么区别？", "answer": "传统汽车可能有100多个小型ECU，每个控制单一功能。域控制器将这些功能整合到几个强大的计算中心（如ADAS、信息娱乐、车身控制）中，以降低重量并允许软件更新。" },
+        { "question": "什么是AEC-Q系列标准？", "answer": "这是汽车电子委员会的标准(如无源元件的AEC-Q200，IC的AEC-Q100)，确保元件能在-40°C至+125°C甚至更高温度下长期工作。" },
+        { "question": "你们如何处理抛负载测试？", "answer": "我们在输入级设计强大的瞬态电压抑制(TVS)网络和过压保护，以吸收由于断开交流发电机引起的巨大电压尖峰。" },
+        { "question": "你们进行环境测试吗？", "answer": "是的，我们在合作的实验室进行预合规测试，包括热冲击、振动、高加速寿命测试(HALT)以及传导/辐射辐射(CISPR 25)。" }
+      ]
+    },
+    "automotiveEmc": {
+      "hero": { "title": "汽车EMC与EMI验证", "description": "解决复杂的电磁干扰挑战，确保符合CISPR 25及OEM特定的严格辐射标准。", "primaryButtonText": "探讨项目", "secondaryButtonText": "查看能力" },
+      "about": { "titlePart1": "关于", "titlePart2": "EMC工程", "description": "控制电磁环境，保护车辆生命攸关的功能不受干扰。我们预测、测量并消除系统内和系统外的干扰源。", "metrics": [{"tag": "CISPR25", "label": "汽车标准合规"}, {"tag": "SIMULATION", "label": "发射场仿真预测"}, {"tag": "MITIGATION", "label": "高级EMI抑制"}, {"tag": "TESTING", "label": "预合规验证"}] },
+      "sub_services_title": { "part1": "核心", "part2": "能力" },
+      "sub_services": [
+        { "title": "布局前仿真分析", "description": "使用ANSYS等全波3D电磁仿真器在投板前识别潜在的谐振和耦合。" },
+        { "title": "PCB级EMI抑制", "description": "设计隔离区域、法拉第笼通孔、接地层拼接和优化的走线返回路径。" },
+        { "title": "传导辐射过滤", "description": "设计高效的PI和T型滤波器、共模扼流圈以及去耦网络以阻止电源线噪声。" },
+        { "title": "抗扰度强化", "description": "加固硬件设计，使其在承受静电放电(ESD)、快速瞬变(EFT)和大电流注入(BCI)时不受影响。" },
+        { "title": "屏蔽与机构协同", "description": "与机械团队合作设计外壳级屏蔽、射频吸收材料和导电垫圈。" },
+        { "title": "预合规测试故障排除", "description": "如果您的产品在消声室测试失败，我们能快速隔离泄漏点并提供无需重新设计PCB的解决方案。" }
+      ],
+      "advantages_title": { "part1": "为什么选择", "part2": "我们合作" },
+      "advantages": [
+        { "title": "黑魔法变科学", "description": "EMC不靠猜测。我们依靠严谨的数学模型、麦克斯韦方程组及先进的仿真。" },
+        { "title": "高频特长", "description": "在高速数字电路(如DDR5, PCIe Gen4)及射频(77GHz雷达)的噪声控制上拥有丰富经验。" },
+        { "title": "源头治理", "description": "我们在芯片层级解决噪声问题，而不是在设计最后盲目地贴满昂贵的屏蔽罩。" },
+        { "title": "快速排障", "description": "在产品认证失败的紧要关头，我们可以在几天内部署经验丰富的EMC专家进驻实验室协助整改。" }
+      ],
+      "faqs": [
+        { "question": "为什么汽车EMC测试如此严格？", "answer": "因为生命攸关。如果雨刷电机产生的干扰导致电子转向ECU重启，将引发致命事故。同时，极密集的线束也会放大串扰。" },
+        { "question": "传导发射和辐射发射有什么区别？", "answer": "传导发射是通过电源和地线传导的噪声；辐射发射是PCB和线束像天线一样在空间中辐射出的电磁波。" },
+        { "question": "什么是大电流注入(BCI)测试？", "answer": "一种抗扰度测试，将夹具卡在线束上，注入强大的射频电流，以验证ECU功能不会因为外部干扰而中断。" },
+        { "question": "你们可以在设计阶段保证一次性通过EMC测试吗？", "answer": "没有绝对的保证，但我们严格的设计审查和仿真将失败率从行业平均的50%降低到10%以下，从而节省数月的重新设计时间。" }
+      ]
+    },
+    "automotivePcb": {
+      "hero": { "title": "高密度车规级PCB设计", "description": "处理高速数字、高频射频和高压电力布局在极端受限的车载空间内的融合设计。", "primaryButtonText": "探讨项目", "secondaryButtonText": "查看能力" },
+      "about": { "titlePart1": "关于", "titlePart2": "汽车PCB布局", "description": "精密布线的艺术。我们将复杂的域控制器和雷达传感器布局在受到机械和热极限挑战的高可靠性板上。", "metrics": [{"tag": "HDI", "label": "微盲埋孔技术"}, {"tag": "RIGID-FLEX", "label": "软硬结合板设计"}, {"tag": "SPEED", "label": "56Gbps+阻抗控制"}, {"tag": "LAYERS", "label": "高达24层堆叠"}] },
+      "sub_services_title": { "part1": "核心", "part2": "能力" },
+      "sub_services": [
+        { "title": "HDI布局", "description": "设计高密度互连架构，使用任意层微孔技术，以布线引脚间距达0.4mm的大型BGA封装(如SoC)。" },
+        { "title": "高速信号布线", "description": "完美长度匹配且阻抗受控的PCIe Gen4、DDR5、LPDDR4和千兆以太网走线。" },
+        { "title": "混合信号分离", "description": "严谨布局以隔离敏感的模拟传感器读数与高噪声的数字开关及PWM信号。" },
+        { "title": "刚柔结合板(Rigid-Flex)", "description": "设计折叠以适应复杂传感器外壳并在振动下保持可靠连接的3D柔性电路。" },
+        { "title": "大电流与散热焊盘", "description": "使用重铜(Heavy Copper)、热过孔阵列(Thermal Vias)及定制平面布局来散发电机驱动器和电源组件的热量。" },
+        { "title": "DfM / DfA 验证", "description": "进行设计规则检查(DRC)以确保可焊性并防止量产组装中的墓碑效应。" }
+      ],
+      "advantages_title": { "part1": "为什么选择", "part2": "我们合作" },
+      "advantages": [
+        { "title": "信号完整性驱动", "description": "我们的布局不仅仅是连接节点；每一条关键走线在布线前后都经过SI/PI仿真验证。" },
+        { "title": "叠层优化专家", "description": "我们设计平衡的PCB叠层结构，既能优化返回路径以降低EMI，又能防止制造中的板材翘曲。" },
+        { "title": "精通各种工具", "description": "能够熟练在Altium Designer、Cadence Allegro、Mentor Xpedition等不同工具平台上无缝执行项目。" },
+        { "title": "射频微波专业知识", "description": "熟悉Rogers等高频低损耗基材，能够在汽车雷达板上设计精密的微带天线。" }
+      ],
+      "faqs": [
+        { "question": "什么是HDI，为什么需要它？", "answer": "高密度互连。通过使用激光钻孔的微盲孔（通常在顶层或底层），可以在板子上释放出更多的布线空间，这对于引脚极其密集的高端SoC来说是必须的。" },
+        { "question": "汽车环境如何影响PCB设计？", "answer": "引擎盖下的高温和持续震动需要特殊的设计考虑，比如更宽的走线、更好的散热过孔设计，以及避免使用容易开裂的刚性过孔。" },
+        { "question": "你们如何处理BGA下的逃逸布线（Breakout）？", "answer": "我们针对不同的BGA封装(如Dog-bone或Via-in-pad)定制专用的逃逸策略，并在不破坏下方地平面的前提下引出成百上千的信号线。" },
+        { "question": "高速信号阻抗匹配需要多精确？", "answer": "对于诸如PCIe之类的接口，我们通常要求阻抗容差控制在±5%以内，甚至在连接器和过孔处也会进行阻抗补偿设计。" }
+      ]
+    },
+    "hardwareSecurity": {
+      "hero": { "title": "汽车硬件安全 (HSM)", "description": "在芯片层面加固车辆，抵御黑客攻击、IP窃取及未经授权的固件篡改。", "primaryButtonText": "探讨项目", "secondaryButtonText": "查看能力" },
+      "about": { "titlePart1": "关于", "titlePart2": "硬件安全", "description": "构建汽车零信任架构。我们集成硬件安全模块和信任根(Root of Trust)，以在充满威胁的世界中保护车辆数据和乘客安全。", "metrics": [{"tag": "HSM", "label": "硬件安全模块"}, {"tag": "CRYPTO", "label": "硬件加速加密"}, {"tag": "SECURE BOOT", "label": "安全启动链"}, {"tag": "ISO21434", "label": "汽车网络安全"}] },
+      "sub_services_title": { "part1": "核心", "part2": "能力" },
+      "sub_services": [
+        { "title": "HSM 架构与集成", "description": "激活和配置微控制器内的独立硬件安全模块(如英飞凌EVITA HSM)。" },
+        { "title": "安全启动(Secure Boot)", "description": "建立不可破坏的信任链，确保车辆仅运行经OEM加密签名的真实固件。" },
+        { "title": "密钥管理基础设施", "description": "设计受保护的内存隔离区，实现加密密钥的安全生成、存储和生命周期管理。" },
+        { "title": "硬件加密加速", "description": "利用片上AES/ECC引擎减轻主CPU负担，满足CAN FD上SecOC的毫秒级时序要求。" },
+        { "title": "旁路攻击防御", "description": "加固硬件布局和电源设计，抵御差分功耗分析(DPA)或电磁泄漏等侧信道攻击。" },
+        { "title": "调试接口锁定", "description": "在生产阶段安全地禁用或密码锁定JTAG/SWD调试端口，防止反向工程。" }
+      ],
+      "advantages_title": { "part1": "为什么选择", "part2": "我们合作" },
+      "advantages": [
+        { "title": "合规专业知识", "description": "深度符合ISO/SAE 21434道路车辆网络安全工程标准及UNECE WP.29法规。" },
+        { "title": "白帽思维", "description": "我们从攻击者的角度思考。团队包括精通渗透测试和漏洞评估的硬件逆向工程专家。" },
+        { "title": "性能平衡", "description": "加密会增加延迟。我们精心优化HSM调用和DMA传输，确保安全措施不影响实时汽车控制。" },
+        { "title": "端到端加密", "description": "将片上安全与云端OTA后台无缝对接，实现全链路的车辆安全生命周期管理。" }
+      ],
+      "faqs": [
+        { "question": "什么是EVITA？", "answer": "EVITA是一个旨在为汽车系统定义安全架构的项目。它将HSM分为Full、Medium和Light三种级别，适用于从信息娱乐到简单传感器的不同用例。" },
+        { "question": "软件安全和硬件安全有什么区别？", "answer": "如果黑客能物理访问内存芯片，纯软件的密码是可以被读取的。硬件安全(如HSM)将密钥锁在无法物理探测或提取的安全区内。" },
+        { "question": "安全启动(Secure Boot)如何工作？", "answer": "上电后，一个存在不可变ROM中的微小代码首先运行，检查Bootloader的数字签名；Bootloader再检查OS的签名。只有所有签名合法，系统才会启动。" },
+        { "question": "这会影响OTA(空中下载)更新吗？", "answer": "相反，它是安全OTA的基础。更新包首先被写入备用存储库，HSM验证其签名无误后，才会授权覆盖旧版本，防止恶意固件注入。" }
+      ]
+    },
+    "powerElectronics": {
+      "hero": { "title": "EV 电力电子设计", "description": "设计高效率碳化硅(SiC)牵引逆变器、双向车载充电机(OBC)和800V DC-DC转换器。", "primaryButtonText": "探讨项目", "secondaryButtonText": "查看能力" },
+      "about": { "titlePart1": "关于", "titlePart2": "电力电子", "description": "将电能转化为纯粹性能。我们设计的高压功率级能够在提升效率和减轻热负荷的同时，控制巨大的电动汽车能量流动。", "metrics": [{"tag": "SiC/GaN", "label": "宽禁带半导体"}, {"tag": "VOLTAGE", "label": "800V+ 架构"}, {"tag": "EFFICIENCY", "label": "99% 峰值效率"}, {"tag": "POWER", "label": "高功率密度"}] },
+      "sub_services_title": { "part1": "核心", "part2": "能力" },
+      "sub_services": [
+        { "title": "牵引逆变器设计", "description": "利用最新的碳化硅(SiC)功率模块设计高频逆变器，以最高效率驱动驱动电机。" },
+        { "title": "DC-DC 转换器", "description": "设计高效隔离与非隔离的转换拓扑(如LLC谐振)，实现高压到低压(400V至12V)系统的降压。" },
+        { "title": "车载充电机 (OBC)", "description": "设计紧凑、液冷、大功率(11kW-22kW)且支持双向充电(V2G/V2L)的交流到直流充电系统。" },
+        { "title": "栅极驱动器工程", "description": "开发具有极低延迟、去饱和保护(Desat)和有源米勒钳位(Active Miller Clamping)的隔离型栅极驱动电路。" },
+        { "title": "数字电源控制", "description": "在C2000或Aurix等微控制器上实现磁场定向控制(FOC)和空间矢量调制(SVM)等控制算法。" },
+        { "title": "热与封装", "description": "安全封装高压组件；设计液冷板并精确计算极端负载下的半导体结温。" }
+      ],
+      "advantages_title": { "part1": "为什么选择", "part2": "我们合作" },
+      "advantages": [
+        { "title": "碳化硅(SiC)先驱", "description": "自早期碳化硅技术出现起我们就深耕此领域，掌握了控制高 dV/dt 高频开关干扰的艺术。" },
+        { "title": "跨学科协同", "description": "电力电子不仅是电气问题，我们将机械热力学工程师与底层固件控制专家无缝整合，实现最优设计。" },
+        { "title": "专注 EMI/EMC", "description": "高频开关会导致严重的EMI。我们设计的滤波器和PCB布局能确保通过严格的汽车CISPR 25等级标准。" },
+        { "title": "纯粹车规级", "description": "严格选用符合AEC-Q标准的组件，确保产品在汽车的高振动、高湿度和高温环境中持久存活。" }
+      ],
+      "faqs": [
+        { "question": "为什么电动汽车都在转向800V架构和SiC？", "answer": "电压翻倍意味着在相同功率下电流减半。这允许使用更细的线束(减重)并显著降低热损耗(I²R)。SiC则能支持更高的电压、更快的开关速度，并在高温下保持高效率。" },
+        { "question": "设计SiC逆变器最难的部分是什么？", "answer": "处理极高的电压变化率(dV/dt)。开关速度极快会导致严重的EMI问题，同时如果不通过精确设计的栅极驱动器进行抑制，容易产生寄生导通(米勒效应)。" },
+        { "question": "什么是双向OBC？", "answer": "传统的OBC仅将电网交流电转换为直流电充入电池。双向OBC允许电池的直流电反向转换为交流电输出，实现V2L(车辆对外放电)或V2G(车辆回馈电网)。" },
+        { "question": "你们如何防止热失控引起元件烧毁？", "answer": "我们在硬件级设计去饱和(Desat)保护电路。如果IGBT/SiC模块电流过大，电路会在微秒内自动关断栅极信号，速度远快于软件响应时间。" }
+      ]
+    },
+    "radarLidarHardware": {
+      "hero": { "title": "雷达与LiDAR硬件设计", "description": "设计高频77GHz射频板、定制微带阵列天线及具备纳秒级精度的LiDAR模拟前端。", "primaryButtonText": "探讨项目", "secondaryButtonText": "查看能力" },
+      "about": { "titlePart1": "关于", "titlePart2": "传感硬件工程", "description": "让汽车获得超级视力。我们驾驭高频毫米波和光子学，捕捉最清晰的高保真周围环境三维模型。", "metrics": [{"tag": "MMWAVE", "label": "77GHz/79GHz 射频"}, {"tag": "MIMO", "label": "4D级成像雷达"}, {"tag": "LIDAR", "label": "SPAD 与 VCSEL"}, {"tag": "AIP", "label": "封装天线技术"}] },
+      "sub_services_title": { "part1": "核心", "part2": "能力" },
+      "sub_services": [
+        { "title": "77/79 GHz 射频PCB布局", "description": "77GHz射频信号布线需要极限精度。我们掌握过孔栅栏(Via fencing)、阻抗匹配及微米级的走线几何控制。" },
+        { "title": "阵列天线仿真", "description": "使用ANSYS HFSS设计定制的微带贴片天线阵列，精准塑造雷达波束以适应长、中、短程探测模式。" },
+        { "title": "高精密模拟设计", "description": "LiDAR要求在1纳秒内向激光器注入巨大电流。我们设计低电感、高速响应的前端电路来实现这一目标。" },
+        { "title": "雷达罩(Radome)相互作用", "description": "汽车保险杠或车标相当于射频透镜。我们仿真汽车面板的介电特性，确保其不会扭曲雷达波束。" },
+        { "title": "飞行时间(ToF)测距", "description": "设计超快速时间数字转换器(TDC)电路，以极高精度测量光速反射脉冲的到达时间。" },
+        { "title": "传感器边缘计算", "description": "在传感器板上本地集成高性能DSP或FPGA，以实时处理海量的原始FFT/点云数据。" }
+      ],
+      "advantages_title": { "part1": "为什么选择", "part2": "我们合作" },
+      "advantages": [
+        { "title": "HFSS仿真专家", "description": "我们的射频工程师严重依赖先进的3D电磁求解器，减少了为达到性能目标而需要进行昂贵打板改版的次数。" },
+        { "title": "材料科学知识", "description": "标准FR4板材会吞噬77GHz信号。我们熟稔Rogers、Isola和Panasonic等高频低损耗层压板材的复杂特性体系。" },
+        { "title": "测试暗室验证", "description": "我们在最先进的微波消声暗室中验证我们的设计，精确测量有效全向辐射功率(EIRP)、波束宽度和旁瓣抑制。" },
+        { "title": "超紧凑车载结构", "description": "将复杂的射频和模拟电路压缩在受热极其受限的微型封装中，完美适配车辆角落空间。" }
+      ],
+      "faqs": [
+        { "question": "什么是4D成像雷达？", "answer": "传统雷达只提供距离、方位角和速度(3D)。4D雷达通过级联多个MMIC增加高度信息，提供极高分辨率的点云，甚至可以区分立交桥和停止的车辆。" },
+        { "question": "设计77GHz电路板和普通的WiFi板有什么区别？", "answer": "在77GHz下，波长只有几毫米。板上的每一个过孔或转角都会变成天线并改变阻抗。必须使用特殊的低损耗材料及极端精准的制造公差。" },
+        { "question": "LiDAR硬件的主要挑战是什么？", "answer": "光速极快，探测15厘米的距离误差需要1纳秒的计时精度。最大的挑战在于设计能在1纳秒内开启并发射出数十安培电流的VCSEL激光驱动器。" },
+        { "question": "什么是AiP(封装天线)？", "answer": "AiP将天线直接制作在芯片封装内，而不是放在PCB上。这消除了高频信号从芯片传输到板上的巨大射频损耗，极大降低了雷达设计的难度和成本。" }
+      ]
     }
   },
   "whyus": {
@@ -256,7 +2937,52 @@
     "How we hire": "我们的招聘方式",
     "Using AI": "使用人工智能",
     "Hiring journey": "招聘流程",
-    "Pro tips": "专业提示"
+    "Pro tips": "专业提示",
+    "Communication Engineering": "通信工程",
+    "Healthcare": "医疗保健",
+    "Software Services": "软件服务",
+    "Embedded SW": "嵌入式软件",
+    "Hardware Design": "硬件设计",
+    "VLSI Design": "超大规模集成电路设计",
+    "RTL Design": "寄存器传输级设计",
+    "Physical Design": "物理设计",
+    "Verification": "验证",
+    "DFT": "可测试性设计",
+    "Medical Device Firmware (IEC 62304)": "医疗设备固件 (IEC 62304)",
+    "Wearable Health Algorithms": "可穿戴健康算法",
+    "Connected Health & IoMT": "互联健康与医疗物联网",
+    "Point-of-Care Diagnostic Systems": "即时诊断系统",
+    "Wearable Sensor Hardware": "可穿戴传感器硬件",
+    "Medical Imaging & DAQ Hardware": "医学成像与数据采集硬件",
+    "Diagnostic & Lab Equipment": "诊断与实验室设备",
+    "Implantable Electronics (AIMD)": "植入式电子设备 (AIMD)",
+    "Medical Power Supplies & BMS": "医疗电源与电池管理系统",
+    "EMI/EMC for Medical Devices": "医疗设备电磁干扰/电磁兼容",
+    "Medical Imaging Software": "医学成像软件",
+    "AUTOSAR (Classic & Adaptive)": "AUTOSAR（经典和自适应）",
+    "ADAS & Sensor Fusion": "高级驾驶辅助系统与传感器融合",
+    "In-Vehicle Infotainment (IVI)": "车载信息娱乐系统 (IVI)",
+    "Functional Safety (ISO 26262)": "功能安全 (ISO 26262)",
+    "EV Battery Management (BMS)": "电动汽车电池管理系统 (BMS)",
+    "V2X Communications": "V2X通信",
+    "Automotive ECUs & Domain Controllers": "汽车电子控制单元与域控制器",
+    "EV Power Electronics": "电动汽车电力电子设备",
+    "Radar & LiDAR Hardware": "雷达与激光雷达硬件",
+    "Hardware Security Modules (HSM)": "硬件安全模块 (HSM)",
+    "Automotive PCB & Thermal Design": "汽车PCB与热设计",
+    "EMI/EMC & Automotive Compliance": "电磁干扰/电磁兼容与汽车合规性",
+    "DSP Firmware": "DSP固件",
+    "PHY Layer Development": "物理层开发",
+    "Routing Protocol Integration": "路由协议集成",
+    "FPGA Acceleration": "FPGA加速",
+    "Real-Time Packet Processing": "实时数据包处理",
+    "Satellite Comms Firmware": "卫星通信固件",
+    "RF & Microwave Design": "射频与微波设计",
+    "Antenna Engineering": "天线工程",
+    "Optical Networking": "光网络",
+    "Baseband ASICs": "基带专用集成电路",
+    "Signal Integrity Analysis": "信号完整性分析",
+    "Telecom Validation": "电信验证"
   },
   "contact": {
     "heading_1": "联系",
@@ -329,5 +3055,508 @@
     "title": "与我们共创未来",
     "desc": "我们始终寻找优秀的人才加入我们的使命。致力于开发尖端软件、嵌入式系统和硬件设计，从而改变全球各行各业。",
     "button": "浏览空缺职位"
+  },
+  "industries_desc": {
+    "Semiconductor": "通过VLSI、硬件和嵌入式工程加速硅芯片创新。",
+    "CommunicationEngineering": "通过现代应用程序、硬件和嵌入式解决方案构建可扩展的通信系统。",
+    "Automotive": "提供下一代汽车软件、硬件和嵌入式平台。",
+    "Healthcare": "利用应用程序、硬件和嵌入式技术设计智能医疗解决方案。"
+  },
+  "industries_layout": {
+    "core": "核心",
+    "capabilities": "能力",
+    "the": "面临的",
+    "challenge": "挑战",
+    "our": "我们的",
+    "approach": "方法",
+    "client": "客户",
+    "success_stories": "成功案例",
+    "experts": "专家",
+    "cta": {
+      "ready_to": "准备好",
+      "accelerate": "加速",
+      "your_innovation": "您的创新了吗？",
+      "description": "与我们世界一流的工程团队合作，将您最复杂的技术挑战转化为市场领先的解决方案。",
+      "get_in_touch": "联系我们",
+      "form": {
+        "name": "姓名",
+        "name_placeholder": "例如：张三",
+        "email": "电子邮件",
+        "email_placeholder": "zhangsan@company.com",
+        "description": "项目描述",
+        "description_placeholder": "告诉我们关于您的项目..."
+      },
+      "submit_request": "提交请求"
+    }
+  },
+  "insights": {
+    "blog": {
+      "titlePart1": "洞察与",
+      "titlePart2": "观点",
+      "description": "来自UANDWE工程师的深度技术解析、行业趋势和工程思考。",
+      "readArticle": "阅读文章"
+    },
+    "caseStudies": {
+      "titlePart1": "客户",
+      "titlePart2": "成功案例",
+      "description": "了解我们如何与全球行业领导者合作，打造突破性的芯片、硬件和嵌入式解决方案。",
+      "viewCaseStudy": "查看案例"
+    },
+    "whitepapers": {
+      "titlePart1": "技术",
+      "titlePart2": "白皮书",
+      "description": "由我们的高级架构师撰写的深度工程研究、综合指南和基准测试数据。",
+      "readMore": "阅读更多"
+    },
+    "employeeInsights": {
+      "titlePart1": "工程",
+      "titlePart2": "洞察",
+      "description": "探索来自我们团队的专家观点、工程最佳实践、新兴技术和创新故事。",
+      "readStory": "阅读故事"
+    }
+  },
+  "insights_content": {
+    "blogData": {
+      "edge-ai-future": {
+        "title": "边缘人工智能的未来：为芯片注入智能",
+        "category": "AI 与数据",
+        "date": "2026年10月12日",
+        "overview": "探索嵌入式系统与机器学习的融合如何重新定义边缘计算的可能性，降低延迟并增强隐私保护。",
+        "author": "Sarah Chen 博士",
+        "role": "首席硬件架构师",
+        "content": "边缘人工智能正在快速从理论走向现实。通过直接在设备上运行神经网络而不是依赖云连接，我们实现了确定性延迟、强大的离线功能以及完整的数据隐私。但硬件约束非常严苛。挑战在于设计定制的芯片加速器——SoC内部的NPU模块——提供高TOPS/W（每瓦特每秒万亿次操作）。在UANDWE，我们的架构团队正在将混合精度量化技术直接引入硬件，允许复杂的视觉模型在电池供电的设备上运行。TinyML框架与专业ASIC设计的融合正在为无处不在的智能铺平道路。"
+      }
+    },
+    "caseStudyData": {
+      "autonomous-vehicle-asic": {
+        "title": "利用定制ASIC革新自动驾驶汽车感知系统",
+        "client": "一级汽车OEM厂商",
+        "category": "VLSI",
+        "impact": "延迟降低 40%",
+        "overview": "了解我们如何与全球领先的一级汽车供应商合作，设计并流片一款5nm视觉处理ASIC，在大幅降低功耗的同时将延迟缩短了40%。",
+        "author": "Rajesh Kumar",
+        "role": "首席芯片架构师",
+        "content": "自动驾驶需要即时处理海量的传感器数据。通用GPU功耗过高，并会带来不可接受的延迟。我们与一家全球一级供应商合作，设计了一款专门用于传感器融合和视觉处理的定制5nm ASIC。我们的物理设计专家克服了极端的布线拥堵，实现了微小的芯片尺寸。结果是该芯片比现成解决方案降低了40%的延迟，同时功耗大幅降低，在严格的热约束下实现了L4级自动驾驶。"
+      }
+    },
+    "employeeInsightData": {
+      "future-of-chip-design": {
+        "title": "AI时代芯片设计的未来",
+        "category": "半导体",
+        "readTime": "8分钟阅读",
+        "overview": "探索AI驱动的自动化、先进的验证技术和下一代半导体架构如何转型现代芯片开发。",
+        "author": "Rajesh Kumar",
+        "role": "首席芯片架构师",
+        "content": "芯片设计的格局正在发生巨大的变化。传统的RTL到GDSII流程正在辅以机器学习算法，这些算法可以比人类工程师更快地优化布局规划、布线和电源分配。随着我们接近3nm和2nm节点下摩尔定律的物理极限，我们严重依赖AI来管理指数级增加的设计规则检查(DRC)。在UANDWE，我们开创了AI辅助的验证方法学，可以预测极端情况并自动生成针对性的UVM测试，将验证时间缩短数月。在这个新时代，工程师扮演着AI工具协调者的角色，专注于架构创新而不是手动优化。"
+      }
+    },
+    "whitepaperData": {
+      "accelerating-digital-transformation": {
+        "title": "通过AI与云加速数字转型",
+        "author": "Niket Kumar",
+        "role": "技术负责人",
+        "overview": "人工智能(AI)与云计算正在改变企业的运营方式。通过将可扩展的云基础设施与智能自动化相结合，企业可以提高效率、降低成本并增强决策能力。",
+        "keyBenefits": [
+          "通过自动化简化运营流程",
+          "降低基础设施和维护成本",
+          "更快的应用开发与部署",
+          "数据驱动的业务洞察",
+          "提升客户体验与满意度"
+        ],
+        "businessImpact": "采用AI和云技术的企业可以在保持安全与合规标准的同时，获得更大的灵活性、更高的生产力以及更佳的扩展能力。",
+        "conclusion": "AI与云技术是数字转型的关键赋能者。拥抱这些创新的企业能在推动业务增长、提升运营卓越性并在快速演变的数字格局中保持竞争力方面占据更佳位置。"
+      }
+    },
+    "details": {
+      "backToBlogs": "返回博客列表",
+      "backToCaseStudies": "返回案例列表",
+      "backToWhitepapers": "返回白皮书列表",
+      "backToInsights": "返回洞察列表",
+      "article": "文章内容",
+      "overview": "概述",
+      "author": "作者介绍",
+      "keyBenefitsPart1": "核心",
+      "keyBenefitsPart2": "优势",
+      "businessImpactPart1": "商业",
+      "businessImpactPart2": "影响",
+      "conclusion": "结论"
+    }
+  },
+  "aboutus": {
+    "companyOverview": {
+      "hero": {
+        "titlePart1": "塑造",
+        "titlePart2": "未来的科技",
+        "description": "我们是一家顶尖的技术工程公司，专注于前沿半导体设计、深度集成嵌入式系统和可扩展的企业级软件解决方案。",
+        "partnerButton": "与我们合作"
+      },
+      "metrics": {
+        "clientTrust": "客户信任",
+        "happyClients": "全球满意客户",
+        "experience": "项目经验",
+        "successfulProjects": "成功项目",
+        "ecosystem": "合作生态",
+        "globalPartners": "全球合作伙伴",
+        "workforce": "团队规模",
+        "teamMembers": "UANDWE 团队成员"
+      },
+      "coreValues": {
+        "titlePart1": "我们的核心",
+        "titlePart2": "价值观",
+        "items": [
+          {
+            "title": "持续创新",
+            "desc": "在半导体、嵌入式和软件工程领域，我们不断推开可能的边界。"
+          },
+          {
+            "title": "极致品质",
+            "desc": "从一次流片成功到稳健的企业级架构，我们提供无可挑剔的卓越品质。"
+          },
+          {
+            "title": "协同合作",
+            "desc": "我们不仅是供应商；我们无缝融入您的团队，共同实现雄心勃勃的目标。"
+          },
+          {
+            "title": "全球视野",
+            "desc": "我们多元化的全球人才团队以丰富而富有创造力的视角应对复杂挑战。"
+          }
+        ]
+      },
+      "cta": {
+        "heading": "准备好开创您的下一次重大突破了吗？",
+        "subheading": "无论您需要流片复杂的5nm ASIC、构建关键任务RTOS，还是开发高扩展性的云应用，我们的工程师都已准备就绪。",
+        "button": "联系我们的团队"
+      }
+    },
+    "leadership": {
+      "hero": {
+        "badge": "高管团队",
+        "titlePart1": "远见卓识的",
+        "titlePart2": "领导力",
+        "description": "我们的领导团队汇聚了数十年来在半导体设计、企业软件和全球运营方面的丰富经验，引领 UANDWE 迈向工程完美。"
+      },
+      "team": [
+        {
+          "name": "Alexander Reed 博士",
+          "role": "首席执行官",
+          "bio": "拥有20余年半导体与云计算经验，Reed博士推动UANDWE的战略愿景，培养持续创新与全球扩张的文化。"
+        },
+        {
+          "name": "Sarah Jenkins",
+          "role": "首席技术官",
+          "bio": "先进VLSI架构与嵌入式系统的先驱，Sarah领导我们全球的研发项目，确保UANDWE始终站在工程最前沿。"
+        },
+        {
+          "name": "Michael Chen",
+          "role": "工程副总裁",
+          "bio": "Michael主管全球硬件和软件的执行，擅长扩展高性能工程团队以交付关键任务项目。"
+        },
+        {
+          "name": "Elena Rodriguez",
+          "role": "首席运营官",
+          "bio": "Elena优化我们的全球交付网络，确保客户与分布在15个时区的工程团队之间实现无缝协作。"
+        },
+        {
+          "name": "David Kim",
+          "role": "人工智能负责人",
+          "bio": "David领导我们的人工智能与数据科学部门，将智能自动化与预测建模集成到企业级架构中。"
+        },
+        {
+          "name": "Priya Patel",
+          "role": "VLSI 与芯片负责人",
+          "bio": "验证专家，Priya管理端到端的ASIC设计生命周期，专注于超低功耗 FinFET 架构。"
+        }
+      ],
+      "connect": "联系",
+      "philosophy": {
+        "titlePart1": "我们的领导",
+        "titlePart2": "理念",
+        "description": "我们相信，当杰出的头脑获得自主创新的自由和成功的资源时，伟大的工程就会诞生。我们的领导人不仅管理，更亲力亲为、指导下一代，打造以技术卓越为默认标准的氛围。",
+        "box1Val": "60+",
+        "box1Title": "年团队综合经验",
+        "box1Desc": "我们的管理层在半导体和软件行业拥有无可比拟的历史洞察。",
+        "box2Val": "100%",
+        "box2Title": "工程技术背景",
+        "box2Desc": "每位高管都拥有亲手设计我们今天所构建技术的实战经验。"
+      }
+    },
+    "testimonials": {
+      "hero": {
+        "badge": "客户成功故事",
+        "titlePart1": "深受全球",
+        "titlePart2": "行业领袖信赖",
+        "description": "听听与 UANDWE 合作将复杂挑战转化为完美现实的远见者、CTO和工程主管们的心声。"
+      },
+      "video": {
+        "title": "观看：AutoDrive 成功案例",
+        "subtitle": "我们如何在创纪录时间内完成 5nm ASIC 的开发"
+      },
+      "wordsTitlePart1": "来自合作伙伴的",
+      "wordsTitlePart2": "赞誉",
+      "items": [
+        {
+          "quote": "UANDWE 不仅交付了一款芯片，更为我们带来了竞争优势。他们的 RTL 和物理设计团队执行得无懈可击，确保我们的 5nm 汽车 ASIC 按时流片，且零重新流片。真正杰出的工程能力。",
+          "role": "硬件工程副总裁",
+          "company": "AutoDrive Technologies",
+          "highlight": "5nm 芯片零重新流片"
+        },
+        {
+          "quote": "当我们需要为10万台物联网设备重新设计整个嵌入式 Linux 架构时，UANDWE 是唯一有能力应对这种复杂性的合作伙伴。他们的固件坚如磐石，OTA升级机制万无一失。",
+          "role": "首席技术官",
+          "company": "ConnectSphere IoT",
+          "highlight": "部署 10万+ 台设备"
+        },
+        {
+          "quote": "UANDWE 的软件团队从根本上改造了我们的后端基础设施。通过将传统单体架构迁移到高扩展性的云原生微服务架构，在提高可用性的同时帮我们降低了40%的云成本。",
+          "role": "软件总监",
+          "company": "FinTech Solutions Global",
+          "highlight": "降低 40% 云成本"
+        },
+        {
+          "quote": "他们的硬件原型制作速度是无可比拟的。几周内我们就拿到了可用于验证的功能性高速 HDI PCB。他们严谨的信号完整性分析为我们在实验室节省了数月的调试时间。",
+          "role": "硬件架构师",
+          "company": "NextGen Networks",
+          "highlight": "加速产品上市时间"
+        },
+        {
+          "quote": "UANDWE 不仅仅是供应商；他们是我们内部团队无缝延伸的一部分。他们带到每一个冲刺中的沟通、透明度和深厚技术专长令人叹为观止。",
+          "role": "产品负责人",
+          "company": "HealthSync Medical",
+          "highlight": "无缝团队融合"
+        },
+        {
+          "quote": "他们为我们的 RISC-V 内核构建的验证环境极其强大。他们对先进 UVM 方法的应用抓住了我们内部团队漏掉的多个关键边缘 Bug。",
+          "role": "首席验证工程师",
+          "company": "Silicon Innovators Inc.",
+          "highlight": "100% 验证覆盖率"
+        }
+      ],
+      "keyImpact": "关键成效",
+      "cta": {
+        "heading": "准备好成为我们的下一个成功故事了吗？",
+        "subheading": "加入信赖 UANDWE 开发其最关键技术的行业领袖行列。让我们携手共创未来。",
+        "button": "启动您的项目"
+      }
+    }
+  },
+  "careers": {
+    "benefits": {
+      "badge": "在 UANDWE 的生活",
+      "heroTitlePart1": "为您进行",
+      "heroTitlePart2": "全方位投入",
+      "heroDescription": "我们相信员工是我们最宝贵的资产。因此，我们提供全面的福利计划，旨在支持您的身体、心理和财务健康。",
+      "items": [
+        {
+          "title": "全面保障",
+          "desc": "为您和您的家属提供优质的医疗、牙科和眼科保险，让您无后顾之忧。"
+        },
+        {
+          "title": "具竞争力的薪酬",
+          "desc": "我们提供顶级的薪资、绩效奖金和股权激励，共享公司发展的红利。"
+        },
+        {
+          "title": "灵活工作",
+          "desc": "在最能激发您灵感的地方工作。我们拥抱混合和远程工作模式，实现最佳工作与生活平衡。"
+        },
+        {
+          "title": "心理健康",
+          "desc": "获得优质心理健康资源、咨询服务及定期的健康休假日。"
+        },
+        {
+          "title": "持续学习",
+          "desc": "提供丰厚的会议、课程和认证津贴，助您的专业技能时刻保持前沿。"
+        },
+        {
+          "title": "办公福利",
+          "desc": "供应充足的厨房、免费午餐，以及为您的居家或办公室配备的顶尖软硬件。"
+        },
+        {
+          "title": "无限带薪休假",
+          "desc": "随时随地充电休养。我们相信休假与工作同样需要投入。"
+        },
+        {
+          "title": "家庭至上",
+          "desc": "为所有新手父母提供丰厚的育儿假，加上育儿津贴与家庭规划支持。"
+        }
+      ],
+      "moreThanPerks": {
+        "headingPart1": "不仅是简单的",
+        "headingPart2": "福利",
+        "desc": "我们的福利理念超越了标准待遇。旨在打造一个让您无需担心日常保障、能全身心投入卓越工作的环境。",
+        "bullet1": "100% 公司全额支付员工保险保费",
+        "bullet2": "每季度健康福利津贴",
+        "bullet3": "年度学习与个人发展预算"
+      },
+      "cta": {
+        "heading": "准备好加入我们的团队了吗？",
+        "subheading": "探索我们最新的开放职位，与 UANDWE 一起迎接您的下一个重大机遇。",
+        "button": "查看开放职位"
+      }
+    },
+    "workEnvironment": {
+      "badge": "我们的文化",
+      "heroTitlePart1": "杰出头脑的",
+      "heroTitlePart2": "蓬勃沃土",
+      "heroDescription": "在 UANDWE，我们致力于打造一个工程师可以做出终生最卓越成就的环境。没有官僚主义，只有纯粹的创新与价值影响。",
+      "grid": {
+        "workspacesTitle": "现代化的办公空间",
+        "workspacesDesc": "专为高效协同与深度专注而打造。",
+        "diversityTitle": "多元与包容",
+        "diversityDesc": "我们拥抱并庆祝不同的视角与文化背景。"
+      },
+      "philosophyTitle": "我们的核心理念",
+      "features": [
+        {
+          "title": "协同合作文化",
+          "desc": "我们相信最伟大的创意源于团队合作。开放的文化鼓励跨层级的知识分享。"
+        },
+        {
+          "title": "快速迭代创新",
+          "desc": "快速行动，打破壁垒。我们赋能工程师承担可控风险并快速迭代。"
+        },
+        {
+          "title": "全球协同连接",
+          "desc": "与全球最聪明的头脑共同工作。远程友好的模式让沟通无缝连接。"
+        },
+        {
+          "title": "自主与信任",
+          "desc": "我们拒绝微观管理。从第一天起，您就拥有项目、日程和成功的自主权。"
+        },
+        {
+          "title": "坦诚沟通",
+          "desc": "透明的沟通是核心。我们直接给予并接受反馈，帮助彼此共同成长。"
+        },
+        {
+          "title": "前沿工具装备",
+          "desc": "我们提供顶尖的硬件和软件工具链，让您的工程流程畅通无阻。"
+        }
+      ],
+      "cta": {
+        "heading": "准备好塑造未来了吗？",
+        "subheading": "加入由充满干劲的工程师组成的团队，在硬件、嵌入式系统和软件领域不断突破可能性的边界。",
+        "button": "探索就业机会"
+      }
+    },
+    "jobs": {
+      "badge": "在 UANDWE 的职业发展",
+      "heroTitlePart1": "共筑",
+      "heroTitlePart2": "科技未来",
+      "heroDescription": "我们始终在寻找杰出人才加入我们的全球工程团队。探索令人兴奋的机遇，解决复杂难题并塑造明天的技术。",
+      "searchPlaceholder": "搜索职位名称或关键字...",
+      "categories": {
+        "All": "全部",
+        "Hardware": "硬件",
+        "Embedded": "嵌入式",
+        "Software": "软件",
+        "AI & Data": "AI 与数据"
+      },
+      "jobList": [
+        {
+          "title": "首席 SoC 架构师",
+          "location": "加州圣何塞 (混合办公)",
+          "type": "全职",
+          "category": "Hardware",
+          "desc": "领导下一代 AI 加速器的架构定义。要求在芯片架构和内存子系统方面拥有15年以上的经验。"
+        },
+        {
+          "title": "高级固件工程师",
+          "location": "印度班加罗尔",
+          "type": "全职",
+          "category": "Embedded",
+          "desc": "开发用于汽车安全系统的关键任务 RTOS 固件。优先考虑具备 ISO 26262 经验者。"
+        },
+        {
+          "title": "云基础设施架构师",
+          "location": "远程 (美国)",
+          "type": "全职",
+          "category": "Software",
+          "desc": "利用 Kubernetes、AWS 和现代微服务模式，为企业客户设计可扩展、安全的云原生架构。"
+        },
+        {
+          "title": "RTL 设计工程师",
+          "location": "德克萨斯州奥斯汀",
+          "type": "全职",
+          "category": "Hardware",
+          "desc": "为高速数字内核执行微架构设计和 RTL 编码 (Verilog/SystemVerilog)。"
+        },
+        {
+          "title": "AI / ML 研究科学家",
+          "location": "远程 (全球)",
+          "type": "全职",
+          "category": "AI & Data",
+          "desc": "通过开发专为低功耗 NPU 硬件优化的量化神经网络，推开边缘 AI 的前沿。"
+        },
+        {
+          "title": "Linux BSP 开发工程师",
+          "location": "印度班加罗尔",
+          "type": "全职",
+          "category": "Embedded",
+          "desc": "将 Linux 移植到定制硬件平台，开发内核驱动程序，并为物联网设备优化启动时间。"
+        }
+      ],
+      "applyNow": "立即申请",
+      "empty": {
+        "title": "未找到相关开放职位",
+        "desc": "目前没有符合您搜索条件的职位。请尝试调整您的筛选条件。",
+        "clear": "清除筛选条件"
+      },
+      "whyJoin": {
+        "titlePart1": "为什么选择在",
+        "titlePart2": "UANDWE 工作",
+        "items": [
+          {
+            "title": "在最前沿的技术领地深耕",
+            "desc": "从 3nm 芯片到边缘 AI，您所研发的技术将在多年后才进入消费市场。"
+          },
+          {
+            "title": "工程至上的文化",
+            "desc": "我们由工程师领导，服务于工程师。比起官僚主义，我们更看重技术卓越。"
+          },
+          {
+            "title": "全方位的健康保障",
+            "desc": "为您和您的家属提供优质的医疗、牙科和眼科保障，外加心理健康津贴。"
+          },
+          {
+            "title": "持续学习与成长",
+            "desc": "提供丰厚的课程、会议和认证津贴。让您的技术工具箱永不停止升级。"
+          }
+        ]
+      }
+    }
+  },
+  "cta": {
+    "ready_to": "准备好",
+    "accelerate": "加速",
+    "your_innovation": "您的创新了吗？",
+    "description": "与我们世界一流的工程团队合作，将您最复杂的技术挑战转化为市场领先的解决方案。",
+    "get_in_touch": "联系我们",
+    "form": {
+      "title": "联系我们",
+      "name": "姓名",
+      "name_placeholder": "张三",
+      "email": "电子邮箱",
+      "email_placeholder": "zhangsan@company.com",
+      "description": "项目描述",
+      "description_placeholder": "请告诉我们您的项目需求...",
+      "submit": "提交请求"
+    }
+  },
+  "industries_layout": {
+    "cta": {
+      "ready_to": "准备好",
+      "accelerate": "加速",
+      "your_innovation": "您的创新了吗？",
+      "description": "与我们世界一流的工程团队合作，将您最复杂的技术挑战转化为市场领先的解决方案。",
+      "get_in_touch": "联系我们",
+      "submit_request": "提交请求",
+      "form": {
+        "name": "姓名",
+        "name_placeholder": "张三",
+        "email": "电子邮箱",
+        "email_placeholder": "zhangsan@company.com",
+        "description": "项目描述",
+        "description_placeholder": "请告诉我们您的项目需求..."
+      }
+    }
   }
 }
