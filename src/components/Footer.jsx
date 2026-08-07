@@ -74,7 +74,20 @@ const Footer = () => {
           <ul className="space-y-2">
             {["Semiconductor", "Communication", "Healthcare", "Medical"].map((l) => (
               <li key={l}>
-                <a href={servicesPaths[l] || "/#industries"} className="text-sm text-[#8a8a9a] hover:text-[#ff6b1a] cursor-pointer">
+                <a 
+                  href={servicesPaths[l] || "/#industries"} 
+                  onClick={(e) => {
+                    if (window.location.pathname === '/') {
+                      e.preventDefault();
+                      const el = document.getElementById('industries');
+                      if (el) {
+                        el.scrollIntoView({ behavior: 'smooth' });
+                        window.history.pushState('', document.title, window.location.pathname + window.location.search);
+                      }
+                    }
+                  }}
+                  className="text-sm text-[#8a8a9a] hover:text-[#ff6b1a] cursor-pointer"
+                >
                   {l}
                 </a>
               </li>
