@@ -97,7 +97,7 @@ import WhitepaperDetail from "./pages/Insights/WhitepaperDetail";
 import EmployeeInsights from "./pages/Insights/EmployeeInsights";
 import EmployeeInsightDetail from "./pages/Insights/EmployeeInsightDetail";
 import NewsDetail from "./pages/Insights/NewsDetail";
-import Jobs from "./pages/Careers/jobs";
+import Jobs from "./pages/Careers/Jobs";
 
 // CAREERS
 
